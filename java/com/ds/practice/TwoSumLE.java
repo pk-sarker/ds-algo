@@ -26,6 +26,8 @@ import java.util.Map;
  *
  * Input: nums = [3,3], target = 6
  * Output: [0,1]
+ *
+ * Reference: https://leetcode.com/problems/two-sum/
  */
 public class TwoSumLE {
     public static int[] twoSum(int[] nums, int target) {

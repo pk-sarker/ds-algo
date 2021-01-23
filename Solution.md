@@ -38,4 +38,50 @@ The idea is to save every number that is visited so far, also keep their index. 
 *Time Complexity*: *O(n)*\
 *Space Complexity*: *O(n)* 
 
+#### Best Time to Buy and Sell Stock
+You are given an array prices where `prices[i]` is the price of a given stock on the *i-th* day.
+
+You want to maximize your profit by choosing a single day to buy one stock and choosing 
+a different day in the future to sell that stock.
+
+Return the maximum profit you can achieve from this transaction. If you cannot 
+achieve any profit, return 0.
+
+Example: 
+```
+Input: prices = [7,1,5,3,6,4]
+Output: 5
+Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
+Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.
+
+Input: prices = [7,6,4,3,1]
+Output: 0
+Explanation: In this case, no transactions are done and the max profit = 0.
+```
+**Solution**:
+Maximum profit depends on two things buy in minimum price and sell in maximum price, with condition that
+selling price has to be a later date then buying date. 
+For single pass linear time solution we need to think of few cases:
+* Only minimum buying price won't guarantee maximum profit, there has to be a selling price after that day with more deviation.
+* Any prices which  is maximum in the list won't maximize profit, consider like this: `[6,8,1,4,5,7,1]`. `8` is maximum but there  is only
+one purchase possible before that which is `6` which doesn't maximize  the profit.
+
+So we can keep track of minimum and maximum profit. We will update the minimum value as soon as 
+there is a price less than the current minimum. And, we will calculate profit if  
+the difference between current price and minimum price is greater than last maximum profit.
+
+*Time Complexity*: *O(n)*\
+*Space Complexity*: *O(1)* 
+
+[Implementation ](./java/com/ds/practice/BuyAndSellStockLE.java)
+ 
+A slightly modified version of the problem: Now you need to return the indices of the days
+to buy and sell to have maximum profit.
+
+It will be the same approach as before with little change, we will keep track of 
+the day to purchase(minimum  price) temporarily. A temporary purchase day will be 
+fixed when we have a profit which is greater than last profit.
+[Implementation ](./java/com/ds/practice/BuyAndSellStockLE.java) 
+    
+
  
