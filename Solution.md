@@ -80,8 +80,21 @@ to buy and sell to have maximum profit.
 
 It will be the same approach as before with little change, we will keep track of 
 the day to purchase(minimum  price) temporarily. A temporary purchase day will be 
-fixed when we have a profit which is greater than last profit.
+fixed when we have a profit which is greater than last profit.\
 [Implementation ](./java/com/ds/practice/BuyAndSellStockLE.java) 
+
+#### Verifying an Alien Dictionary
+In an alien language, surprisingly they also use english lowercase letters, but possibly in a different order. The order of the alphabet is some permutation of lowercase letters.
+
+Given a sequence of words written in the alien language, and the order of the alphabet, return true if and only if the given words are sorted lexicographicaly in this alien language.
+
+**Solution**: 
+Solution is simple for this problem. We need to parse alphabets and store their position in a hash map. Then use this hashmap
+to compare lexicographic ordering.
+Another idea is that in a list of words, say `w1, w2, w3 .. wn`, if all the words ordered lexicographically then if we pick any two
+consecutive words they will be ordered as well.
+
+[Implementation ](./java/com/ds/practice/VerifyingAnAlienDictionary.java) 
     
 
  
