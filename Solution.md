@@ -94,7 +94,42 @@ to compare lexicographic ordering.
 Another idea is that in a list of words, say `w1, w2, w3 .. wn`, if all the words ordered lexicographically then if we pick any two
 consecutive words they will be ordered as well.
 
-[Implementation ](./java/com/ds/practice/VerifyingAnAlienDictionary.java) 
-    
+[Implementation ](./java/com/ds/practice/VerifyingAnAlienDictionary.java)
 
+
+#### Maximum subarray sum
+Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+
+Example:
+```
+Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
+Output: 6
+Explanation: [4,-1,2,1] has the largest sum = 6.
+
+Input: nums = [1]
+Output: 1
+
+Input: nums = [0]
+Output: 0
+
+Input: nums = [-1]
+Output: -1
+``` 
+
+**Solution**
+Key point to notice: sum of contiguous subarray, that means there will be start and end of elements. 
+Summing the whole array won't guarantee maximum sum. So how do we solve this in linear time. 
+
+As the sum will be the result of contiguous subarray, we need to carry over the previous sum.
+At each step we need to calculate maximum sum at current position. and keep a record of maximum sum seen so far.
+
+How to determine wheather we should carry over previous sum or start form current element?
+If the sum of previous sum and current number is less than current number then we can decide 
+to start from current number as previous sum is decreasing the sum. And we keep the max sum in 
+a variable which will store max sum seen so far, not the current max sum.
+
+*Time Complexity*: *O(n)*\
+*Space Complexity*: *O(1)* 
+
+Implementation: [Java](./java/com/ds/practice/SubArrayMaximumSum.java)  [Python](./python/SubArrayMaximumSum.py)
  
