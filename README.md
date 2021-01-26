@@ -7,3 +7,4 @@ Data Structure &amp; Algorithms
 - [Maximum subarray sum](./Solution.md#maximum-subarray-sum) - [Java](./java/com/ds/practice/SubArrayMaximumSum.java) [Python](./python/SubArrayMaximumSum.py)
 - [Valid Parentheses](./Solution.md#valid-parentheses) - [Java](./java/com/ds/practice/ValidateParentheses.java)
 - [Merge two sorted linked lists](./Solution.md#merge-two-sorted-linked-lists) - [Java](./java/com/ds/practice/MergeTwoSortedLinkedList.java)
+- [Add numbers represented in string](./Solution.md#add-numbers-represented-in-string) - [Java](./java/com/ds/practice/AddTwoNumbers.java)

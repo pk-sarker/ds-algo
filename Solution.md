@@ -223,3 +223,29 @@ Step 4: Add remaining elements
 
 **Space Complexity:**\
 *O(1)*
+
+### Add numbers represented in string
+Given two numbers, write a function to calculate the sum of the numbers. Input numbers are in string.
+
+Note:
+* numbers contains only digits 0-9.
+* numbers does not contain any leading zero.
+* must not use any built-in BigInteger library or convert the inputs to integer directly.
+
+Example:
+```
+num1: 123 
+num2: 987
+Sum: 1110
+```
+**Solution**:
+This is elementary math. Add to digits at a time from the right and carry over carry to left if there is any. Use a new string to
+store the result. 
+
+**Time Complexity:**\
+*O(M)*, *M* is maximum lengths of the numbers. 
+
+**Space Complexity:**\
+*O(M)*, *M* is maximum lengths of the numbers + 1, This if for result string.
+
+[Implementation - Java](./java/com/ds/practice/AddTwoNumbers.java)
