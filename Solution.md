@@ -172,3 +172,54 @@ opened then it must close before any other closing bracket.
 *Space Complexity*: *O(n)* 
 
 Implementation: [Java](./java/com/ds/practice/ValidateParentheses.java)
+
+### Merge two sorted linked lists
+Merge two sorted linked lists and return it as a new sorted list. The new list should be made by splicing together the nodes of the first two lists.
+
+Example:
+```
+Input: l1 = [1, 3, 6, 8], l2 = [2, 3, 7]
+Output: [1, 2, 3, 6, 7, 8]
+```
+
+**Solution 1**:
+We can solve this problem recursively by using the following formula: 
+```
+if list1[0]<list2[0]:
+    list1[0]+merge(list1[1:],list2)
+else:
+    list2[0]+merge(list1,list2[1:])
+```
+**Time Complexity:**\
+*O( m + n)*, *m* and *n* are number of items in two lists
+
+**Space Complexity:**\
+*O(m + n)*. The first call to mergeTwoLists does not return until the ends of both *list1* and *list2* have been reached, so *n + m* stack frames consume *O(n + m)* space.
+
+[Implementation - Java](./java/src/com/ds/practice/MergeSortedLinkedList/MergeSortedList.java)
+
+**Solution 2:**
+We can solve this problem by using two pointers, one each at each linked list. 
+Loop over until reach end of any list. Consider *l1* be a pointer in one of the linked list and *l2* be a pointer of other linked list.
+Both of them are pointing at the head of linked lists. There will be two other pointers, *head*, *previous*. *head* will be initialized 
+with -1, then the next node will be the smallest. *previous* pointer will be the previous node of last smallest node.
+
+```
+Step 1: Initialize head and previous pointer, point to a node with value -1 
+Step 2: compare node at l1 and l2, find the lowest node. 
+        a) point previous.next to the lowest node
+        b) move pointer with lowest value to next. If l1 had the lowest element then move l1 
+            to next and point previous to l1 previous value, the last lowest value
+         
+Step 3: Repeat until any one of the linked list reaches to the end.
+        a) At the end of a linked list the node will be null.
+Step 4: Add remaining elements 
+        a) If l1 ended then point last lowest nodes next to l2.
+        b) If l2 ended then point last lowest nodes next to l1.
+```
+
+**Time Complexity:**\
+*O( m + n)*, *m* and *n* are number of items in two lists
+
+**Space Complexity:**\
+*O(1)*
