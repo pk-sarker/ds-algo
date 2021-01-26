@@ -133,3 +133,42 @@ a variable which will store max sum seen so far, not the current max sum.
 
 Implementation: [Java](./java/com/ds/practice/SubArrayMaximumSum.java)  [Python](./python/SubArrayMaximumSum.py)
  
+#### Valid Parentheses
+Given a string s containing just the characters `(`, `)`, `{`, `}`, `[` and `]`, determine if the input string is valid.
+
+An input string is valid if:
+
+* Open brackets must be closed by the same type of brackets.
+* Open brackets must be closed in the correct order.
+
+Example:
+```
+Input: s = "()"
+Output: true
+
+Input: s = "()[]{}"
+Output: true
+
+Input: s = "(]"
+Output: false
+
+Input: s = "([)]"
+Output: false
+
+Input: s = "{[]}"
+Output: true
+```
+
+**Solution**:
+Scan the string by each character. Use a stack to store the opening brackets. Keep
+the opening brackets in the stack. Keep pushing in the stack until a closing bracket is read.
+We need a hash table to store the opening bracket for each closing bracket.
+ 
+If a closing bracket is read then pop from the stack. For a valid parentheses the popped character 
+should be the opening of same time. The idea is the bracket late should close first. At any point if a bracket is 
+opened then it must close before any other closing bracket. 
+
+*Time Complexity*: *O(n)*\
+*Space Complexity*: *O(n)* 
+
+Implementation: [Java](./java/com/ds/practice/ValidateParentheses.java)
