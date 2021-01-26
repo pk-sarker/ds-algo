@@ -8,3 +8,4 @@ Data Structure &amp; Algorithms
 - [Valid Parentheses](./Solution.md#valid-parentheses) - [Java](./java/com/ds/practice/ValidateParentheses.java)
 - [Merge two sorted linked lists](./Solution.md#merge-two-sorted-linked-lists) - [Java](./java/com/ds/practice/MergeTwoSortedLinkedList.java)
 - [Add numbers represented in string](./Solution.md#add-numbers-represented-in-string) - [Java](./java/com/ds/practice/AddTwoNumbers.java)
+- [Reverse Integer](./Solution.md#reverse-integer) - [Java](./java/com/ds/practice/ReverseInteger.java)
