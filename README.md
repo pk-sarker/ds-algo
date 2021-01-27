@@ -11,5 +11,7 @@ Data Structure &amp; Algorithms
 - [Reverse Integer](./Solution.md#reverse-integer) - [Java](./java/com/ds/practice/ReverseInteger.java)
 - [Sort logs](./Solution.md#sort-logs) - [Java](./java/com/ds/practice/SortLogs.java)
 - [Palindrome Linked List](./Solution.md#palindrome-linked-list) - [Java](./java/com/ds/practice/PalindromeLinkedList.java)
-- [Design min-stack](./Solution.md#design-min-stack) - [Java](./java/com/ds/practice/MinStack.java
+- [Design min-stack](./Solution.md#design-min-stack) - [Java](./java/com/ds/practice/MinStack.java)
+- [Subdomain Visit Count](./Solution.md#subdomain-visit-count) - [Java](./java/com/ds/practice/SubDomainCount.java)
+- [Design HashMap](./Solution.md#design-hashmap) - [Java](./java/com/ds/practice/DesignHashMap.java)
 )
