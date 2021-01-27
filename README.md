@@ -13,4 +13,5 @@ Data Structure &amp; Algorithms
 - [Palindrome Linked List](./Solution.md#palindrome-linked-list) - [Java](./java/com/ds/practice/PalindromeLinkedList.java)
 - [Design min-stack](./Solution.md#design-min-stack) - [Java](./java/com/ds/practice/MinStack.java)
 - [Subdomain Visit Count](./Solution.md#subdomain-visit-count) - [Java](./java/com/ds/practice/SubDomainCount.java)
+- [Design HashMap](./Solution.md#design-hashmap) - [Java](./java/com/ds/practice/DesignHashMap.java)
 )
