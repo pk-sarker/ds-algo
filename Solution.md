@@ -249,3 +249,142 @@ store the result.
 *O(M)*, *M* is maximum lengths of the numbers + 1, This if for result string.
 
 [Implementation - Java](./java/com/ds/practice/AddTwoNumbers.java)
+
+
+#### Reverse Integer
+Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
+
+Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
+
+Example: 
+```
+Input: x = 987
+Output: 789
+
+Input: x = -987
+Output: -789
+
+Input: x = 1000
+Output: 1
+
+Input: x = 2147483647
+Output: 0
+
+Input: x = -2147483648
+Output: 0
+```
+
+**Solution**:
+The idea is to get the last digit from the number and place in the first position.
+
+To get the last digit we can use modulas operation. After getting last digit we need
+to reset the input, for this we will divide the number by 10. Then we multiply previously 
+reversed value by 10 and add last digit.
+
+For example, num1 = 123.\
+Iteration 1:\
+reversed = 0
+last digit = num1 % 10 = 123 % 10 = 3
+num1 = num1/10 = 123 / 10 = 12
+reversed = reversed * 10 + last digit = 0 * 10 + 3 = 3
+
+Iteration 2:\
+last digit = num1 % 10 = 12 % 10 = 2
+num1 = num1/10 = 12 / 10 = 1
+reversed = reversed * 10 + last digit = 3 * 10 + 2 = 32
+
+Iteration 3:\
+last digit = num1 % 10 = 1 % 10 = 1
+num1 = num1/10 = 1 / 10 = 0
+reversed = reversed * 10 + last digit = 32 * 10 + 1 = 321
+
+We need to check 32-bit integer range before updating reversed value:
+```
+// positive limit
+if reversed > 2^32/10 || reversed == 2^32 && last digit > 7: 
+    return 0
+// negative limit
+if reversed < 2^32-1/10 || reversed == 2^32-1 && last digit < 8: 
+    return 0
+```
+
+**Time Complexity:**\
+*O(log(x))*, There are roughly *log_10(x)* digits in *x*.
+
+**Space Complexity:**\
+*O(1)*
+
+[Implementation - Java](./java/com/ds/practice/ReverseInteger.java)
+
+
+#### Sort logs
+
+You have an array of logs.  Each log is a space delimited string of words.
+
+For each log, the first word in each log is an alphanumeric identifier.  Then, either:
+
+* Each word after the identifier will consist only of lowercase letters, or;
+* Each word after the identifier will consist only of digits.
+We will call these two varieties of logs letter-logs and digit-logs.  It is guaranteed that each log has at least one word after its identifier.
+
+Reorder the logs so that all of the letter-logs come before any digit-log.  The letter-logs are ordered lexicographically ignoring identifier, with the identifier used in case of ties.  The digit-logs should be put in their original order.
+
+Return the final order of the logs.
+
+Example:
+```
+Input: ["dig1 8 1 5 1","let1 art can","dig2 3 6","let2 own kit dig","let3 art zero"] 
+Output: [let1 art can, let3 art zero, let2 own kit dig, dig1 8 1 5 1, dig2 3 6]
+
+Input: ["t kvr", "r 3 1", "i 403", "7 so", "t 54"] 
+Output: [t kvr, 7 so, r 3 1, i 403, t 54]
+
+Input: ["a1 9 2 3 1","g1 act car","zo4 4 7","ab1 off key dog","a8 act zoo"] 
+Output: [g1 act car, a8 act zoo, ab1 off key dog, a1 9 2 3 1, zo4 4 7]
+
+Input: ["a1 9 2 3 1","g1 act car","zo4 4 7","ab1 off key dog","a8 act zoo","a2 act car"] 
+Output: [a2 act car, g1 act car, a8 act zoo, ab1 off key dog, a1 9 2 3 1, zo4 4 7]
+
+```
+
+**Solution**:
+We can write a custom comparator and sort the array using the comparator.
+We need to sort only the letter-logs, keep the digit logs at the same place.
+
+You may write your own comparator instead of built-in comparators.
+
+[Implementation - Java](./java/com/ds/practice/SortLogs.java)
+
+#### Palindrome Linked List
+Given a singly linked list, determine if it is a palindrome.
+
+Example:
+```
+Input: 1
+Output: true
+
+Input: 1->2
+Output: false
+
+Input: 1 -> 1 -> 1
+Output: true
+
+Input: 1->2->2->1
+Output: true
+
+Input: 1 -> 2 -> 3 -> 1
+Output: false
+
+Input: 1 -> 3 -> 2 -> 3 -> 1
+Output: true
+```
+
+**Solution**:
+We can find the middle node of linked list. Then, reverse the linked list from the middle to the end.
+If a linked list is a palindrome then the linked list from head to middle node or first half and the reversed 2nd half will be same.
+
+*Time complexity : O(n)*, where *n* is the number of nodes in the Linked List.\
+*Space complexity : O(1)*.
+
+[Implementation - Java](./java/com/ds/practice/PalindromeLinkedList.java)
+
