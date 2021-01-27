@@ -355,4 +355,36 @@ You may write your own comparator instead of built-in comparators.
 
 [Implementation - Java](./java/com/ds/practice/SortLogs.java)
 
+#### Palindrome Linked List
+Given a singly linked list, determine if it is a palindrome.
+
+Example:
+```
+Input: 1
+Output: true
+
+Input: 1->2
+Output: false
+
+Input: 1 -> 1 -> 1
+Output: true
+
+Input: 1->2->2->1
+Output: true
+
+Input: 1 -> 2 -> 3 -> 1
+Output: false
+
+Input: 1 -> 3 -> 2 -> 3 -> 1
+Output: true
+```
+
+**Solution**:
+We can find the middle node of linked list. Then, reverse the linked list from the middle to the end.
+If a linked list is a palindrome then the linked list from head to middle node or first half and the reversed 2nd half will be same.
+
+*Time complexity : O(n)*, where *n* is the number of nodes in the Linked List.\
+*Space complexity : O(1)*.
+
+[Implementation - Java](./java/com/ds/practice/PalindromeLinkedList.java)
 
