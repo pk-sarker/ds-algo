@@ -507,3 +507,111 @@ hashMap.get(2);            // returns -1 (not found)
 ```
 
 [Implementation - Java](./java/com/ds/practice/DesignHashMap.java)
+
+#### Find longest common prefix
+Given an array of strings, find longest common  prefix. If there is no common prefix, return an empty string "".
+
+Example:
+```
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
+
+Input: strs = ["dog","racecar","car"]
+Output: ""
+Explanation: There is no common prefix among the input strings.
+```
+
+**Solution**:\
+There are different ways we can solve this problem.
+
+**Solution 1**: As the longest common prefix will be common for all the strings we can first find longest compare prefix for first two string, then find 
+longest common prefix of the first result and next word as long as we get a result other than empty string. We can consider the process as horizontal scanning.
+
+```
+LCP(S1...Sn) = LCP(LCP(LCP(S1,S2),S3),..Sn)
+
+Example: [good, google, goo, god]
+LCP(good, google) = goo
+LCP(goo, goo) = goo
+LCP(goo, god) = go
+
+Example: [good, google, goo, god, dog]
+LCP(good, google) = goo
+LCP(goo, goo) = goo
+LCP(goo, god) = go
+LCP(go, dog) = ""
+```
+
+Worse case result will be when you have some common prefix in n-1 strings and the last string doesn't 
+have any common prefix, if n is large it will be worse.
+**Time Complexity:**\
+*O(S)* S is sum of all the characters in all strings.\
+**Space Complexity:**\
+*O(1)*
+
+**Solution 2**: Consider  a case where there is a very short string at the end of the array. Then according to 
+horizontal scanning  it will take more operations. To optimize we my use vertical scanning approach.
+We can check characters of all the given string vertically. Like first compare first 
+character of all the strings. If first character is common for all then we move to next character at 2nd postion; otherwise
+terminate the check and return result. The result will be from beginning to last common character.\
+**Time Complexity:**\
+*O(S)* S is sum of all the characters in all strings.\
+**Space Complexity:**\
+*O(1)*
+
+**Solution 3**: We can use divide and conquer approach. Keep split the strings until there are two strings in a 
+group. As soon as there are one/two strings, find longest common prefix. Then merge the results by finding 
+longest common prefix of those results.
+
+```
+LCP(S1...Sn) = LCP(LCP(S1..Sk),LCP(Sk+1...Sn)) , where LCP(S_1 ... S_n) is the 
+longest common prefix in set of strings [S_1 .... S_n] ,1 < k < n_1
+
+[good, gold, gone, google, goo, god]
+
+Divide -> [good, gold, gone]       [google, goo, god]
+Divide -> [good, gold] [gone]      [google, goo] [god]
+LCP           [go]     [gone]          [goo]     [god]
+Conquer ->        [go]                       [go]
+Conquer ->                     [go]
+``` 
+
+**Time Complexity:**\
+*O(S)* S is sum of all the characters in all strings.\
+**Space Complexity:**\
+*O(m lon n)*, There is a memory overhead since we store recursive calls in the execution stack. There are *n log n* recursive calls, each store need mm space to store the result, 
+so space complexity is *O(m log n)*
+
+**Solution 4**:
+Binary search, The idea is to apply binary search method to find the string with maximum value *L*, which is common prefix 
+of all of the strings. The algorithm searches space is the interval (*0....minLen*), where *minLen* is minimum string length 
+and the maximum possible common prefix. Each time search space is divided in two equal parts, one of them is discarded, 
+because it is sure that it doesn't contain the solution. There are two possible cases:
+* `S[1...mid]` is not a common string. This means that for each `j > i` `S[1..j]` is not a common string and we discard the second half of the search space.
+* `S[1...mid]` is common string. This means that for each `i < j` `S[1..i]` is a common string and we discard the first half of the search space, 
+   because we try to find longer common prefix.
+
+Example:
+```
+                [factory, factions, fact, factional, facture]
+                                    |
+                                "factory"
+                             /             \
+                          fact              ory        middle index = 3
+               fact in (factions, fact, 
+                factional, facture)
+                
+                as all of words has prefix "fact", now  expand to right 
+                                "factory"
+                             /             \
+                          fact            o - ry
+              "facto" in factions - no,
+              "facto" in fact - no,
+              "facto" in factional - no,
+              "facto" in facture - no
+            
+             LCP  is fact         
+```
+
+[Implementation - Java](./java/com/ds/practice/LongestCommonPrefix.java)
+
