@@ -615,3 +615,18 @@ Example:
 
 [Implementation - Java](./java/com/ds/practice/LongestCommonPrefix.java)
 
+### Validate palindrome
+Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
+
+Note: For the purpose of this problem, we define empty string as valid palindrome.
+
+**Solution**:
+We can use two pointer, one will scan from left to right another from  right to left. We will return false if the
+ *n-th* character from the last is not same as *n-th* character from  beginning.
+
+**Time Complexity:**\
+*O(n)*
+**Space Complexity:**\
+*O(1)*
+
+[Implementation - Java](./java/com/ds/practice/ValidPalindrome.java)
