@@ -17,3 +17,4 @@ Data Structure &amp; Algorithms
 - [Find longest common prefix](./Solution.md#find-longest-common-prefix) - [Java](./java/com/ds/practice/LongestCommonPrefix.java)
 - [Validate palindrome](./Solution.md#validate-palindrome) - [Java](./java/com/ds/practice/ValidPalindrome.java)
 - [Fizz Buzz](./Solution.md#fizz-buzz) - [Java](./java/com/ds/practice/FizzBuzz.java)
+- [Minimum Moves to Equal Array Elements](./Solution.md#minimum-moves-to-equal-array-elements) - [Java](./java/com/ds/practice/MinimumMovesToEqualArray.java)
