@@ -700,3 +700,74 @@ It will be easy to remove/update any mapping with minor code change
 **Space Complexity:**\
 *O(1)* For hash map approach space complexity will be *O(m)*, *m* is the number of mapping.\
 [Implementation - Java](./java/com/ds/practice/FizzBuzz.java)
+
+#### Minimum Moves to Equal Array Elements
+Given a non-empty integer array of size *n*, find the minimum number of moves required 
+to make all array elements equal, where a move is incrementing *n - 1* elements by *1*.
+
+Example:
+```
+Input:
+[1,2,3]
+
+Output:
+3
+
+Explanation:
+Only three moves are needed (remember each move increments two elements):
+
+[1,2,3]  =>  [2,3,3]  =>  [3,4,3]  =>  [4,4,4]
+
+Input:
+[1,2,5]
+
+Output:
+5
+
+[1,2,5] => [2,3,5] => [3,4,5] => [4,5,5] => [5,6,5] => [6,6,6]
+```
+**Solution**
+Few key points to solve this problem:
+* to make something equal we need to increase the ones which are lower
+* Should not increase the maximum number, increasing the maximum number will lead to unresolved situation.
+
+*Brute force solution:*\ 
+First we find the maximum number and increment all the numbers except maximum till maximum number. Actually,
+we need to increment *n* times such that the minimum number equal to the maximum. After that,  if 
+all the numbers are not same then find maximum and minimum again and repeat the process. \
+Time complexity: *O(n^2 * k)* and Space Complexity: *O(1)*\
+
+We can optimize previous approach by incrementing in chunks. In previous approach we incremented every number 
+by 1 at each iteration. Actually we have to increment the minimum number to maximum number, so we can calculate
+difference between minimum and maximum and increment each number by that difference.
+Time complexity: *O(n^2)* and Space Complexity: *O(1)*\
+
+We can do further optimization by reducing the computation of searching minimum and maximum 
+in the array. We can sort the array to have constant computation to find  minimum and maximum number.
+Another idea is that we may not need to update the numbers, we can compute minimum number of moves
+using minimum and maximum information.
+
+```
+Minimum number of moves = sum of (num[i] - num[min])
+```
+Lets verify how that will work: Lets take a example `[a0,a1,a2....an]`. Consider `a0= 1` and `an=4`, then 
+to make *a0* equal to *an* we need to increment *a0* (*diff0=an-a0*) times. Now, count will be *count = diff0*.
+After the moves all the numbers *a1,a2 ... a_n-1* will also increment by *diff0*. New maximum value will be a_n-1. Now if a_n-1 is greater than a0 then 
+now it will take diff1 = a_n-1 - a0 increment to make a0 equal to new maximum. Repeat this process.
+
+Time complexity: *O(n log n)*, *O(log n)* for sorting 
+and Space Complexity: *O(1)*\
+
+We can do further optimization, sorting was reducing maximum and minimum number finding. We can do one single round 
+to find the minimum number and use difference between minimum number and all other number to count minimum moves.
+
+Time complexity: *O(n)*  and Space Complexity: *O(1)*\
+
+[Implementation - Java](./java/com/ds/practice/MinimumMovesToEqualArray.java)
+
+
+
+
+
+
+
