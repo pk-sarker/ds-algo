@@ -15,4 +15,5 @@ Data Structure &amp; Algorithms
 - [Subdomain Visit Count](./Solution.md#subdomain-visit-count) - [Java](./java/com/ds/practice/SubDomainCount.java)
 - [Design HashMap](./Solution.md#design-hashmap) - [Java](./java/com/ds/practice/DesignHashMap.java)
 - [Find longest common prefix](./Solution.md#find-longest-common-prefix) - [Java](./java/com/ds/practice/LongestCommonPrefix.java)
-- [Validate palindrome](./Solution.md#validate-palindrome) - [Java](./java/com/ds/practice/)
+- [Validate palindrome](./Solution.md#validate-palindrome) - [Java](./java/com/ds/practice/ValidPalindrome.java)
+- [Fizz Buzz](./Solution.md#fizz-buzz) - [Java](./java/com/ds/practice/FizzBuzz.java)
