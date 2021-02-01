@@ -630,3 +630,73 @@ We can use two pointer, one will scan from left to right another from  right to 
 *O(1)*
 
 [Implementation - Java](./java/com/ds/practice/ValidPalindrome.java)
+
+#### Fizz Buzz
+Write a program that outputs the string representation of numbers from 1 to n.
+
+But for multiples of three it should output “Fizz” instead of the number and for 
+the multiples of five output “Buzz”. For numbers which are multiples of both three and five output “FizzBuzz”.
+
+Example:
+```
+n = 15,
+
+Return:
+[
+    "1",
+    "2",
+    "Fizz",
+    "4",
+    "Buzz",
+    "Fizz",
+    "7",
+    "8",
+    "Fizz",
+    "Buzz",
+    "11",
+    "Fizz",
+    "13",
+    "14",
+    "FizzBuzz"
+]
+```
+
+**Solution**:
+Simple solution will be iterate over the range(1 to n) and checking if a number is divisible by 3 and/or 5 which will decide "Fizz", "Buzz", "FizzBuzz" or number.
+
+Consider if there are more mappings: like 
+* "Fizz" for multiple of 3
+* "Buzz" for multiple of 5
+* "Jazz" for multiple of 11
+For three mapping there are 8 conditions(all combinations) to check.
+```
+Divisible by 3
+Divisible by 5
+Divisible by 11
+Divisible by 3 and 5
+Divisible by 3 and 11
+Divisible by 11 and 3
+Divisible by 3 and 5 and 11
+Not divisible by 3 or 5 or 11.
+```
+Instead of writing nested if-else condition we can decouple it using string concatenation.
+
+```
+result = ""
+if num % 3 == 0:
+    result += "Fizz"
+if num % 5 == 0:
+    result += "Buzz"
+if num % 11 == 0:
+    result += "Buzz"
+```
+
+If the number are conditions are too many then we can make the mapping check dynamic by using hash table, and 
+It will be easy to remove/update any mapping with minor code change
+
+
+**Time Complexity:**\
+*O(n)*
+**Space Complexity:**\
+*O(1)* For hash map approach space complexity will be *O(m)*, *m* is the number of mapping.\
+[Implementation - Java](./java/com/ds/practice/FizzBuzz.java)
