@@ -793,6 +793,31 @@ deleting one character; otherwise false.
 *O(1)*
 [Implementation - Java](./java/com/ds/practice/ConvertAStringToPalindrome.java)
 
+#### Move zeros
+Given an array nums, write a function to move all 0's to the end of it while
+ maintaining the relative order of the non-zero elements.
+ 
+Example:
+```
+Input: [0,1,0,3,12]
+Output: [1,3,12,0,0]
+``` 
+
+**Solution**
+We could have just swapped the zeors to last position but it will break relative ordering 
+of the non-zero numbers. So we will have a pointer variable refer  to the array index of 
+next non-zero element position. Initially it will be set to zero then increments on every swap. 
+We will do swap when the current index is pointing to 0.
+
+**Time Complexity:**\
+*O(n)*
+**Space Complexity:**\
+*O(1)*
+[Implementation - Java](./java/com/ds/practice/MoveZeros.java)
+
+
+
+
 
 
 

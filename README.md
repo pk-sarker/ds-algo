@@ -19,3 +19,4 @@ Data Structure &amp; Algorithms
 - [Convert a string to palindrome with at most one deletion](./Solution.md#convert-a-string-to-palindrome-with-at-most-one-deletion) - [Java](./java/com/ds/practice/ConvertAStringToPalindrome.java)
 - [Fizz Buzz](./Solution.md#fizz-buzz) - [Java](./java/com/ds/practice/FizzBuzz.java)
 - [Minimum Moves to Equal Array Elements](./Solution.md#minimum-moves-to-equal-array-elements) - [Java](./java/com/ds/practice/MinimumMovesToEqualArray.java)
+- [Move zeros](./Solution.md#move-zeros) - [Java](./java/com/ds/practice/MoveZeros.java)
