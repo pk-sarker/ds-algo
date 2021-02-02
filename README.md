@@ -16,5 +16,6 @@ Data Structure &amp; Algorithms
 - [Design HashMap](./Solution.md#design-hashmap) - [Java](./java/com/ds/practice/DesignHashMap.java)
 - [Find longest common prefix](./Solution.md#find-longest-common-prefix) - [Java](./java/com/ds/practice/LongestCommonPrefix.java)
 - [Validate palindrome](./Solution.md#validate-palindrome) - [Java](./java/com/ds/practice/ValidPalindrome.java)
+- [Convert a string to palindrome with at most one deletion](./Solution.md#convert-a-string-to-palindrome-with-at-most-one-deletion) - [Java](./java/com/ds/practice/ConvertAStringToPalindrome.java)
 - [Fizz Buzz](./Solution.md#fizz-buzz) - [Java](./java/com/ds/practice/FizzBuzz.java)
 - [Minimum Moves to Equal Array Elements](./Solution.md#minimum-moves-to-equal-array-elements) - [Java](./java/com/ds/practice/MinimumMovesToEqualArray.java)

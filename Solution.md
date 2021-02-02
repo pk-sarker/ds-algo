@@ -765,6 +765,36 @@ Time complexity: *O(n)*  and Space Complexity: *O(1)*\
 
 [Implementation - Java](./java/com/ds/practice/MinimumMovesToEqualArray.java)
 
+#### Convert a string to palindrome with at most one deletion
+Given a non-empty string `s`, you may delete at most one character. Judge whether you can make it a palindrome.
+
+Example:
+```
+Input: "aba"
+Output: True
+
+Input: "abca"
+Output: True
+Explanation: You could delete the character 'c'.
+```
+
+**Solution**:
+We can find the middle index and iterate till middle index. At each iteration we will check the character at i-th index from the begining and i-th character form the end.
+If they are not maching then we should check two things:
+* If we remove i-th character from the begining then will it be a valid palindrome ?
+* If we remove i-th character from the end then will it be a valid palindrome ?
+
+If one of the above is true then we conclude that the string is valid palindrome after 
+deleting one character; otherwise false.
+
+**Time Complexity:**\
+*O(n)*, *n* is the length of the string.
+**Space Complexity:**\
+*O(1)*
+[Implementation - Java](./java/com/ds/practice/ConvertAStringToPalindrome.java)
+
+
+
 
 
 
