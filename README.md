@@ -21,3 +21,4 @@ Data Structure &amp; Algorithms
 - [Minimum Moves to Equal Array Elements](./Solution.md#minimum-moves-to-equal-array-elements) - [Java](./java/com/ds/practice/MinimumMovesToEqualArray.java)
 - [Move zeros](./Solution.md#move-zeros) - [Java](./java/com/ds/practice/MoveZeros.java)
 - [Palindrome Number](./Solution.md#palindrome-number) - [Java](./java/com/ds/practice/PalindromeNumber.java)
+- [Construct K Palindrome Strings](./Solution.md#construct-k-palindrome-strings) - [Java](./java/com/ds/practice/ConstructKPalindromeStrings.java)

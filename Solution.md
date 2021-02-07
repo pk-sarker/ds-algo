@@ -851,6 +851,58 @@ We can revert the number and  check if given number is same as reverted number.
 [Implementation - Java](./java/com/ds/practice/PalindromeNumber.java)
 
 
+#### Construct K Palindrome Strings
+Given a string and an integer *k*. You should construct *k* non-empty palindrome strings using all the characters in the string.
+
+Return *True* if you can use all the characters in the string to construct *k* palindrome strings or *False* otherwise.
+
+Example:
+```
+Input: s = "annabelle", k = 2
+Output: true
+Explanation: You can construct two palindromes using all characters in s.
+Some possible constructions "anna" + "elble", "anbna" + "elle", "anellena" + "b"
+
+Input: s = "good", k = 4
+Output: true
+Explanation: The only possible solution is to put each character in a separate string.
+
+Input: s = "yzyzyzyzyzyzyzy", k = 2
+Output: true
+Explanation: Simply you can put all z's in one string and all y's in the other string. Both strings will be palindrome.
+```
+
+**Solution**
+Maximum number of palindrome from a  given string will be the length of the string by taking 
+each character as single character palindrome. So if *k* > string length then we can't construct 
+that many palindrome. 
+
+Now if the *k* < string length it may be possible  to construct *k* palindrome.
+Creating palindrome will depend on the number of character count. If all the character
+appearance count is even then surely we can construct k palindrome. 
+If a string is a palindrome, and if we pick one letter then for each letter there has to be 
+a pair so that the same latter will be in same position if we read the string left to right or right to left.
+Otherwise the letter is at the middle of the palindrome string.
+
+In a palindrom string there can be only one letter whose character count is odd:
+```
+aabaa - here b is odd and count is 1
+aabbbaa - here b is odd and count is 3
+abcdcba -  here d is odd and count is 1
+```
+So in a given string if there are two letter with odd character count then
+to create palindrome we need to split the string in to two palindrome string because
+each palindrom string can have at most one letter with odd character count.
+
+So, we will scan the string and keep the letter count in a hash table. Count the number of 
+letter with odd character count. If k is less than the number of letters with odd character count
+then return false otherwise return true.
+
+**Time Complexity:**\
+*O(n)*
+**Space Complexity:**\
+*O(n)* for hash table \
+[Implementation - Java](./java/com/ds/practice/ConstructKPalindromeStrings.java)
 
 
 
