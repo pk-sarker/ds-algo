@@ -22,3 +22,5 @@ Data Structure &amp; Algorithms
 - [Move zeros](./Solution.md#move-zeros) - [Java](./java/com/ds/practice/MoveZeros.java)
 - [Palindrome Number](./Solution.md#palindrome-number) - [Java](./java/com/ds/practice/PalindromeNumber.java)
 - [Construct K Palindrome Strings](./Solution.md#construct-k-palindrome-strings) - [Java](./java/com/ds/practice/ConstructKPalindromeStrings.java)
+- [Text Justification](./Solution.md#text-justification) - [Java](./java/com/ds/practice/TextJustification.java)
+- [Rearrange Spaces Between Words](./Solution.md#rearrange-spaces-between-words) - [Java](./java/com/ds/practice/RearrangeSpacesBetweenWords.java)
