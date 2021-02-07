@@ -815,6 +815,45 @@ We will do swap when the current index is pointing to 0.
 *O(1)*
 [Implementation - Java](./java/com/ds/practice/MoveZeros.java)
 
+#### Palindrome Number
+Given an integer x, return true if x is palindrome integer.
+
+An integer is a palindrome when it reads the same backward as forward. 
+
+Could you solve it without converting the integer to a string?
+
+For example, 121 is palindrome while 123 is not.
+```
+Input: x = 121
+Output: true
+
+Input: x = -121
+Output: false
+Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
+
+Input: x = 10
+Output: false
+Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
+
+Input: x = -101
+Output: false
+```
+
+**Solution**
+The simple solution would be convert the number to string and then compare the characters.
+
+We can revert the number and  check if given number is same as reverted number.
+
+**Time Complexity:**\
+*O(n)*
+**Space Complexity:**\
+*O(1)*\
+[Implementation - Java](./java/com/ds/practice/PalindromeNumber.java)
+
+
+
+
+
 
 
 
