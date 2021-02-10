@@ -24,7 +24,10 @@ Data Structure &amp; Algorithms
 - [Construct K Palindrome Strings](./Solution.md#construct-k-palindrome-strings) - [Java](./java/com/ds/practice/ConstructKPalindromeStrings.java)
 - [Text Justification](./Solution.md#text-justification) - [Java](./java/com/ds/practice/TextJustification.java)
 - [Rearrange Spaces Between Words](./Solution.md#rearrange-spaces-between-words) - [Java](./java/com/ds/practice/RearrangeSpacesBetweenWords.java)
-- [Reconstruct Itinerary](./Solution.md#Reconstruct Itinerary) - [Java](./java/com/ds/practice/ReconstructItinerary.java)
-
+- [Reconstruct Itinerary](./Solution.md#reconstruct-itinerary) - [Java](./java/com/ds/practice/ReconstructItinerary.java)
+- [Count Number of Islands](./Solution.md#count-number-of-islands]) - [Java](./java/com/ds/practice/NumberOfIslands.java)
+- [Interval List Intersections](./Solution.md#interval-list-intersections) - [Java](./java/com/ds/practice/IntervalListIntersections.java)
+- [LRU Cache](./Solution.md#lru-cache) - [Java](./java/com/ds/practice/LeastRecentlyUsedCache.java)
+- [Group Anagrams](./Solution.md#group-anagrams) - [Java](./java/com/ds/practice/GroupAnagrams.java)
 
 

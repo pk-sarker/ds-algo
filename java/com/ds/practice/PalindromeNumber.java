@@ -1,5 +1,10 @@
 package com.ds.practice;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class PalindromeNumber {
 
     public static boolean isPalindrome(int x) {
@@ -20,9 +25,32 @@ public class PalindromeNumber {
         return orgX == revertedNumber;
     }
 
+    public static int birthdayCakeCandles(List<Integer> candles) {
+        // Write your code here
+        Map<Integer, Integer> hashMap = new HashMap<>();
+        int max = candles.get(0);
+        hashMap.put(candles.get(0), 1);
+        for(int i=1; i<candles.size(); i++)
+        {
+            //hashMap.computeIfAbsent(candles.get(i), 0)++;
+            if (hashMap.containsKey(candles.get(i))) {
+                hashMap.put(candles.get(i), hashMap.get(candles.get(i))+1);
+            } else {
+                hashMap.put(candles.get(i), 1);
+            }
+            max = Math.max(max, candles.get(i));
+        }
+        return hashMap.get(max);
+    }
     public static void main(String args[]) {
         System.out.println(PalindromeNumber.isPalindrome(121));
         System.out.println(PalindromeNumber.isPalindrome(1001));
         System.out.println(PalindromeNumber.isPalindrome(10301));
+        List<Integer> candles = new ArrayList<Integer>();
+        candles.add(3);
+        candles.add(2);
+        candles.add(1);
+        candles.add(3);
+        System.out.println(PalindromeNumber.birthdayCakeCandles(candles));
     }
 }
