@@ -26,6 +26,6 @@ Data Structure &amp; Algorithms
 - [Rearrange Spaces Between Words](./Solution.md#rearrange-spaces-between-words) - [Java](./java/com/ds/practice/RearrangeSpacesBetweenWords.java)
 - [Reconstruct Itinerary](./Solution.md#reconstruct-itinerary) - [Java](./java/com/ds/practice/ReconstructItinerary.java)
 - [Count Number of Islands](./Solution.md#count-number-of-islands]) - [Java](./java/com/ds/practice/NumberOfIslands.java)
-
+- [Interval List Intersections](./Solution.md#interval-list-intersections) - [Java](./java/com/ds/practice/IntervalListIntersections.java)
 
 
