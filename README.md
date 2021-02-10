@@ -28,6 +28,6 @@ Data Structure &amp; Algorithms
 - [Count Number of Islands](./Solution.md#count-number-of-islands]) - [Java](./java/com/ds/practice/NumberOfIslands.java)
 - [Interval List Intersections](./Solution.md#interval-list-intersections) - [Java](./java/com/ds/practice/IntervalListIntersections.java)
 - [LRU Cache](./Solution.md#lru-cache) - [Java](./java/com/ds/practice/LeastRecentlyUsedCache.java)
-
+- [Group Anagrams](./Solution.md#group-anagrams) - [Java](./java/com/ds/practice/GroupAnagrams.java)
 
 
