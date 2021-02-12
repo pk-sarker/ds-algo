@@ -29,5 +29,8 @@ Data Structure &amp; Algorithms
 - [Interval List Intersections](./Solution.md#interval-list-intersections) - [Java](./java/com/ds/practice/IntervalListIntersections.java)
 - [LRU Cache](./Solution.md#lru-cache) - [Java](./java/com/ds/practice/LeastRecentlyUsedCache.java)
 - [Group Anagrams](./Solution.md#group-anagrams) - [Java](./java/com/ds/practice/GroupAnagrams.java)
+- [Squares of a Sorted Array](./Solution.md#squares-of-a-sorted-array) - [Java](./java/com/ds/practice/SquaresOfASortedArray.java)
+- [Find First and Last Position of Element in Sorted Array](./Solution.md#find-first-and-last-position-of-element-in-sorted-array) - [Java](./java/com/ds/practice/Find1stAnd2ndPositionInSortedArray.java)
+- [Word Ladder](./Solution.md#word-ladder) - [Java](./java/com/ds/practice/WordLadder.java)
 
 
