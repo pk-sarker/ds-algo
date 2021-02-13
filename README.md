@@ -32,5 +32,7 @@ Data Structure &amp; Algorithms
 - [Squares of a Sorted Array](./Solution.md#squares-of-a-sorted-array) - [Java](./java/com/ds/practice/SquaresOfASortedArray.java)
 - [Find First and Last Position of Element in Sorted Array](./Solution.md#find-first-and-last-position-of-element-in-sorted-array) - [Java](./java/com/ds/practice/Find1stAnd2ndPositionInSortedArray.java)
 - [Word Ladder](./Solution.md#word-ladder) - [Java](./java/com/ds/practice/WordLadder.java)
+- [Word Ladder 2](./Solution.md#word-ladder-2) - [Java](./java/com/ds/practice/WordLadder2.java)
+- [Merge Intervals](./Solution.md#merge-intervals) - [Java](./java/com/ds/practice/MergeIntervals.java)
 
 
