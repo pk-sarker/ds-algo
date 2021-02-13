@@ -35,4 +35,5 @@ Data Structure &amp; Algorithms
 - [Word Ladder 2](./Solution.md#word-ladder-2) - [Java](./java/com/ds/practice/WordLadder2.java)
 - [Merge Intervals](./Solution.md#merge-intervals) - [Java](./java/com/ds/practice/MergeIntervals.java)
 - [Calculate Squareroot](./Solution.md#calculate-squareroot) - [Java](./java/com/ds/practice/SquareRoot.java)
+- [Letter Combinations of a Phone Number](./Solution.md#letter-combinations-of-a-phone-number) - [Java](./java/com/ds/practice/PhoneLetterCombination.java)
 
