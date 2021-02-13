@@ -34,5 +34,5 @@ Data Structure &amp; Algorithms
 - [Word Ladder](./Solution.md#word-ladder) - [Java](./java/com/ds/practice/WordLadder.java)
 - [Word Ladder 2](./Solution.md#word-ladder-2) - [Java](./java/com/ds/practice/WordLadder2.java)
 - [Merge Intervals](./Solution.md#merge-intervals) - [Java](./java/com/ds/practice/MergeIntervals.java)
-
+- [Calculate Squareroot](./Solution.md#calculate-squareroot) - [Java](./java/com/ds/practice/SquareRoot.java)
 
