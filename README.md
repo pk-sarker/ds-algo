@@ -36,4 +36,5 @@ Data Structure &amp; Algorithms
 - [Merge Intervals](./Solution.md#merge-intervals) - [Java](./java/com/ds/practice/MergeIntervals.java)
 - [Calculate Squareroot](./Solution.md#calculate-squareroot) - [Java](./java/com/ds/practice/SquareRoot.java)
 - [Letter Combinations of a Phone Number](./Solution.md#letter-combinations-of-a-phone-number) - [Java](./java/com/ds/practice/PhoneLetterCombination.java)
+- [Product of Array Except Self](./Solution.md#product-of-array-except-self) - [Java](./java/com/ds/practice/CalculateProductExceptItself.java)
 
