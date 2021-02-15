@@ -39,6 +39,7 @@ Data Structure &amp; Algorithms
 - [Product of Array Except Self](./Solution.md#product-of-array-except-self) - [Java](./java/com/ds/practice/CalculateProductExceptItself.java)
 - [Set Intersection Size At Least Two](./Solution.md#set-intersection-size-at-least-twAo) - [Java](./java/com/ds/practice/CalculateProductExceptItself.java)
 - [Sliding Puzzle](./Solution.md#sliding-puzzle) - [Java](./java/com/ds/practice/SlidingPuzzle.java)
+- [Grumpy Bookstore Owner](./Solution.md#grumpy-bookstore-owner) - [Java](./java/com/ds/practice/GrumpyBookstoreOwner.java)
 
 
 
