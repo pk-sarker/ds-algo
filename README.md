@@ -37,4 +37,8 @@ Data Structure &amp; Algorithms
 - [Calculate Squareroot](./Solution.md#calculate-squareroot) - [Java](./java/com/ds/practice/SquareRoot.java)
 - [Letter Combinations of a Phone Number](./Solution.md#letter-combinations-of-a-phone-number) - [Java](./java/com/ds/practice/PhoneLetterCombination.java)
 - [Product of Array Except Self](./Solution.md#product-of-array-except-self) - [Java](./java/com/ds/practice/CalculateProductExceptItself.java)
+- [Set Intersection Size At Least Two](./Solution.md#set-intersection-size-at-least-twAo) - [Java](./java/com/ds/practice/CalculateProductExceptItself.java)
+- [Sliding Puzzle](./Solution.md#sliding-puzzle) - [Java](./java/com/ds/practice/SlidingPuzzle.java)
+
+
 
