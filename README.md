@@ -45,5 +45,6 @@ Data Structure &amp; Algorithms
 - Count occurrence of a ward in another - [Java](./java/com/ds/practice/CountAStringInAnother.java)
 - Valid words with broken key - [Java](./java/com/ds/practice/BrokenPhoneKeyboard.java)
 - Delete min of peak elements - [Java](./java/com/ds/practice/DeleteMinOfPeak.java)
+- Evaluate Division - [Java](./java/com/ds/practice/EvaluateDivision.java)
 
 
