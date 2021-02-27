@@ -54,3 +54,4 @@ Data Structure &amp; Algorithms
 - [Print a matrix in spiral order]() - [Java](./java/com/ds/practice/SpiralMatrix.java)
 - [Surrounded Region]() - [Java](./java/com/ds/practice/SurroundedRegions.java)
 - [Time based key-value pair]() - [Java](./java/com/ds/practice/TimeBasedKeyValueStore.java)
+- [Topological Sort]() - [Java](./java/com/ds/practice/TopologicalSortKahn.java)
