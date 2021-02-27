@@ -41,6 +41,9 @@ Data Structure &amp; Algorithms
 - [Sliding Puzzle](./Solution.md#sliding-puzzle) - [Java](./java/com/ds/practice/SlidingPuzzle.java)
 - [Grumpy Bookstore Owner](./Solution.md#grumpy-bookstore-owner) - [Java](./java/com/ds/practice/GrumpyBookstoreOwner.java)
 - [Minesweeper](./Solution.md#minesweeper) - [Java](./java/com/ds/practice/Minesweeper.java)
-
+- [Evaluate Division](./Solution.md#evaluate-division) - [Java](./java/com/ds/practice/Minesweeper.java)
+- Count occurrence of a ward in another - [Java](./java/com/ds/practice/CountAStringInAnother.java)
+- Valid words with broken key - [Java](./java/com/ds/practice/BrokenPhoneKeyboard.java)
+- Delete min of peak elements - [Java](./java/com/ds/practice/DeleteMinOfPeak.java)
 
 
