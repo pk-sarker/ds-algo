@@ -47,4 +47,4 @@ Data Structure &amp; Algorithms
 - Delete min of peak elements - [Java](./java/com/ds/practice/DeleteMinOfPeak.java)
 - Evaluate Division - [Java](./java/com/ds/practice/EvaluateDivision.java)
 - [Matrix Rotation]() - [Java](./java/com/ds/practice/MatrixRotation.java)
-
+- [Find mean of neighbor elements]() - [Java](./java/com/ds/practice/MeanOfNeighbor.java)
