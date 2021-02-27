@@ -50,3 +50,4 @@ Data Structure &amp; Algorithms
 - [Find mean of neighbor elements]() - [Java](./java/com/ds/practice/MeanOfNeighbor.java)
 - [Operation on an array]() - [Java](./java/com/ds/practice/OperationAddMin.java)
 - [Serialize and Deserialize a tree]() - [Java](./java/com/ds/practice/SerializeDeserializeTree.java)
+- [Sort boundary of a matrix]() - [Java](./java/com/ds/practice/SortBoundaryOfMatrix.java)
