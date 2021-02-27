@@ -49,3 +49,4 @@ Data Structure &amp; Algorithms
 - [Matrix Rotation]() - [Java](./java/com/ds/practice/MatrixRotation.java)
 - [Find mean of neighbor elements]() - [Java](./java/com/ds/practice/MeanOfNeighbor.java)
 - [Operation on an array]() - [Java](./java/com/ds/practice/OperationAddMin.java)
+- [Serialize and Deserialize a tree]() - [Java](./java/com/ds/practice/SerializeDeserializeTree.java)
