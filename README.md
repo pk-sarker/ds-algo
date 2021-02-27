@@ -53,3 +53,4 @@ Data Structure &amp; Algorithms
 - [Sort boundary of a matrix]() - [Java](./java/com/ds/practice/SortBoundaryOfMatrix.java)
 - [Print a matrix in spiral order]() - [Java](./java/com/ds/practice/SpiralMatrix.java)
 - [Surrounded Region]() - [Java](./java/com/ds/practice/SurroundedRegions.java)
+- [Time based key-value pair]() - [Java](./java/com/ds/practice/TimeBasedKeyValueStore.java)
