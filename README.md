@@ -41,6 +41,17 @@ Data Structure &amp; Algorithms
 - [Sliding Puzzle](./Solution.md#sliding-puzzle) - [Java](./java/com/ds/practice/SlidingPuzzle.java)
 - [Grumpy Bookstore Owner](./Solution.md#grumpy-bookstore-owner) - [Java](./java/com/ds/practice/GrumpyBookstoreOwner.java)
 - [Minesweeper](./Solution.md#minesweeper) - [Java](./java/com/ds/practice/Minesweeper.java)
-
-
-
+- [Evaluate Division](./Solution.md#evaluate-division) - [Java](./java/com/ds/practice/Minesweeper.java)
+- Count occurrence of a ward in another - [Java](./java/com/ds/practice/CountAStringInAnother.java)
+- Valid words with broken key - [Java](./java/com/ds/practice/BrokenPhoneKeyboard.java)
+- Delete min of peak elements - [Java](./java/com/ds/practice/DeleteMinOfPeak.java)
+- Evaluate Division - [Java](./java/com/ds/practice/EvaluateDivision.java)
+- [Matrix Rotation]() - [Java](./java/com/ds/practice/MatrixRotation.java)
+- [Find mean of neighbor elements]() - [Java](./java/com/ds/practice/MeanOfNeighbor.java)
+- [Operation on an array]() - [Java](./java/com/ds/practice/OperationAddMin.java)
+- [Serialize and Deserialize a tree]() - [Java](./java/com/ds/practice/SerializeDeserializeTree.java)
+- [Sort boundary of a matrix]() - [Java](./java/com/ds/practice/SortBoundaryOfMatrix.java)
+- [Print a matrix in spiral order]() - [Java](./java/com/ds/practice/SpiralMatrix.java)
+- [Surrounded Region]() - [Java](./java/com/ds/practice/SurroundedRegions.java)
+- [Time based key-value pair]() - [Java](./java/com/ds/practice/TimeBasedKeyValueStore.java)
+- [Topological Sort]() - [Java](./java/com/ds/practice/TopologicalSortKahn.java)
