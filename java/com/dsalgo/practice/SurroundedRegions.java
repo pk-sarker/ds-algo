@@ -1,4 +1,4 @@
-package com.ds.practice;
+package com.dsalgo.practice;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package com.ds.practice;
+package com.dsalgo.practice;
 
 /**
  * Given two strings s and t. Count the number of occurence of t in s as follows.

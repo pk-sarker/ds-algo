@@ -1,4 +1,4 @@
-package com.ds.practice;
+package com.dsalgo.practice;
 
 /**
  * Given an integer array nums, find the contiguous subarray (containing at least one number)

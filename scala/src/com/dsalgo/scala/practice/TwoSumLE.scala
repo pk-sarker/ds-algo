@@ -1,4 +1,4 @@
-package com.ds.scala.practice
+package com.dsalgo.scala.practice
 
 import scala.collection.mutable
 import scala.collection.mutable.HashMap

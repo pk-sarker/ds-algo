@@ -1,6 +1,6 @@
-package com.ds.practice;
+package com.dsalgo.practice;
 
-import com.ds.practice.common.ListNode;
+import com.dsalgo.practice.common.ListNode;
 
 /**
  * Merge two sorted linked lists and return it as a sorted list.

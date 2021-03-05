@@ -1,4 +1,4 @@
-package com.ds.practice;
+package com.dsalgo.practice;
 
 import java.text.DecimalFormat;
 import java.util.Arrays;

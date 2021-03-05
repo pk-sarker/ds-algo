@@ -1,7 +1,5 @@
-package com.ds.practice;
+package com.dsalgo.practice;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
 import java.util.Stack;
 
 /**

@@ -5,7 +5,7 @@
 class SubArrayMaximumSum:
     def max_sub_array(self, nums):
         if len(nums) == 1:
-            return nums[0];
+            return nums[0]
 
         sum = nums[0]
         max_sum = nums[0]

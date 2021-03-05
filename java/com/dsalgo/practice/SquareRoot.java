@@ -1,4 +1,4 @@
-package com.ds.practice;
+package com.dsalgo.practice;
 
 /**
  * Given a non-negative integer x, compute and return the square root of x.

@@ -1,4 +1,4 @@
-package com.ds.practice;
+package com.dsalgo.practice;
 
 public class KeyValuePair<U, V> {
     public U key;

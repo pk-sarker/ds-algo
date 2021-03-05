@@ -1,4 +1,4 @@
-package com.ds.practice;
+package com.dsalgo.practice;
 
 import java.util.Arrays;
 
@@ -89,6 +89,37 @@ public class Find1stAnd2ndPositionInSortedArray {
         }
         return res;
     }
+
+    public static int[] findRange(int[] arr, int key) {
+        int[] result = new int[] { -1, -1 };
+        result[0] = search(arr, key, false);
+        if (result[0] != -1) // no need to search, if 'key' is not present in the input array
+            result[1] = search(arr, key, true);
+        return result;
+    }
+
+    // modified Binary Search
+    private static int search(int[] arr, int key, boolean findMaxIndex) {
+        int keyIndex = -1;
+        int start = 0, end = arr.length - 1;
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+            if (key < arr[mid]) {
+                end = mid - 1;
+            } else if (key > arr[mid]) {
+                start = mid + 1;
+            } else { // key == arr[mid]
+                keyIndex = mid;
+                if (findMaxIndex)
+                    start = mid + 1; // search ahead to find the last index of 'key'
+                else
+                    end = mid - 1; // search behind to find the first index of 'key'
+            }
+        }
+        return keyIndex;
+    }
+
+
     public static void main(String args[]) {
 //        System.out.println("\nInput: [5,7,7,8,8,10] target=8\nOutput: " + Arrays.toString(Find1stAnd2ndPositionInSortedArray.searchRange(new int[]{5,7,7,8,8,10}, 8)));
 //
@@ -101,7 +132,15 @@ public class Find1stAnd2ndPositionInSortedArray {
 //        System.out.println("\nInput: [1,1] target=1\nOutput: " + Arrays.toString(Find1stAnd2ndPositionInSortedArray.searchRange(new int[]{1,1}, 1)));
 //        System.out.println("\nInput: [1,2,3] target=2\nOutput: " + Arrays.toString(Find1stAnd2ndPositionInSortedArray.searchRange(new int[]{1,2,3}, 2)));
 
-        System.out.println("\nInput: [1,2,3] target=3\nOutput: " + Arrays.toString(Find1stAnd2ndPositionInSortedArray.searchRange(new int[]{1,2,3}, 3)));
+        //System.out.println("\nInput: [1,2,3] target=3\nOutput: " + Arrays.toString(Find1stAnd2ndPositionInSortedArray.searchRange(new int[]{1,2,3}, 3)));
+
+        System.out.println("\nInput: [1,2,3] target=3\nOutput: " + Arrays.toString(Find1stAnd2ndPositionInSortedArray.findRange(new int[]{1,2,3}, 3)));
+
+        System.out.println("\nInput: [1,2,3] target=4\nOutput: " + Arrays.toString(Find1stAnd2ndPositionInSortedArray.findRange(new int[]{1,2,3}, 4)));
+
+        System.out.println("\nInput: [5,7,7,8,8,10] target=8\nOutput: " + Arrays.toString(Find1stAnd2ndPositionInSortedArray.findRange(new int[]{5,7,7,8,8,10}, 8)));
+
+
 
     }
 }
