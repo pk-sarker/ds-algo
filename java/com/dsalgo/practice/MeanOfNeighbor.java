@@ -1,4 +1,4 @@
-package com.ds.practice;
+package com.dsalgo.practice;
 
 /**
  * Given an array of integers. Find number of elements equal to mean of neighbor elements.

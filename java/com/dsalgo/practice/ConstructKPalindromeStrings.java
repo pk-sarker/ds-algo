@@ -1,4 +1,4 @@
-package com.ds.practice;
+package com.dsalgo.practice;
 
 /**
  * Given a string s and an integer k. You should construct k non-empty palindrome strings

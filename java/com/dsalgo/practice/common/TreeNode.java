@@ -1,4 +1,4 @@
-package com.ds.practice.common;
+package com.dsalgo.practice.common;
 
 public class TreeNode {
     public int value;

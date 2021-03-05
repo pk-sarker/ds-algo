@@ -1,4 +1,4 @@
-package com.ds.practice;
+package com.dsalgo.practice;
 
 /**
  * Today, the bookstore owner has a store open for customers.length minutes.  Every minute,

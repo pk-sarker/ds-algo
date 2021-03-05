@@ -1,6 +1,6 @@
-package com.ds.practice;
+package com.dsalgo.practice;
 
-import com.ds.practice.common.TreeNode;
+import com.dsalgo.practice.common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Arrays;

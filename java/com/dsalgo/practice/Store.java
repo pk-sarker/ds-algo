@@ -1,6 +1,5 @@
-package com.ds.practice;
+package com.dsalgo.practice;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 

@@ -1,6 +1,4 @@
-package com.ds.practice;
-
-import java.util.Arrays;
+package com.dsalgo.practice;
 
 /**
  * In an alien language, surprisingly they also use english lowercase letters, but possibly in a different order.

@@ -73,7 +73,7 @@ the difference between current price and minimum price is greater than last maxi
 *Time Complexity*: *O(n)*\
 *Space Complexity*: *O(1)* 
 
-[Implementation ](./java/com/ds/practice/BuyAndSellStockLE.java)
+[Implementation ](java/com/dsalgo/practice/BuyAndSellStockLE.java)
  
 A slightly modified version of the problem: Now you need to return the indices of the days
 to buy and sell to have maximum profit.
@@ -81,7 +81,7 @@ to buy and sell to have maximum profit.
 It will be the same approach as before with little change, we will keep track of 
 the day to purchase(minimum  price) temporarily. A temporary purchase day will be 
 fixed when we have a profit which is greater than last profit.\
-[Implementation ](./java/com/ds/practice/BuyAndSellStockLE.java) 
+[Implementation ](java/com/dsalgo/practice/BuyAndSellStockLE.java) 
 
 #### Verifying an Alien Dictionary
 In an alien language, surprisingly they also use english lowercase letters, but possibly in a different order. The order of the alphabet is some permutation of lowercase letters.
@@ -94,7 +94,7 @@ to compare lexicographic ordering.
 Another idea is that in a list of words, say `w1, w2, w3 .. wn`, if all the words ordered lexicographically then if we pick any two
 consecutive words they will be ordered as well.
 
-[Implementation ](./java/com/ds/practice/VerifyingAnAlienDictionary.java)
+[Implementation ](java/com/dsalgo/practice/VerifyingAnAlienDictionary.java)
 
 
 #### Maximum subarray sum
@@ -131,7 +131,7 @@ a variable which will store max sum seen so far, not the current max sum.
 *Time Complexity*: *O(n)*\
 *Space Complexity*: *O(1)* 
 
-Implementation: [Java](./java/com/ds/practice/SubArrayMaximumSum.java)  [Python](./python/SubArrayMaximumSum.py)
+Implementation: [Java](java/com/dsalgo/practice/SubArrayMaximumSum.java)  [Python](./python/SubArrayMaximumSum.py)
  
 #### Valid Parentheses
 Given a string s containing just the characters `(`, `)`, `{`, `}`, `[` and `]`, determine if the input string is valid.
@@ -171,7 +171,7 @@ opened then it must close before any other closing bracket.
 *Time Complexity*: *O(n)*\
 *Space Complexity*: *O(n)* 
 
-Implementation: [Java](./java/com/ds/practice/ValidateParentheses.java)
+Implementation: [Java](java/com/dsalgo/practice/ValidateParentheses.java)
 
 ### Merge two sorted linked lists
 Merge two sorted linked lists and return it as a new sorted list. The new list should be made by splicing together the nodes of the first two lists.
@@ -248,7 +248,7 @@ store the result.
 **Space Complexity:**\
 *O(M)*, *M* is maximum lengths of the numbers + 1, This if for result string.
 
-[Implementation - Java](./java/com/ds/practice/AddTwoNumbers.java)
+[Implementation - Java](java/com/dsalgo/practice/AddTwoNumbers.java)
 
 
 #### Reverse Integer
@@ -314,7 +314,7 @@ if reversed < 2^32-1/10 || reversed == 2^32-1 && last digit < 8:
 **Space Complexity:**\
 *O(1)*
 
-[Implementation - Java](./java/com/ds/practice/ReverseInteger.java)
+[Implementation - Java](java/com/dsalgo/practice/ReverseInteger.java)
 
 
 #### Sort logs
@@ -353,7 +353,7 @@ We need to sort only the letter-logs, keep the digit logs at the same place.
 
 You may write your own comparator instead of built-in comparators.
 
-[Implementation - Java](./java/com/ds/practice/SortLogs.java)
+[Implementation - Java](java/com/dsalgo/practice/SortLogs.java)
 
 #### Palindrome Linked List
 Given a singly linked list, determine if it is a palindrome.
@@ -386,7 +386,7 @@ If a linked list is a palindrome then the linked list from head to middle node o
 *Time complexity : O(n)*, where *n* is the number of nodes in the Linked List.\
 *Space complexity : O(1)*.
 
-[Implementation - Java](./java/com/ds/practice/PalindromeLinkedList.java)
+[Implementation - Java](java/com/dsalgo/practice/PalindromeLinkedList.java)
 
 #### Design min-stack
 Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
@@ -440,7 +440,7 @@ top();    // return 0
 getMin(); // return -2
 ``` 
 
-[Implementation - Java](./java/com/ds/practice/MinStack.java)
+[Implementation - Java](java/com/dsalgo/practice/MinStack.java)
 
 
 #### Subdomain Visit Count
@@ -482,7 +482,7 @@ This problem is related to string operation and hash table. We iterate over each
 *Time complexity : O(n)*\
 *Space complexity : O(n)* 
 
-[Implementation - Java](./java/com/ds/practice/SubDomainCount.java)
+[Implementation - Java](java/com/dsalgo/practice/SubDomainCount.java)
 
 #### Design HashMap
 Design a HashMap without using any built-in hash table libraries.
@@ -506,7 +506,7 @@ hashMap.remove(2);          // remove the mapping for 2
 hashMap.get(2);            // returns -1 (not found) 
 ```
 
-[Implementation - Java](./java/com/ds/practice/DesignHashMap.java)
+[Implementation - Java](java/com/dsalgo/practice/DesignHashMap.java)
 
 #### Find longest common prefix
 Given an array of strings, find longest common  prefix. If there is no common prefix, return an empty string "".
@@ -613,7 +613,7 @@ Example:
              LCP  is fact         
 ```
 
-[Implementation - Java](./java/com/ds/practice/LongestCommonPrefix.java)
+[Implementation - Java](java/com/dsalgo/practice/LongestCommonPrefix.java)
 
 ### Validate palindrome
 Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
@@ -629,7 +629,7 @@ We can use two pointer, one will scan from left to right another from  right to 
 **Space Complexity:**\
 *O(1)*
 
-[Implementation - Java](./java/com/ds/practice/ValidPalindrome.java)
+[Implementation - Java](java/com/dsalgo/practice/ValidPalindrome.java)
 
 #### Fizz Buzz
 Write a program that outputs the string representation of numbers from 1 to n.
@@ -699,7 +699,7 @@ It will be easy to remove/update any mapping with minor code change
 *O(n)*
 **Space Complexity:**\
 *O(1)* For hash map approach space complexity will be *O(m)*, *m* is the number of mapping.\
-[Implementation - Java](./java/com/ds/practice/FizzBuzz.java)
+[Implementation - Java](java/com/dsalgo/practice/FizzBuzz.java)
 
 #### Minimum Moves to Equal Array Elements
 Given a non-empty integer array of size *n*, find the minimum number of moves required 
@@ -763,7 +763,7 @@ to find the minimum number and use difference between minimum number and all oth
 
 Time complexity: *O(n)*  and Space Complexity: *O(1)*\
 
-[Implementation - Java](./java/com/ds/practice/MinimumMovesToEqualArray.java)
+[Implementation - Java](java/com/dsalgo/practice/MinimumMovesToEqualArray.java)
 
 #### Convert a string to palindrome with at most one deletion
 Given a non-empty string `s`, you may delete at most one character. Judge whether you can make it a palindrome.
@@ -791,7 +791,7 @@ deleting one character; otherwise false.
 *O(n)*, *n* is the length of the string.
 **Space Complexity:**\
 *O(1)*
-[Implementation - Java](./java/com/ds/practice/ConvertAStringToPalindrome.java)
+[Implementation - Java](java/com/dsalgo/practice/ConvertAStringToPalindrome.java)
 
 #### Move zeros
 Given an array nums, write a function to move all 0's to the end of it while
@@ -813,7 +813,7 @@ We will do swap when the current index is pointing to 0.
 *O(n)*
 **Space Complexity:**\
 *O(1)*
-[Implementation - Java](./java/com/ds/practice/MoveZeros.java)
+[Implementation - Java](java/com/dsalgo/practice/MoveZeros.java)
 
 #### Palindrome Number
 Given an integer x, return true if x is palindrome integer.
@@ -848,7 +848,7 @@ We can revert the number and  check if given number is same as reverted number.
 *O(n)*
 **Space Complexity:**\
 *O(1)*\
-[Implementation - Java](./java/com/ds/practice/PalindromeNumber.java)
+[Implementation - Java](java/com/dsalgo/practice/PalindromeNumber.java)
 
 
 #### Construct K Palindrome Strings
@@ -902,7 +902,7 @@ then return false otherwise return true.
 *O(n)*
 **Space Complexity:**\
 *O(n)* for hash table \
-[Implementation - Java](./java/com/ds/practice/ConstructKPalindromeStrings.java)
+[Implementation - Java](java/com/dsalgo/practice/ConstructKPalindromeStrings.java)
 
 #### Text Justification
 Given an array of words and a width *maxWidth*, format the text such that each line has exactly *maxWidth* characters and is fully (left and right) justified.
@@ -921,7 +921,7 @@ Note:
 * The input array words contains at least one word.
 
 
-[Implementation - Java](./java/com/ds/practice/TextJustification.java)
+[Implementation - Java](java/com/dsalgo/practice/TextJustification.java)
 
 #### Rearrange Spaces Between Words
 You are given a string text of words that are placed among some number of spaces. 
@@ -957,7 +957,7 @@ Input: text = "a"
 Output: "a"
 ```
 
-[Implementation - Java](./java/com/ds/practice/RearrangeSpacesBetweenWords.java)
+[Implementation - Java](java/com/dsalgo/practice/RearrangeSpacesBetweenWords.java)
 
 
 #### Reconstruct Itinerary
@@ -982,7 +982,7 @@ Explanation: Another possible reconstruction is ["JFK","SFO","ATL","JFK","ATL","
              But it is larger in lexical order.
 ```
 
-[Implementation - Java](./java/com/ds/practice/ReconstructItinerary.java)
+[Implementation - Java](java/com/dsalgo/practice/ReconstructItinerary.java)
 
 #### Count Number of Islands
 Given an m x n 2d grid map of '1's (land) and '0's (water), return the number of islands.
@@ -1010,7 +1010,7 @@ Output: 3
 ```
 
 
-[Implementation - Java](./java/com/ds/practice/NumberOfIslands.java)
+[Implementation - Java](java/com/dsalgo/practice/NumberOfIslands.java)
 
 
 
