@@ -55,3 +55,5 @@ Data Structure &amp; Algorithms
 - [Surrounded Region]() - [Java](java/com/dsalgo/practice/SurroundedRegions.java)
 - [Time based key-value pair]() - [Java](java/com/dsalgo/practice/TimeBasedKeyValueStore.java)
 - [Topological Sort]() - [Java](java/com/dsalgo/practice/TopologicalSortKahn.java)
+- [Appointment conflict]() - [Java](java/com/dsalgo/practice/AppointmentConflict.java)
+- [Insert Interval]() - [Java](java/com/dsalgo/practice/InsertInterval.java)
