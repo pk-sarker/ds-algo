@@ -61,4 +61,4 @@ Data Structure &amp; Algorithms
 - [Find Ceiling of a number]() - [Java](java/com/dsalgo/practice/CeilingOfANumber.java)
 - [Find common free time]() - [Java](java/com/dsalgo/practice/CommonFreeTime.java)
 - [Find minimum cost to connect n cities]() - [Java](java/com/dsalgo/practice/ConnectingCitiesWithMinimumCost.java)
-- [Find minimum cost to connect n cities]() - [Java](java/com/dsalgo/practice/ConnectingCitiesWithMinimumCost.java)
+- [Fancy Sequence operation]() - [Java](java/com/dsalgo/practice/FancySequence.java)
