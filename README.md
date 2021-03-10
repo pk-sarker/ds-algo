@@ -57,3 +57,6 @@ Data Structure &amp; Algorithms
 - [Topological Sort]() - [Java](java/com/dsalgo/practice/TopologicalSortKahn.java)
 - [Appointment conflict]() - [Java](java/com/dsalgo/practice/AppointmentConflict.java)
 - [Insert Interval]() - [Java](java/com/dsalgo/practice/InsertInterval.java)
+- [No Conflict]() - [Java](java/com/dsalgo/practice/BestTeamWithNoConflicts.java)
+- [Find Ceiling of a number]() - [Java](java/com/dsalgo/practice/CeilingOfANumber.java)
+- [Find common free time]() - [Java](java/com/dsalgo/practice/CommonFreeTime.java)
