@@ -58,3 +58,4 @@ Data Structure &amp; Algorithms
 - [Appointment conflict]() - [Java](java/com/dsalgo/practice/AppointmentConflict.java)
 - [Insert Interval]() - [Java](java/com/dsalgo/practice/InsertInterval.java)
 - [No Conflict]() - [Java](java/com/dsalgo/practice/BestTeamWithNoConflicts.java)
+- [Find Ceiling of a number]() - [Java](java/com/dsalgo/practice/CeilingOfANumber.java)
