@@ -62,3 +62,4 @@ Data Structure &amp; Algorithms
 - [Find common free time]() - [Java](java/com/dsalgo/practice/CommonFreeTime.java)
 - [Find minimum cost to connect n cities]() - [Java](java/com/dsalgo/practice/ConnectingCitiesWithMinimumCost.java)
 - [Fancy Sequence operation]() - [Java](java/com/dsalgo/practice/FancySequence.java)
+- [Find all the missing numbers]() - [Java](java/com/dsalgo/practice/FindAllMissingNumbers.java)
