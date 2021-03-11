@@ -63,3 +63,5 @@ Data Structure &amp; Algorithms
 - [Find minimum cost to connect n cities](java/com/dsalgo/practice/ConnectingCitiesWithMinimumCost.java) - [Java](java/com/dsalgo/practice/ConnectingCitiesWithMinimumCost.java)
 - [Fancy Sequence operation](java/com/dsalgo/practice/FancySequence.java) - [Java](java/com/dsalgo/practice/FancySequence.java)
 - [Find all the missing numbers](java/com/dsalgo/practice/FindAllMissingNumbers.java) - [Java](java/com/dsalgo/practice/FindAllMissingNumbers.java)
+- [Find Duplicate Numbers](java/com/dsalgo/practice/FindDuplicateNumber.java) - [Java](java/com/dsalgo/practice/FindDuplicateNumber.java)
+- [Find first missing positive number](java/com/dsalgo/practice/FindFirstKMissingPositiveNumbers.java) - [Java](java/com/dsalgo/practice/FindFirstKMissingPositiveNumbers.java)
