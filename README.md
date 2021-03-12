@@ -70,3 +70,4 @@ Data Structure &amp; Algorithms
 - [Find k closest points from origin](java/com/dsalgo/practice/KClosestPointsFromOrigin.java) - [Java](java/com/dsalgo/practice/KClosestPointsFromOrigin.java)
 - [Find k-th missing positive number](java/com/dsalgo/practice/KthMissingPositiveNumber.java) - [Java](java/com/dsalgo/practice/KthMissingPositiveNumber.java)
 - [Parallel Courses](java/com/dsalgo/practice/ParallelCourses.java) - [Java](java/com/dsalgo/practice/ParallelCourses.java)
+- [Find smallest missing positive number](java/com/dsalgo/practice/SmallestMissingPositiveNumber.java) - [Java](java/com/dsalgo/practice/SmallestMissingPositiveNumber.java)
