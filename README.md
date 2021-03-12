@@ -66,3 +66,6 @@ Data Structure &amp; Algorithms
 - [Find Duplicate Numbers](java/com/dsalgo/practice/FindDuplicateNumber.java) - [Java](java/com/dsalgo/practice/FindDuplicateNumber.java)
 - [Find first missing positive number](java/com/dsalgo/practice/FindFirstKMissingPositiveNumbers.java) - [Java](java/com/dsalgo/practice/FindFirstKMissingPositiveNumbers.java)
 - [Find missing number](java/com/dsalgo/practice/FindMissingNumber.java) - [Java](java/com/dsalgo/practice/FindMissingNumber.java)
+- [Find intervals intersection](java/com/dsalgo/practice/IntervalsIntersection.java) - [Java](java/com/dsalgo/practice/IntervalsIntersection.java)
+- [Find k closest points from origin](java/com/dsalgo/practice/KClosestPointsFromOrigin.java) - [Java](java/com/dsalgo/practice/KClosestPointsFromOrigin.java)
+- [Find k-th missing positive number](java/com/dsalgo/practice/KthMissingPositiveNumber.java) - [Java](java/com/dsalgo/practice/KthMissingPositiveNumber.java)
