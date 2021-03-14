@@ -74,3 +74,4 @@ Data Structure &amp; Algorithms
 - [Find K-th smallest in a sorted arrays](java/com/dsalgo/practice/KthSmallestInMSortedArrays.java) - [Java](java/com/dsalgo/practice/KthSmallestInMSortedArrays.java)
 - [Find Minimum Meeting Rooms required](java/com/dsalgo/practice/MeetingRoomCount.java) - [Java](java/com/dsalgo/practice/MeetingRoomCount.java)
 - [Quard Tree](java/com/dsalgo/practice/QuardTree.java) - [Java](java/com/dsalgo/practice/QuardTree.java)
+- [Validate a sudoku board](java/com/dsalgo/practice/ValidSudoku.java) - [Java](java/com/dsalgo/practice/ValidSudoku.java)
