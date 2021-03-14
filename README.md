@@ -72,3 +72,4 @@ Data Structure &amp; Algorithms
 - [Parallel Courses](java/com/dsalgo/practice/ParallelCourses.java) - [Java](java/com/dsalgo/practice/ParallelCourses.java)
 - [Find smallest missing positive number](java/com/dsalgo/practice/SmallestMissingPositiveNumber.java) - [Java](java/com/dsalgo/practice/SmallestMissingPositiveNumber.java)
 - [Find K-th smallest in a sorted arrays](java/com/dsalgo/practice/KthSmallestInMSortedArrays.java) - [Java](java/com/dsalgo/practice/KthSmallestInMSortedArrays.java)
+- [Find Minimum Meeting Rooms required](java/com/dsalgo/practice/MeetingRoomCount.java) - [Java](java/com/dsalgo/practice/MeetingRoomCount.java)
