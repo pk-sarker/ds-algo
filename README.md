@@ -75,3 +75,4 @@ Data Structure &amp; Algorithms
 - [Find Minimum Meeting Rooms required](java/com/dsalgo/practice/MeetingRoomCount.java) - [Java](java/com/dsalgo/practice/MeetingRoomCount.java)
 - [Quard Tree](java/com/dsalgo/practice/QuardTree.java) - [Java](java/com/dsalgo/practice/QuardTree.java)
 - [Validate a sudoku board](java/com/dsalgo/practice/ValidSudoku.java) - [Java](java/com/dsalgo/practice/ValidSudoku.java)
+- [Search in infinite list](java/com/dsalgo/practice/SearchInInfiniteList.java) - [Java](java/com/dsalgo/practice/SearchInInfiniteList.java)
