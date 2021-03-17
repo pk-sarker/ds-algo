@@ -78,3 +78,4 @@ Data Structure &amp; Algorithms
 - [Search in infinite list](java/com/dsalgo/practice/SearchInInfiniteList.java) - [Java](java/com/dsalgo/practice/SearchInInfiniteList.java)
 - [Search in infinite list](java/com/dsalgo/practice/SearchInInfiniteList.java) - [Java](java/com/dsalgo/practice/SearchInInfiniteList.java)
 - [Find all possible subsets](java/com/dsalgo/practice/Subsets.java) - [Java](java/com/dsalgo/practice/Subsets.java)
+- [Reverse Sub Linked List](java/com/dsalgo/practice/ReverseSubLinkedList.java) - [Java](java/com/dsalgo/practice/ReverseSubLinkedList.java)
