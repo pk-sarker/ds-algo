@@ -80,3 +80,4 @@ Data Structure &amp; Algorithms
 - [Find all possible subsets](java/com/dsalgo/practice/Subsets.java) - [Java](java/com/dsalgo/practice/Subsets.java)
 - [Reverse Sub Linked List](java/com/dsalgo/practice/ReverseSubLinkedList.java) - [Java](java/com/dsalgo/practice/ReverseSubLinkedList.java)
 - [Search In Rotated Array](java/com/dsalgo/practice/SearchInRotatedArray.java) - [Java](java/com/dsalgo/practice/SearchInRotatedArray.java)
+- [Minimum cost to create a valid path in grid](java/com/dsalgo/practice/MinCostToCreateAValidPathInGrid.java) - [Java](java/com/dsalgo/practice/MinCostToCreateAValidPathInGrid.java)
