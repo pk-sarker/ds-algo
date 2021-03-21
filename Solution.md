@@ -1040,6 +1040,67 @@ Output: [[3,7]]
 [Implementation - Java](java/com/dsalgo/practice/IntervalListIntersections.java)
 
 
+#### Task Scheduler
+Given a characters array tasks, representing the tasks a CPU needs to do, where each letter represents a 
+different task. Tasks could be done in any order. Each task is done in one unit of time. For each unit of 
+time, the CPU could complete either one task or just be idle.
+
+However, there is a non-negative integer n that represents the cooldown period between two same tasks 
+(the same letter in the array), that is that there must be at least n units of time between any two same tasks.
+
+Return the least number of units of times that the CPU will take to finish all the given tasks.
+
+Example:
+```
+Input: tasks = ["A","A","A","B","B","B"], n = 2
+Output: 8
+Explanation: 
+A -> B -> idle -> A -> B -> idle -> A -> B
+There is at least 2 units of time between any two same tasks.
+
+
+Input: tasks = ["A","A","A","B","B","B"], n = 0
+Output: 6
+Explanation: On this case any permutation of size 6 would work since n = 0.
+["A","A","A","B","B","B"]
+["A","B","A","B","A","B"]
+["B","B","B","A","A","A"]
+
+Input: tasks = ["A","A","A","A","A","A","B","C","D","E","F","G"], n = 2
+Output: 16
+Explanation: 
+One possible solution is
+A -> B -> C -> A -> D -> E -> A -> F -> G -> A -> idle -> idle -> A -> idle -> idle -> A
+```
+
+**Solution**:
+In bruteforce approach, first we can count the occurance of the leters/tasks. Then create a data structure with
+last position of a task and available counts. Then in a loop select a task/letter if current position is *n* inxed 
+away from the last position of curreent task, otherwise try to add another task if available. If not available then 
+add idle. Repeat this processes until all the tasks are done.
+
+Lets try to solve the problem little intelligently. For each task/letter it will required at-least one unit of time,
+then the final reasult will be something like this: `task length + more`. We need to place same task with difference *n*, 
+so we can think `more` to be the number of idle time.
+
+Now for a giver list of tasks, the maximum number of idle time will depend of the task with max frequency. 
+So idle time range will be 0 to `(task_fq_max - 1) * n`. Now the idea is to fill the idle times with the tasks 
+other than the maximum occurrence task and deduct the frequency from total idle time.
+
+So final result will be length of the tasks and remaining idle time.
+
+**Time Complexity:**\
+*O(N)*, `N` is the total number of tasks.
+**Space Complexity:**\
+*O(1)*\
+
+[Implementation - Java](java/com/dsalgo/practice/TaskScheduler.java)
+   
+
+
+
+
+
 
 
 
