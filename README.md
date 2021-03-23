@@ -82,3 +82,4 @@ Data Structure &amp; Algorithms
 - [Search In Rotated Array](java/com/dsalgo/practice/SearchInRotatedArray.java) - [Java](java/com/dsalgo/practice/SearchInRotatedArray.java)
 - [Minimum cost to create a valid path in grid](java/com/dsalgo/practice/MinCostToCreateAValidPathInGrid.java) - [Java](java/com/dsalgo/practice/MinCostToCreateAValidPathInGrid.java)
 - [Task Scheduler](./Solution.md#task-scheduler) - [Java](java/com/dsalgo/practice/TaskScheduler.java)
+- [Sum Of Unique Elements](./Solution.md#sum-of-unique-elements) - [Java](java/com/dsalgo/practice/SumOfUniqueElements.java)
