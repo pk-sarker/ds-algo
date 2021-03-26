@@ -1163,7 +1163,22 @@ Output: false
 [Implementation - Java](java/com/dsalgo/practice/ValidateAnagram.java)
 
 
+#### High Five
+Given a list of the scores of different students, items, where `items[i] = [ID_i, score_i]` represents one score from a student with `ID_i`, calculate each student's top five average.
 
+Return the answer as an array of pairs result, where `result[j] = [ID_j, topFiveAverage_j]` represents the student with `ID_j` and their top five average. Sort result by `ID_j` in increasing order.\
+A student's top five average is calculated by taking the sum of their top five scores and dividing it by 5 using integer division.
+
+Example:
+```
+
+```
+**Time Complexity:**\
+*O(n)*
+**Space Complexity:**\
+*O(n)*\
+
+[Implementation - Java](java/com/dsalgo/practice/HighFive.java)
 
 
 
