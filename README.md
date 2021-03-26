@@ -85,3 +85,4 @@ Data Structure &amp; Algorithms
 - [Sum Of Unique Elements](./Solution.md#sum-of-unique-elements) - [Java](java/com/dsalgo/practice/SumOfUniqueElements.java)
 - [Next Warm Temperature](./Solution.md#next-warm-temperature) - [Java](java/com/dsalgo/practice/DailyTemperature.java)
 - [Validate Anagram](./Solution.md#validate-anagram) - [Java](java/com/dsalgo/practice/ValidateAnagram.java)
+- [High Five](./Solution.md#high-five) - [Java](java/com/dsalgo/practice/HighFive.java)
