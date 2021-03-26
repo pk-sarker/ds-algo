@@ -1143,6 +1143,26 @@ Output: [1, 1, 4, 2, 1, 1, 0, 0]
 [Implementation - Java](java/com/dsalgo/practice/DailyTemperature.java)
 
 
+#### Validate Anagram
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+
+Example:
+```
+Input: s = "abcd", t = "dcba"
+Output: true
+
+Input: s = "abcc", t = "abbc"
+Output: false
+```
+
+**Time Complexity:**\
+*O(n)*
+**Space Complexity:**\
+*O(n)*\
+
+[Implementation - Java](java/com/dsalgo/practice/ValidateAnagram.java)
+
+
 
 
 
