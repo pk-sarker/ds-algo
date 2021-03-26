@@ -84,3 +84,4 @@ Data Structure &amp; Algorithms
 - [Task Scheduler](./Solution.md#task-scheduler) - [Java](java/com/dsalgo/practice/TaskScheduler.java)
 - [Sum Of Unique Elements](./Solution.md#sum-of-unique-elements) - [Java](java/com/dsalgo/practice/SumOfUniqueElements.java)
 - [Next Warm Temperature](./Solution.md#next-warm-temperature) - [Java](java/com/dsalgo/practice/DailyTemperature.java)
+- [Validate Anagram](./Solution.md#validate-anagram) - [Java](java/com/dsalgo/practice/ValidateAnagram.java)
