@@ -86,4 +86,5 @@ Data Structure &amp; Algorithms
 - [Next Warm Temperature](./Solution.md#next-warm-temperature) - [Java](java/com/dsalgo/practice/DailyTemperature.java)
 - [Validate Anagram](./Solution.md#validate-anagram) - [Java](java/com/dsalgo/practice/ValidateAnagram.java)
 - [High Five](./Solution.md#high-five) - [Java](java/com/dsalgo/practice/HighFive.java)
-- [Binary Tree Level Order Traversal](./Solution.md#binary-tree-level-order-traversal) - [Java](java/com/dsalgo/practice/HighFive.java)
+- [Binary Tree Level Order Traversal](./Solution.md#binary-tree-level-order-traversal) - [Java](java/com/dsalgo/practice/TreeTraversalLevelOrder.java)
+- [Tree Traversal: In-Order, Pre-Order, Post-Order](java/com/dsalgo/practice/TreeTraversalDFS.java) - [Java](java/com/dsalgo/practice/TreeTraversalDFS.java)
