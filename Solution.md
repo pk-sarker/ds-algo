@@ -1181,6 +1181,26 @@ Example:
 [Implementation - Java](java/com/dsalgo/practice/HighFive.java)
 
 
+#### Binary Tree Level Order Traversal
+Given the root of a binary tree, return the level order traversal of its nodes' values. (i.e., from left to right, level by level).
+
+```
+    6
+   / \
+  8   11
+     /  \
+    9    5   
+
+Output: [[6], [8, 11], [9, 5]]
+```
+
+**Time Complexity:**\
+*O(n)*
+**Space Complexity:**\
+*O(n)*\
+
+[Implementation - Java](java/com/dsalgo/practice/TreeTraversalLevelOrder.java)
+
 
 
 
