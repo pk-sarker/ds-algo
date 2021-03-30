@@ -92,3 +92,4 @@ Data Structure &amp; Algorithms
 - [Binary Tree Vertical Order Traversal](java/com/dsalgo/practice/TreeTraversalVerticalOrder2.java) - [Java](java/com/dsalgo/practice/TreeTraversalVerticalOrder2.java)
 - [Cyclic Sort](java/com/dsalgo/practice/CyclicSort.java) - [Java](java/com/dsalgo/practice/CyclicSort.java)
 - [ZigZag Conversion](./Solution.md#zigzag-conversion) - [Java](java/com/dsalgo/practice/ZigZagConversion.java)
+- [Binary Tree Zigzag Level Order Traversal](./Solution.md#binary-tree-zigzag-level-order-traversal) - [Java](java/com/dsalgo/practice/TreeTraversalZigZagOrder.java)
