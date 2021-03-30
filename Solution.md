@@ -1201,9 +1201,19 @@ Output: [[6], [8, 11], [9, 5]]
 
 [Implementation - Java](java/com/dsalgo/practice/TreeTraversalLevelOrder.java)
 
+#### Binary Tree Vertical Order Traversal
+Given the root of a binary tree, return the vertical order traversal of its nodes' values. 
+(i.e., from top to bottom, column by column).
+
+If two nodes are in the same row and column, the order should be from left to right.
 
 
+**Time Complexity:**\
+*O(n)*
+**Space Complexity:**\
+*O(n)*\
 
+[Implementation - Java](java/com/dsalgo/practice/TreeTraversalVerticalOrder.java)
 
 
 
