@@ -88,3 +88,4 @@ Data Structure &amp; Algorithms
 - [High Five](./Solution.md#high-five) - [Java](java/com/dsalgo/practice/HighFive.java)
 - [Binary Tree Level Order Traversal](./Solution.md#binary-tree-level-order-traversal) - [Java](java/com/dsalgo/practice/TreeTraversalLevelOrder.java)
 - [Tree Traversal: In-Order, Pre-Order, Post-Order](java/com/dsalgo/practice/TreeTraversalDFS.java) - [Java](java/com/dsalgo/practice/TreeTraversalDFS.java)
+- [Binary Tree Vertical Order Traversal](java/com/dsalgo/practice/TreeTraversalVerticalOrder.java) - [Java](java/com/dsalgo/practice/TreeTraversalVerticalOrder.java)
