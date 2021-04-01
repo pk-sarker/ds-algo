@@ -94,3 +94,6 @@ Data Structure &amp; Algorithms
 - [ZigZag Conversion](./Solution.md#zigzag-conversion) - [Java](java/com/dsalgo/practice/ZigZagConversion.java)
 - [Binary Tree Zigzag Level Order Traversal](./Solution.md#binary-tree-zigzag-level-order-traversal) - [Java](java/com/dsalgo/practice/TreeTraversalZigZagOrder.java)
 - [Isomorphic Strings](./Solution.md#isomorphic-strings) - [Java](java/com/dsalgo/practice/IsomorphicStrings.java)
+- [Design Parking System](./Solution.md#design-parking-system) - [Java](java/com/dsalgo/practice/DesignParkingSystem.java)
+
+
