@@ -93,3 +93,4 @@ Data Structure &amp; Algorithms
 - [Cyclic Sort](java/com/dsalgo/practice/CyclicSort.java) - [Java](java/com/dsalgo/practice/CyclicSort.java)
 - [ZigZag Conversion](./Solution.md#zigzag-conversion) - [Java](java/com/dsalgo/practice/ZigZagConversion.java)
 - [Binary Tree Zigzag Level Order Traversal](./Solution.md#binary-tree-zigzag-level-order-traversal) - [Java](java/com/dsalgo/practice/TreeTraversalZigZagOrder.java)
+- [Isomorphic Strings](./Solution.md#isomorphic-strings) - [Java](java/com/dsalgo/practice/IsomorphicStrings.java)
