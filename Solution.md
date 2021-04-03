@@ -1329,3 +1329,39 @@ which are represented by 1, 2, and 3 respectively. A car can only park in a park
 
 
 [Implementation - Java](java/com/dsalgo/practice/DesignParkingSystem.java)  
+
+####  Right Side View of Binary Tree
+Given a binary tree, looking from the right side of it, return the values of the nodes you can see ordered from top to bottom.
+
+**Example 1**
+```
+Input: [1,2,3,null,5,null,4]
+Output: [1, 3, 4]
+Explanation:
+
+   1            <---
+ /   \
+2     3         <---
+ \     \
+  5     4       <---
+```
+
+**Solution**
+Key observation for this problem is that we need to select one node for each level. Select the 
+right most node in outer boundary. If right subtree doesn't exists then traverse left subtree.
+
+We can use both Breath first and Depth first search. BFS will be more appriopriate as it search 
+by level.
+
+At each level we need to get the right most node. The idea is for each level we 
+will push the nodes to a end of special queue(double ended queue). 
+Then iterate over the elements in the queue and poll from the front end of the queue.
+The last node in the queue will be the right most node.
+
+**Time Complexity:**\
+*O(n)*
+
+**Space Complexity:**\
+*O(D)*, *D* is tree diameter.
+
+[Implementation - BFS - Java](java/com/dsalgo/practice/RightSideViewOfBinaryTree.java)
