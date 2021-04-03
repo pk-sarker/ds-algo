@@ -1374,3 +1374,36 @@ is less then that result list size, which means we are backtracking and one node
 node has been already added.
 
 [Implementation - DFS - Java](java/com/dsalgo/practice/RightSideViewOfBinaryTree.java)
+
+
+#### Course Schedule
+There are a total of numCourses courses you have to take, labeled from `0` to numCourses - `1`. You are given an array prerequisites where prerequisites *[i] = [a_i, b_i]* indicates 
+that you must take course *b_i* first if you want to take course *a_i*.
+
+For example, the pair `[0, 1]`, indicates that to take course `0` you have to first take course `1`.
+Return true if you can finish all courses. Otherwise, return false.
+
+```
+Input: numCourses = 2, prerequisites = [[1,0]]
+Output: true
+Explanation: There are a total of 2 courses to take. 
+To take course 1 you should have finished course 0. So it is possible.
+
+Input: numCourses = 2, prerequisites = [[1,0],[0,1]]
+Output: false
+Input: numCourses = 4, prerequisites = [[1,0],[3,2],[2,1]]
+Output: true
+Input: numCourses = 5, prerequisites = [[1,0],[3,2],[2,4],[4,3]]
+Output: false
+```
+
+**Solution**:
+The solution is to create a Tree from the dependencies and traverse the tree looking for cycles.
+If there is  a cycle then the courses can't be completed, there is a circular dependency.
+
+
+**Time Complexity:**\
+*O(|E|+|V|)* where |V| is the number of vertices/courses and |E| is the number of edges
+
+**Space Complexity:**\
+*O(|E|+|V|)*
