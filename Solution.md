@@ -1365,3 +1365,12 @@ The last node in the queue will be the right most node.
 *O(D)*, *D* is tree diameter.
 
 [Implementation - BFS - Java](java/com/dsalgo/practice/RightSideViewOfBinaryTree.java)
+
+Using DFS: The idea is the keep exploring right child as farther as possible, and update level. 
+At each level we will add one node to the result list, if right child is available we explore right 
+otherwise left. At each level we compare the result list size vs level value, if the level value is
+same as the result list size(0-indexed) then we add the node in the result list. If the level value 
+is less then that result list size, which means we are backtracking and one node (right or left) 
+node has been already added.
+
+[Implementation - DFS - Java](java/com/dsalgo/practice/RightSideViewOfBinaryTree.java)

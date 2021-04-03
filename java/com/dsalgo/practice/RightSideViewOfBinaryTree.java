@@ -2,10 +2,7 @@ package com.dsalgo.practice;
 
 import com.dsalgo.practice.common.TreeNode;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 /**
  * Given the root of a binary tree, imagine yourself standing on the right side of it,
@@ -37,6 +34,30 @@ public class RightSideViewOfBinaryTree {
         }
         return result;
     }
+
+    private List<Integer> result = new ArrayList<>();
+    public List<Integer> rightSideViewWithDFS(TreeNode root) {
+        if (root == null) {
+            return result;
+        }
+        helper(root, 0);
+
+        return result;
+
+    }
+
+    public void helper(TreeNode root, int level) {
+        if (level == result.size()) {
+            result.add(root.value);
+        }
+        if (root.right != null) {
+            helper(root.right, level+1);
+        }
+        if (root.left != null) {
+            helper(root.left, level+1);
+        }
+
+    }
     public static void printList(List<Integer> result) {
         StringBuilder sb = new StringBuilder();
         result.forEach(node -> {
@@ -58,7 +79,8 @@ public class RightSideViewOfBinaryTree {
         RightSideViewOfBinaryTree.printList(result);
 
         TreeNode root1 = new TreeNode(1, new TreeNode(2, null, new TreeNode(4, new TreeNode(6))), new TreeNode(3, new TreeNode(5), null));
-        List<Integer> result1 = RightSideViewOfBinaryTree.rightSideView(root1);
+        RightSideViewOfBinaryTree obj = new RightSideViewOfBinaryTree();
+        List<Integer> result1 = obj.rightSideViewWithDFS(root1);
         System.out.println("Input:\n"+
                 "         1\n" +
                 "       /  \\\n" +
