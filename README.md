@@ -97,6 +97,8 @@ Data Structure &amp; Algorithms
 - [Design Parking System](./Solution.md#design-parking-system) - [Java](java/com/dsalgo/practice/DesignParkingSystem.java)
 - [Right Side View of Binary Tree](./Solution.md#right-side-view-of-binary-tree) - [Java](java/com/dsalgo/practice/RightSideViewOfBinaryTree.java)
 - [Course Schedule](./Solution.md#course-schedule) - [Java](java/com/dsalgo/practice/CourseSchedule.java)
+- [Binary Tree Cameras](java/com/dsalgo/practice/CamerasOnBinaryTree.java) - [Java](java/com/dsalgo/practice/CamerasOnBinaryTree.java)
+
 
 
 
