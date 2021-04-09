@@ -99,6 +99,7 @@ Data Structure &amp; Algorithms
 - [Course Schedule](./Solution.md#course-schedule) - [Java](java/com/dsalgo/practice/CourseSchedule.java)
 - [Binary Tree Cameras](java/com/dsalgo/practice/CamerasOnBinaryTree.java) - [Java](java/com/dsalgo/practice/CamerasOnBinaryTree.java)
 - [Binary Tree Level Order Traversal II](./Solution.md#binary-tree-level-order-traversal-ii) - [Java](java/com/dsalgo/practice/BinaryTreeLevelOrderTraversal2.java)
+- [Minimum Knight Moves](./Solution.md#minimum-knight-moves) - [Java](java/com/dsalgo/practice/MinimumKnightMoves.java)
 
 
 
