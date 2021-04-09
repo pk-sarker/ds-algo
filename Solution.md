@@ -1434,3 +1434,28 @@ The problem is same as level order traversal in binary tree. Then reverse the re
 
 [Implementation - DFS - Java](java/com/dsalgo/practice/BinaryTreeLevelOrderTraversal2.java)
 
+#### Minimum Knight Moves
+In an infinite chess board with coordinates from -infinity to +infinity, you have a knight at square [0, 0].
+
+A knight has 8 possible moves it can make, as illustrated below. Each move is two squares in a cardinal direction, then one square in an orthogonal direction.
+Return the minimum number of steps needed to move the knight to the square [x, y].  It is guaranteed the answer exists.
+
+![Knight Move](./assets/knight-move.png)
+
+**Solution**
+We can transform this problem to tree, I mean represent the solution space in a tree and then do a tree traversal  
+to find the solution.
+
+To do that we can think of each square of the board is a node which has two property`(x,y)`. 
+Now what are the solution space, the board. As the moves are defined and limited, `8`, we can think or 
+each node will have 8 child node. We need to create a list of rules that will help us to find the 
+*x, y* property of each chile node. 
+
+
+**Time Complexity:**\
+*O(n)* where n is the number of nodes, each node processed exactly once.
+
+**Space Complexity:**\
+*O(n)*
+
+[Implementation - DFS - Java](java/com/dsalgo/practice/MinimumKnightMoves.java)
