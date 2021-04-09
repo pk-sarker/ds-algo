@@ -1407,3 +1407,30 @@ If there is  a cycle then the courses can't be completed, there is a circular de
 
 **Space Complexity:**\
 *O(|E|+|V|)*
+
+
+#### Binary Tree Level Order Traversal II
+Given the root of a binary tree, return the bottom-up level order traversal of its nodes' values. (i.e., from left to right, level by level from leaf to root).
+
+```
+Input: root = [3,9,20,null,null,15,7]
+Output: [[15,7],[9,20],[3]]
+
+Input: root = [1]
+Output: [[1]]
+
+Input: root = []
+Output: []
+```
+
+**Solution**:
+The problem is same as level order traversal in binary tree. Then reverse the result.
+
+**Time Complexity:**\
+*O(n)* where n is the number of nodes, each node processed exactly once.
+
+**Space Complexity:**\
+*O(n)*
+
+[Implementation - DFS - Java](java/com/dsalgo/practice/BinaryTreeLevelOrderTraversal2.java)
+
