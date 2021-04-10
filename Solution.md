@@ -1459,3 +1459,33 @@ each node will have 8 child node. We need to create a list of rules that will he
 *O(n)*
 
 [Implementation - DFS - Java](java/com/dsalgo/practice/MinimumKnightMoves.java)
+
+
+#### Minimum Depth of Binary Tree
+
+Given a binary tree, find its minimum depth.
+
+The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
+
+Note: A leaf is a node with no children.
+
+Example:
+
+Tree 1             |  Tree 2
+:-------------------------:|:-------------------------:
+![Binary Tree 1](./assets/binarytree1.png)  |  ![Binary Tree 2](./assets/binarytree2.png)
+Depth 2 | Depth 3
+
+
+**Solution**
+As the requirement is the find the lowest depth that means the node with lowest depth will be the 
+closest leaf node from the root. If we traverse the tree in level order then we will find the leaf 
+nodes with lowest depth first.
+
+**Time Complexity:**\
+*O(n)* where n is the number of nodes, each node processed exactly once.
+
+**Space Complexity:**\
+*O(n)*
+
+[Implementation - DFS - Java](java/com/dsalgo/practice/MinimumDepthOfBinaryTree.java)

@@ -100,6 +100,6 @@ Data Structure &amp; Algorithms
 - [Binary Tree Cameras](java/com/dsalgo/practice/CamerasOnBinaryTree.java) - [Java](java/com/dsalgo/practice/CamerasOnBinaryTree.java)
 - [Binary Tree Level Order Traversal II](./Solution.md#binary-tree-level-order-traversal-ii) - [Java](java/com/dsalgo/practice/BinaryTreeLevelOrderTraversal2.java)
 - [Minimum Knight Moves](./Solution.md#minimum-knight-moves) - [Java](java/com/dsalgo/practice/MinimumKnightMoves.java)
-
+- [Minimum Depth of Binary Tree](./Solution.md#minimum-depth-of-binary-tree) - [Java](java/com/dsalgo/practice/MinimumDepthOfBinaryTree.java)
 
 
