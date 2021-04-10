@@ -1,9 +1,6 @@
 package com.dsalgo.practice;
 
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Set;
+import java.util.*;
 
 /**
  * In an infinite chess board with coordinates from -infinity to +infinity, you have a knight at square [0, 0].
@@ -58,11 +55,42 @@ public class MinimumKnightMoves {
         return -1;
     }
 
+
+    public int minKnightMovesRecursion(int x, int y) {
+        x = Math.abs(x);
+        y = Math.abs(y);
+        Map<String, Integer> memo = new HashMap<>();
+        int minMoves = findMinMoves(x, y, memo);
+        return minMoves;
+    }
+
+    public int findMinMoves(int x, int  y, Map<String, Integer> memo) {
+        // x,y -> 0,0
+        // moves -> (-1,-2),(-2,-1)
+        String key = x + ":" + y;
+        if(memo.containsKey(key)) {
+            return memo.get(key);
+        }
+        if (x == 0  & y == 0) {
+            return 0;
+        } else if(x+y == 2){
+            return 2;
+        }
+
+        int min = Math.min(findMinMoves(Math.abs(x-1), Math.abs(y-2), memo), findMinMoves(Math.abs(x-2),Math.abs(y-1), memo))+1;
+        memo.put(key, min);
+        return min;
+
+    }
+
     public static void main(String args[]) {
         System.out.println("\nx=5, y=5\nOutput: " + MinimumKnightMoves.minKnightMoves(5,5));
 
         System.out.println("\nx=2, y=1\nOutput: " + MinimumKnightMoves.minKnightMoves(2,1));
 
         System.out.println("\nx=2, y=112\nOutput: " + MinimumKnightMoves.minKnightMoves(2,112));
+
+        MinimumKnightMoves obj = new MinimumKnightMoves();
+        System.out.println("\nx=2, y=112\nOutput: " + obj.minKnightMovesRecursion(2,112));
     }
 }
