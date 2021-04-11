@@ -1530,3 +1530,32 @@ Do the same level order traversal with modification on traversing the childs. No
 
 [Implementation - Java](java/com/dsalgo/practice/NaryTreeLevelOrderTraversal.java)
 
+
+#### Cousins in Binary Tree
+
+In a binary tree, the root node is at depth 0, and children of each depth k node are at depth k+1.
+
+Two nodes of a binary tree are cousins if they have the same depth, but have different parents.
+
+We are given the root of a binary tree with unique values, and the values x and y of two different nodes in the tree.
+
+Return true if and only if the nodes corresponding to the values x and y are cousins.
+
+Example:
+![Binary Search Tree 1](./assets/bst1.png) 
+Input: *x=2, y=13*\
+Output: *true*
+
+Input: *x=2, y=7*\
+Output: *false*
+
+Input: *x=2, y=9*\
+Output: *false*
+
+**Time Complexity:**\
+*O(n)* where *n* is the number of nodes, each node processed exactly once.
+
+**Space Complexity:**\
+*O(n)*
+
+[Implementation - Java](java/com/dsalgo/practice/CousinsInBinaryTree.java)
