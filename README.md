@@ -101,5 +101,6 @@ Data Structure &amp; Algorithms
 - [Binary Tree Level Order Traversal II](./Solution.md#binary-tree-level-order-traversal-ii) - [Java](java/com/dsalgo/practice/BinaryTreeLevelOrderTraversal2.java)
 - [Minimum Knight Moves](./Solution.md#minimum-knight-moves) - [Java](java/com/dsalgo/practice/MinimumKnightMoves.java)
 - [Minimum Depth of Binary Tree](./Solution.md#minimum-depth-of-binary-tree) - [Java](java/com/dsalgo/practice/MinimumDepthOfBinaryTree.java)
+- [Average of Levels in Binary Tree](./Solution.md#average-of-levels-in-binary-tree) - [Java](java/com/dsalgo/practice/AverageOfLevelsInBinaryTree.java)
 
 

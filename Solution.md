@@ -1489,3 +1489,44 @@ nodes with lowest depth first.
 *O(n)*
 
 [Implementation - DFS - Java](java/com/dsalgo/practice/MinimumDepthOfBinaryTree.java)
+
+#### Average of Levels in Binary Tree
+Given the root of a binary tree, return the average value of the nodes on each level in the form of an array. Answers within 10-5 of the actual answer will be accepted.
+
+Example:
+![Binary Tree 1](./assets/binarytree1.png) 
+Output: [1.0, 2.5, 4.5]
+
+![Binary Tree 2](./assets/binarytree2.png)
+Output: [1.0, 2.5, 5.0]
+
+**Solution**
+The solution in level order search. After completing the level order search you will have list of nodes at each level.
+Then iterate over the nodes by level and calculate the average.
+
+**Time Complexity:**\
+*O(n)* where n is the number of nodes, each node processed exactly once.
+
+**Space Complexity:**\
+*O(n)*
+
+[Implementation - Java](java/com/dsalgo/practice/AverageOfLevelsInBinaryTree.java)
+
+#### N-ary Tree Level Order Traversal
+Given an n-ary tree, return the level order traversal of its nodes' values.
+
+Nary-Tree input serialization is represented in their level order traversal, each group of children is separated by the null value (See examples).
+
+
+**Solution**
+The solution in level order search. Compared to binary tree in n-ary tree there can be more than two child nodes.
+Do the same level order traversal with modification on traversing the childs. Now there will be a list of childs.
+
+**Time Complexity:**\
+*O(n)* where *n* is the number of nodes, each node processed exactly once.
+
+**Space Complexity:**\
+*O(n)*
+
+[Implementation - Java](java/com/dsalgo/practice/NaryTreeLevelOrderTraversal.java)
+
