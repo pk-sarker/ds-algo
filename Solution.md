@@ -1511,3 +1511,22 @@ Then iterate over the nodes by level and calculate the average.
 *O(n)*
 
 [Implementation - Java](java/com/dsalgo/practice/AverageOfLevelsInBinaryTree.java)
+
+#### N-ary Tree Level Order Traversal
+Given an n-ary tree, return the level order traversal of its nodes' values.
+
+Nary-Tree input serialization is represented in their level order traversal, each group of children is separated by the null value (See examples).
+
+
+**Solution**
+The solution in level order search. Compared to binary tree in n-ary tree there can be more than two child nodes.
+Do the same level order traversal with modification on traversing the childs. Now there will be a list of childs.
+
+**Time Complexity:**\
+*O(n)* where *n* is the number of nodes, each node processed exactly once.
+
+**Space Complexity:**\
+*O(n)*
+
+[Implementation - Java](java/com/dsalgo/practice/NaryTreeLevelOrderTraversal.java)
+
