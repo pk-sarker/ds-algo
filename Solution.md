@@ -1559,3 +1559,31 @@ Output: *false*
 *O(n)*
 
 [Implementation - Java](java/com/dsalgo/practice/CousinsInBinaryTree.java)
+
+#### Find Nodes Distance K in Binary Tree
+We are given a binary tree (with root node root), a target node, and an integer value *K*.\
+Return a list of the values of all nodes that have a distance *K* from the target node.  The answer can be returned in any order.
+
+
+Example:
+![Binary Search Tree 1](./assets/bst2.png) 
+Input: *target = 4, K = 2*\
+Output: *[8,9,15]*
+
+Input: *target = 7, K = 2*\
+Output: *[2, 10]*
+
+Input: *target = 8, K = 6*\
+Output: *[14]*
+
+Input: *target = 8, K = 5*\
+Output: *[13,17]*
+
+
+**Time Complexity:**\
+*O(n)* where *n* is the number of nodes, each node processed exactly once.
+
+**Space Complexity:**\
+*O(n)*
+
+[Implementation - Java](java/com/dsalgo/practice/CousinsInBinaryTree.java)
