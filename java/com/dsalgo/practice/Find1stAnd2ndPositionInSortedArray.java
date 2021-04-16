@@ -20,103 +20,47 @@ import java.util.Arrays;
  */
 public class Find1stAnd2ndPositionInSortedArray {
 
-    public static int[] searchRange(int[] nums, int target) {
-        int n = nums.length;
-        int[] res = new int[]{-1, -1};
-        if (n <= 1) {
-            return n == 0 ? res: nums[0] == target ? new int[]{0,0}:res;
-        }
-        if (n == 2) {
-            res[0] = nums[0] == target ? 0: nums[1]==target ? 1:-1;
-            res[1] = nums[1] == target ? 1: nums[1]==target ? 1:-1;
-            for(int i=0;i<2; i++) {
-                if (res[0] == -1 && nums[i] == target) {
-                    res[0] = i;
-                }
-
-                if (nums[i] == target) {
-                    res[1] = i;
-                }
-            }
-            return res;
-        }
-        if (nums[n-1] == target) {
-            res[1] = n-1;
-        }
-        int low = 0, high = n-1, mid=0;
-
-        while(low < high) {
-            mid = low + (high - low)/2;
-            //System.out.println("low: " + low + " high: "+high + " mid: " + mid + " midn: " + nums[mid]);
-            if (mid == 0 ) {
-
-            }
-            if (nums[mid] == target) {
-                if (mid >=1 && nums[mid-1] < target) {
-                    res[0] = mid;
-                } else  {
-                    for(int i=mid; i>=low; i--) {
-                        if (nums[i] == target) {
-                            res[0] = i;
-                        } else {
-                            break;
-                        }
-                    }
-                }
-                if (mid <= n-2 && nums[mid+1] > target) {
-                    res[1] = mid;
-                } else {
-                    for(int i=mid+1; i<=high; i++) {
-                        if (nums[i] == target) {
-                            res[1] = i;
-                        } else {
-                            break;
-                        }
-                    }
-                }
-                if (mid == n-1) {
-                    res[1] = mid;
-                }
-                break;
-            } else if ( nums[mid] > target) {
-                high = mid;
-            } else {
-                low = mid + 1;
-            }
-        }
-        if (res[1] >=0 && res[0] <0) {
-            res[0] = res[1];
-        }
-        return res;
-    }
-
-    public static int[] findRange(int[] arr, int key) {
+    public static int[] findRange(int[] nums, int target) {
         int[] result = new int[] { -1, -1 };
-        result[0] = search(arr, key, false);
-        if (result[0] != -1) // no need to search, if 'key' is not present in the input array
-            result[1] = search(arr, key, true);
+        if (nums.length <=0) {
+            return result;
+        }
+
+        result[0] = findIndex(nums, target, true);
+        if (result[0] == -1) {
+            return new int[]{-1,-1};
+        }
+        result[1] = findIndex(nums, target, false);
+
         return result;
     }
 
-    // modified Binary Search
-    private static int search(int[] arr, int key, boolean findMaxIndex) {
-        int keyIndex = -1;
-        int start = 0, end = arr.length - 1;
-        while (start <= end) {
-            int mid = start + (end - start) / 2;
-            if (key < arr[mid]) {
-                end = mid - 1;
-            } else if (key > arr[mid]) {
+    public static int findIndex(int[] nums, int target, boolean isFirst) {
+        int start = 0, end = nums.length-1;
+        int index = -1;
+        while(start <= end) {
+            int mid = start + (end-start)/2;
+
+            if (nums[mid] == target) {
+                if (isFirst) {
+                    if (mid == start || nums[mid-1] != nums[mid]) {
+                        return mid;
+                    }
+                    end = mid-1;
+                } else {
+                    if (mid == end || nums[mid+1] != nums[mid]) {
+                        return mid;
+                    }
+                    start = mid+1;
+                }
+
+            } else if (nums[mid] > target){
+                end = mid-1;
+            } else {
                 start = mid + 1;
-            } else { // key == arr[mid]
-                keyIndex = mid;
-                if (findMaxIndex)
-                    start = mid + 1; // search ahead to find the last index of 'key'
-                else
-                    end = mid - 1; // search behind to find the first index of 'key'
             }
         }
-        return keyIndex;
+        return index;
     }
 
 
@@ -134,13 +78,15 @@ public class Find1stAnd2ndPositionInSortedArray {
 
         //System.out.println("\nInput: [1,2,3] target=3\nOutput: " + Arrays.toString(Find1stAnd2ndPositionInSortedArray.searchRange(new int[]{1,2,3}, 3)));
 
-        System.out.println("\nInput: [1,2,3] target=3\nOutput: " + Arrays.toString(Find1stAnd2ndPositionInSortedArray.findRange(new int[]{1,2,3}, 3)));
+//        System.out.println("\nInput: [1,2,3] target=3\nOutput: " + Arrays.toString(Find1stAnd2ndPositionInSortedArray.findRange(new int[]{1,2,3}, 3)));
+//
+//        System.out.println("\nInput: [1,2,3] target=4\nOutput: " + Arrays.toString(Find1stAnd2ndPositionInSortedArray.findRange(new int[]{1,2,3}, 4)));
+//
+//        System.out.println("\nInput: [5,7,7,8,8,10] target=8\nOutput: " + Arrays.toString(Find1stAnd2ndPositionInSortedArray.findRange(new int[]{5,7,7,8,8,10}, 8)));
 
-        System.out.println("\nInput: [1,2,3] target=4\nOutput: " + Arrays.toString(Find1stAnd2ndPositionInSortedArray.findRange(new int[]{1,2,3}, 4)));
-
-        System.out.println("\nInput: [5,7,7,8,8,10] target=8\nOutput: " + Arrays.toString(Find1stAnd2ndPositionInSortedArray.findRange(new int[]{5,7,7,8,8,10}, 8)));
 
 
+        System.out.println("\nInput: [5,5,7,7,7,8,8,10] target=8\nOutput: " + Arrays.toString(Find1stAnd2ndPositionInSortedArray.findRange(new int[]{5,5,7,7,7,8,8,10}, 8)));
 
     }
 }
