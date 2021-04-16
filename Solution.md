@@ -1629,3 +1629,40 @@ iterate over the hashmap to find the majority element.
 *O(n)*
 
 [Implementation - Java](java/com/dsalgo/practice/MajorityElement.java) 
+
+#### House Robber
+You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping
+ you from robbing each of them is that adjacent houses have security systems connected and it will automatically contact the police if two adjacent 
+ houses were broken into on the same night.
+
+Given an integer array nums representing the amount of money of each house, return the maximum amount of money you can rob tonight without alerting the police.
+
+Example:
+```
+Input: nums = [1,2,3,1]
+Output: 4
+Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3).
+Total amount you can rob = 1 + 3 = 4.
+
+Input: nums = [2,7,9,3,1]
+Output: 12
+Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (money = 1).
+Total amount you can rob = 2 + 9 + 1 = 12.
+```
+
+**Solution**
+Greedy approach won't work for this problem. There is no way to decide if the robber should rob 
+current house or not. Robber doesn't know if he is going gain more money by robbing current one or the next one. And the 
+same decision point will be there in the next house as well. 
+
+So the decision has to come from the end and compare if robbing current house will beneficial or the next one.
+
+We can use recursion to go deeper to the end, and used memorization to keep track of already inspected houses.
+ 
+**Time Complexity:**\
+*O(n)* 
+
+**Space Complexity:**\
+*O(n)*
+
+[Implementation - Java](java/com/dsalgo/practice/HouseRobber.java) 
