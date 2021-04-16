@@ -105,6 +105,10 @@ Data Structure &amp; Algorithms
 - [Cousins in Binary Tree](./Solution.md#cousins-in-binary-tree) - [Java](java/com/dsalgo/practice/CousinsInBinaryTree.java)
 - [Find Nodes Distance K in Binary Tree](./Solution.md#find-nodes-distance-k-in-binary-tree) - [Java](java/com/dsalgo/practice/NodesAtKDistanceInBinaryTree.java)
 - [Reorder LinkedList](./Solution.md#reorder-linkedlist) - [Java](java/com/dsalgo/practice/ReorderLinkedList.java)
+- [Majority Element](./Solution.md#majority-element) - [Java](java/com/dsalgo/practice/MajorityElement.java)
+
+
+
 
 
 
