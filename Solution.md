@@ -1587,3 +1587,27 @@ Output: *[13,17]*
 *O(n)*
 
 [Implementation - Java](java/com/dsalgo/practice/CousinsInBinaryTree.java)
+
+
+#### Reorder LinkedList
+You are given the head of a singly linked-list. The list can be represented as:
+```
+L0 → L1 → ... → Ln - 1 → Ln
+```
+Reorder the list to be on the following form:
+```
+L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → ...
+```
+You may not modify the values in the list's nodes. Only nodes themselves may be changed.
+
+**Solution**
+Find the middle of the linked list first. Then reverse the 2nd half of the linked list (from next node after mid to end).
+Then add each node from reversed 2nd half to the head alternatively.
+
+**Time Complexity:**\
+*O(n)* where *n* is the number of nodes, each node processed exactly once.
+
+**Space Complexity:**\
+*O(n)*
+
+[Implementation - Java](java/com/dsalgo/practice/ReorderLinkedList.java) 
