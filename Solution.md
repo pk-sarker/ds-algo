@@ -1611,3 +1611,21 @@ Then add each node from reversed 2nd half to the head alternatively.
 *O(n)*
 
 [Implementation - Java](java/com/dsalgo/practice/ReorderLinkedList.java) 
+
+#### Majority Element
+Given an array nums of size *n*, return the majority element.
+
+The majority element is the element that appears more than ⌊*n* / 2⌋ times. You may assume that the majority element always exists in the array.
+
+**Solution**
+Iterate over the array and store the frequency of each number in a hash map. Then 
+iterate over the hashmap to find the majority element.
+
+
+**Time Complexity:**\
+*O(n)* where *n* is the number of nodes, each node processed exactly once.
+
+**Space Complexity:**\
+*O(n)*
+
+[Implementation - Java](java/com/dsalgo/practice/MajorityElement.java) 
