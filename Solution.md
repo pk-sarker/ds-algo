@@ -1694,3 +1694,35 @@ Output: CDEefcd-698?
 *O(n)*
 
 [Implementation - Java](java/com/dsalgo/practice/RotationalCipher.java) 
+
+#### Shifting Letters
+We have a string `S` of lowercase letters, and an integer array shifts.
+
+Call the shift of a letter, the next letter in the alphabet, (wrapping around so that 'z' becomes 'a'). 
+
+For example, `shift('a') = 'b'`, `shift('t') = 'u'`, and `shift('z') = 'a'`.
+
+Now for each `shifts[i] = x`, we want to shift the first `i+1` letters of `S`, `x` times.
+
+Return the final string after all such shifts to `S` are applied.
+
+**Solution**
+Basic this is shifting the letters, and we need to round them if it reaches at the end, i mean at `z`.
+We can do with by: 
+* find the position of the letter in the alphabel, like 'a' with at 0-th position and 'b' at
+1-st position
+* Then add the shift number to the position, the sum may get bigger then the letter ascii value, wo we need to round by taking modulous of 26. 
+* Then the character will be the start character 'a' + the modulus value
+
+We also need to add logic for shifting logic, 
+```
+`shifts[i] = x`, we want to shift the first `i+1` letters of `S`, `x` times.
+```
+Here the first letter will be eligible for shifting for all the shift, then 2nd letter will be
+ eligible for shifting all the shifts except the first one. 
+
+So a character at position `i` will get shifted n time where n is sum of all the shifts from i-th 
+position to the last one.
+
+[Implementation - Java](java/com/dsalgo/practice/ShiftingLetters.java) 
+
