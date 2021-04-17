@@ -1726,3 +1726,53 @@ position to the last one.
 
 [Implementation - Java](java/com/dsalgo/practice/ShiftingLetters.java) 
 
+
+#### Contiguous Subarrays
+You are given an array arr of N integers. For each index i, you are required to determine the number of contiguous subarrays that fulfill the following conditions:
+The value at index i must be the maximum element in the contiguous subarrays, and
+These contiguous subarrays must either start from or end on index i.
+
+Input: Size N is between 1 and 1,000,000
+Output: An array where each index i contains an integer denoting the maximum number of contiguous subarrays of arr[i]
+Example:
+arr = [3, 4, 1, 6, 2]
+output = [1, 3, 1, 5, 1]
+
+Explanation:
+For index 0 - [3] is the only contiguous subarray that starts (or ends) with 3, and the maximum value in this subarray is 3.
+For index 1 - [4], [3, 4], [4, 1]
+For index 2 - [1]
+For index 3 - [6], [6, 2], [1, 6], [4, 1, 6], [3, 4, 1, 6]
+For index 4 - [2]
+So, the answer for the above input is [1, 3, 1, 5, 1]
+
+**Solution**
+Brute force approach will be like this:
+* For each number at position *i* 
+    - look to its left until there is number which is bigger than the current number
+    - look ahead to its right until there is a number which is bigger than the current number
+
+Keep incrementing the counter for i-th position while looking backward and forward.
+
+The time complexity will be *O(n^2)*
+
+Let's think about *O(n)* solution:
+Can we optimize something in the brute force approach. In the brute force approach we were doing
+some repeated computation: 
+Lets take an example: [1,2,3,2,4]\
+For each index *i* we need to check if there are subarrays ended at *i* where *i*-th number is largest.
+In this example for position *0* looking at left that only one max subarray, [1]\
+For position at *1*, there is one subarray except it-self, [1,2] and total subarray that ended at *2* are [2] and [1,2].
+so for position *1* there are two subarray which ended at position *1*. We can reuse this computation. How ?
+    - We found that there are 2 contigious subarrays with max in position *1*, that ends at position *1*. For the next position
+    we don't need to do the check all the way to its left, we can just check if the number in the previous position was less than current position or not.
+    If previous number is less than the current number then we can re-use the previous counts. 
+    Let say at position *1* you have subarray count is 2 ([1,2],[2]). Now for positioon *2* if the number at position *2* is greater than then number in position *1*
+    then if we extend the subarray which are found for positon *1*  to position *2* then the number at position 2 will the maximum in extend subarray. 
+    Extended sub array will be [1,2,3],[2,3], *3* is the max.
+
+We can do the same approach by looking from the right/end to its beginning.
+
+[Implementation - Java](java/com/dsalgo/practice/ContiguousSubarray.java) 
+
+

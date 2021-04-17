@@ -108,6 +108,7 @@ Data Structure &amp; Algorithms
 - [Majority Element](./Solution.md#majority-element) - [Java](java/com/dsalgo/practice/MajorityElement.java)
 - [Rotational Cipher](./Solution.md#rotational-cipher) - [Java](java/com/dsalgo/practice/RotationalCipher.java)
 - [Shifting Letters](./Solution.md#shifting-letters) - [Java](java/com/dsalgo/practice/ShiftingLetters.java)
+- [Contiguous Subarrays](./Solution.md#contiguous-subarrays) - [Java](java/com/dsalgo/practice/ContiguousSubarray.java)
 
 
 
