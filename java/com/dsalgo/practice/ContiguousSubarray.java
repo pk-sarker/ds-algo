@@ -1,6 +1,7 @@
 package com.dsalgo.practice;
 
 import java.util.Arrays;
+import java.util.Stack;
 
 /**
  * Contiguous Subarrays
@@ -27,7 +28,38 @@ import java.util.Arrays;
  */
 public class ContiguousSubarray {
 
+    // 3, 4, 1, 6, 2
+    // 1, 2, 3, 4, 5
+    // 5, 4, 3, 2, 1
     public static int[] countSubarrays(int[] arr) {
+        Stack<Integer> stack = new Stack<>();
+        int[] result = new int[arr.length];
+        Arrays.fill(result, 0);
+        for(int i=0; i<arr.length; i++) {
+            while (!stack.isEmpty() && arr[stack.peek()] < arr[i]) {
+                result[i] += result[stack.pop()];
+            }
+            stack.push(i);
+            result[i]++;
+        }
+
+        stack.clear();
+
+        int[] R = new int[arr.length];
+        for(int i = arr.length - 1; i >= 0; i--) {
+            while(!stack.isEmpty() && arr[stack.peek()] < arr[i]) {
+                int idx = stack.pop();
+                result[i] += R[idx];
+                R[i] += R[idx];
+            }
+            stack.push(i);
+            R[i]++;
+        }
+
+        return result;
+    }
+
+    public static int[] countSubarraysBruteForce(int[] arr) {
         if (arr.length <= 0) {
             return new int[]{};
         }
@@ -62,7 +94,11 @@ public class ContiguousSubarray {
 
         return result;
     }
+
+
     public static void main(String args[]) {
         System.out.println("\nInput: [3, 4, 1, 6, 2] \nOutput: " + Arrays.toString(ContiguousSubarray.countSubarrays(new int[]{3, 4, 1, 6, 2})));
+
+        System.out.println("\nInput: [2, 4, 7, 1, 5, 3] \nOutput: " + Arrays.toString(ContiguousSubarray.countSubarrays(new int[]{2, 4, 7, 1, 5, 3})));
     }
 }
