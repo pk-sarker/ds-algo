@@ -111,6 +111,7 @@ Data Structure &amp; Algorithms
 - [Contiguous Subarrays](./Solution.md#contiguous-subarrays) - [Java](java/com/dsalgo/practice/ContiguousSubarray.java)
 - [Pair Sums](./Solution.md#pair-sums) - [Java](java/com/dsalgo/practice/PairSums.java)
 - [Reverse to Make Equal](./Solution.md#reverse-to-make-equal) - [Java](java/com/dsalgo/practice/ReverseToMakeEqual.java)
+- [Passing Yearbooks](./Solution.md#passing-yearbooks) - [Java](java/com/dsalgo/practice/PassingYearbooks.java)
 
 
 
