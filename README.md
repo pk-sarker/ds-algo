@@ -110,6 +110,7 @@ Data Structure &amp; Algorithms
 - [Shifting Letters](./Solution.md#shifting-letters) - [Java](java/com/dsalgo/practice/ShiftingLetters.java)
 - [Contiguous Subarrays](./Solution.md#contiguous-subarrays) - [Java](java/com/dsalgo/practice/ContiguousSubarray.java)
 - [Pair Sums](./Solution.md#pair-sums) - [Java](java/com/dsalgo/practice/PairSums.java)
+- [Reverse to Make Equal](./Solution.md#reverse-to-make-equal) - [Java](java/com/dsalgo/practice/ReverseToMakeEqual.java)
 
 
 
