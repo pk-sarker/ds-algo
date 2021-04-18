@@ -109,6 +109,7 @@ Data Structure &amp; Algorithms
 - [Rotational Cipher](./Solution.md#rotational-cipher) - [Java](java/com/dsalgo/practice/RotationalCipher.java)
 - [Shifting Letters](./Solution.md#shifting-letters) - [Java](java/com/dsalgo/practice/ShiftingLetters.java)
 - [Contiguous Subarrays](./Solution.md#contiguous-subarrays) - [Java](java/com/dsalgo/practice/ContiguousSubarray.java)
+- [Pair Sums](./Solution.md#pair-sums) - [Java](java/com/dsalgo/practice/PairSums.java)
 
 
 
