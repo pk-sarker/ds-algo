@@ -1896,3 +1896,41 @@ If i = 0 and j=1, s[0] and s[1] are swapped, making s = "nmo", which shares only
 
 
 [Implementation - Java](java/com/dsalgo/practice/MatchingPairs.java) 
+
+#### Minimum Length Substrings
+You are given two strings s and t. You can select any substring of string s and rearrange the characters of the 
+selected substring. Determine the minimum length of the substring of s such that string t is a substring of the 
+selected substring.
+
+**Input**\
+s and t are non-empty strings that contain less than 1,000,000 characters each
+**Output**\
+Return the minimum length of the substring of s. If it is not possible, return -1
+
+Example:
+```
+s = "dcbefebce"
+t = "fd"'
+output = 5
+Explanation:
+Substring "dcbef" can be rearranged to "cfdeb", "cefdb", and so on. String t is a substring of "cfdeb". 
+Thus, the minimum length required is 5.
+
+s = "dcbefedce"
+t = "fd"'
+output = 3
+
+s = "acabd"
+t = "ab"'
+output = 2
+
+s = "ababccd"
+t = "abc"'
+output = 3
+
+s = "adacefboodcefxedceb"
+t = "bcd"'
+output = 4
+```
+
+[Implementation - Java](java/com/dsalgo/practice/MinLengthSubstring.java) 

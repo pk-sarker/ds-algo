@@ -113,6 +113,7 @@ Data Structure &amp; Algorithms
 - [Reverse to Make Equal](./Solution.md#reverse-to-make-equal) - [Java](java/com/dsalgo/practice/ReverseToMakeEqual.java)
 - [Passing Yearbooks](./Solution.md#passing-yearbooks) - [Java](java/com/dsalgo/practice/PassingYearbooks.java)
 - [Matching Pairs](./Solution.md#matching-pairs) - [Java](java/com/dsalgo/practice/MatchingPairs.java)
+- [Minimum Length Substrings](./Solution.md#minimum-length-substrings) - [Java](java/com/dsalgo/practice/MinLengthSubstring.java)
 
 
 
