@@ -114,6 +114,7 @@ Data Structure &amp; Algorithms
 - [Passing Yearbooks](./Solution.md#passing-yearbooks) - [Java](java/com/dsalgo/practice/PassingYearbooks.java)
 - [Matching Pairs](./Solution.md#matching-pairs) - [Java](java/com/dsalgo/practice/MatchingPairs.java)
 - [Minimum Length Substrings](./Solution.md#minimum-length-substrings) - [Java](java/com/dsalgo/practice/MinLengthSubstring.java)
+- [Largest Triple Products](./Solution.md#largest-triple-products) - [Java](java/com/dsalgo/practice/LargestTripleProducts.java)
 
 
 
