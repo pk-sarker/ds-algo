@@ -112,7 +112,7 @@ Data Structure &amp; Algorithms
 - [Pair Sums](./Solution.md#pair-sums) - [Java](java/com/dsalgo/practice/PairSums.java)
 - [Reverse to Make Equal](./Solution.md#reverse-to-make-equal) - [Java](java/com/dsalgo/practice/ReverseToMakeEqual.java)
 - [Passing Yearbooks](./Solution.md#passing-yearbooks) - [Java](java/com/dsalgo/practice/PassingYearbooks.java)
-- [Passing Yearbooks](./Solution.md#passing-yearbooks) - [Java](java/com/dsalgo/practice/MatchingPairs.java)
+- [Matching Pairs](./Solution.md#matching-pairs) - [Java](java/com/dsalgo/practice/MatchingPairs.java)
 
 
 
