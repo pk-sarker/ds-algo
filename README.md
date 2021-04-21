@@ -117,6 +117,8 @@ Data Structure &amp; Algorithms
 - [Largest Triple Products](./Solution.md#largest-triple-products) - [Java](java/com/dsalgo/practice/LargestTripleProducts.java)
 - [Maximum Product of Three Numbers](./Solution.md#maximum-product-of-three-numbers) - [Java](java/com/dsalgo/practice/MaximumProductofThreeNumbers.java)
 - [Maximum Product Subarray](./Solution.md#maximum-product-subarray) - [Java](java/com/dsalgo/practice/MaximumProductSubarray.java)
+- [Magical Candy Bags](./Solution.md#magical-candy-bags) - [Java](java/com/dsalgo/practice/MagicalCandyBags.java)
+
 
 
 
