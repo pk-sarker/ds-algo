@@ -1961,3 +1961,18 @@ The 3rd element of output is 2*2*1 = 4, the 4th is 2*2*1 = 4, and the 5th is 2*2
 ```
 
 [Implementation - Java](java/com/dsalgo/practice/LargestTripleProducts.java) 
+
+
+#### Maximum Product of Three Numbers
+Given an integer array nums, find three numbers whose product is maximum and return the maximum product.
+
+Example:
+```
+Input: [1,2,3,4,5]
+Output: 60
+
+Input: [-4,-5,3,4,5]
+Output: 100
+```
+
+[Implementation - Java](java/com/dsalgo/practice/MaximumProductofThreeNumbers.java) 
