@@ -118,6 +118,7 @@ Data Structure &amp; Algorithms
 - [Maximum Product of Three Numbers](./Solution.md#maximum-product-of-three-numbers) - [Java](java/com/dsalgo/practice/MaximumProductofThreeNumbers.java)
 - [Maximum Product Subarray](./Solution.md#maximum-product-subarray) - [Java](java/com/dsalgo/practice/MaximumProductSubarray.java)
 - [Magical Candy Bags](./Solution.md#magical-candy-bags) - [Java](java/com/dsalgo/practice/MagicalCandyBags.java)
+- [Regular Expression Matching](./Solution.md#regular-expression-matching) - [Java](java/com/dsalgo/practice/RegularExpressionMatching.java)
 
 
 
