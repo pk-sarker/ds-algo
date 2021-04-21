@@ -116,7 +116,7 @@ Data Structure &amp; Algorithms
 - [Minimum Length Substrings](./Solution.md#minimum-length-substrings) - [Java](java/com/dsalgo/practice/MinLengthSubstring.java)
 - [Largest Triple Products](./Solution.md#largest-triple-products) - [Java](java/com/dsalgo/practice/LargestTripleProducts.java)
 - [Maximum Product of Three Numbers](./Solution.md#maximum-product-of-three-numbers) - [Java](java/com/dsalgo/practice/MaximumProductofThreeNumbers.java)
-
+- [Maximum Product Subarray](./Solution.md#maximum-product-subarray) - [Java](java/com/dsalgo/practice/MaximumProductSubarray.java)
 
 
 
