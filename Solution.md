@@ -1976,3 +1976,56 @@ Output: 100
 ```
 
 [Implementation - Java](java/com/dsalgo/practice/MaximumProductofThreeNumbers.java) 
+
+
+#### Maximum Product Subarray
+Given an integer array nums, find a contiguous non-empty subarray within the array that has the largest product, 
+and return the product.
+
+It is guaranteed that the answer will fit in a 32-bit integer.
+
+A subarray is a contiguous subsequence of the array.
+
+```
+Input: nums = [2,3,-2,4]
+Output: 6
+Explanation: [2,3] has the largest product 6.
+
+Input: nums = [-2,0,-1]
+Output: 0
+Explanation: The result cannot be 2, because [-2,-1] is not a subarray.
+```
+
+[Implementation - Java](java/com/dsalgo/practice/MaximumProductSubarray.java) 
+
+#### Magical Candy Bags
+You have *N* bags of candy. The ith bag contains *arr[i]* pieces of candy, and each of the bags is magical!
+It takes you *1* minute to eat all of the pieces of candy in a bag (irrespective of how many pieces of candy are inside), 
+and as soon as you finish, the bag mysteriously refills. If there were x pieces of candy in the bag at the beginning 
+of the minute, then after you've finished you'll find that *floor(x/2)* pieces are now inside.
+You have *k* minutes to eat as much candy as possible. How many pieces of candy can you eat?
+
+Input\
+*1 ≤ N ≤ 10,000*\
+*1 ≤ k ≤ 10,000*\
+*1 ≤ arr[i] ≤ 1,000,000,000*\
+
+Output\
+A single integer, the maximum number of candies you can eat in *k* minutes. 
+
+Example:
+```
+k = 3
+arr = [2, 1, 7, 4, 2]
+output = 14
+
+k = 3
+arr = [2, 6, 7, 5, 2]
+output = 18
+
+k = 4
+arr = [2, 6, 7, 5, 2]
+output = 21
+```
+
+[Implementation - Java](java/com/dsalgo/practice/MagicalCandyBags.java) 
