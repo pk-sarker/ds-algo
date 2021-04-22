@@ -121,10 +121,7 @@ Data Structure &amp; Algorithms
 - [Regular Expression Matching](./Solution.md#regular-expression-matching) - [Java](java/com/dsalgo/practice/RegularExpressionMatching.java)
 - [Element Equality](./Solution.md#element-equality) - [Java](java/com/dsalgo/practice/ElementEquality.java)
 - [Busiest Time in The Mall](./Solution.md#busiest-time-in-the-mall) - [Java](java/com/dsalgo/practice/BusiestTimeInTheMall.java)
-
-
-
-
+- [Filter Restaurants](./Solution.md#filter-restaurants) - [Java](java/com/dsalgo/practice/FilterRestaurants.java)
 
 
 
