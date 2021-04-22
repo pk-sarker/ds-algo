@@ -120,6 +120,7 @@ Data Structure &amp; Algorithms
 - [Magical Candy Bags](./Solution.md#magical-candy-bags) - [Java](java/com/dsalgo/practice/MagicalCandyBags.java)
 - [Regular Expression Matching](./Solution.md#regular-expression-matching) - [Java](java/com/dsalgo/practice/RegularExpressionMatching.java)
 - [Element Equality](./Solution.md#element-equality) - [Java](java/com/dsalgo/practice/ElementEquality.java)
+- [Busiest Time in The Mall](./Solution.md#busiest-time-in-the-mall) - [Java](java/com/dsalgo/practice/BusiestTimeInTheMall.java)
 
 
 
