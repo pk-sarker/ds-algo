@@ -16,45 +16,28 @@ package com.dsalgo.practice;
  */
 public class BusiestTimeInTheMall {
     public static int findBusiestPeriod(int[][] data) {
+        int n = data.length,
+        count = 0,
+        maxCount = 0,
+        maxTimestamp = 0;
 
-        int maxCount = Integer.MIN_VALUE, lastMaxTimestamp = -1;
-        int tempCount = 0, curTimestamp = -1;
+        for(int i=0; i<n; i++) {
+            if (data[i][2]==1) {
+                count += data[i][1];
+            } else {
+                count -= data[i][1];
+            }
 
-        for(int i=0; i<data.length; i++) {
-            if (curTimestamp == -1) {
-                curTimestamp = data[i][0];
-
-                if (data[i][2] == 1) {
-                    tempCount += data[i][1];
-                } else {
-                    tempCount -= data[i][1];
-                }
-
+            if (i < n-1 && data[i][0] == data[i+1][0]) {
                 continue;
             }
-
-            if (curTimestamp == data[i][0]) {
-                if (data[i][2] == 1) {
-                    tempCount += data[i][1];
-                } else {
-                    tempCount -= data[i][1];
-                }
-            } else {
-                if (tempCount > maxCount) {
-                    maxCount = tempCount;
-                    lastMaxTimestamp = curTimestamp;
-                }
-
-                curTimestamp = -1;
-                tempCount = 0;
+            if (count > maxCount) {
+                maxCount = count;
+                maxTimestamp = data[i][0];
             }
         }
 
-        if (curTimestamp > -1 && tempCount > maxCount) {
-            lastMaxTimestamp = curTimestamp;
-        }
-
-        return lastMaxTimestamp;
+        return maxTimestamp;
     }
     public static void main(String args[]) {
         System.out.println("\nOutput: " + BusiestTimeInTheMall.findBusiestPeriod(new int[][]{
@@ -68,5 +51,15 @@ public class BusiestTimeInTheMall {
                 {1487901211, 7,  1},
                 {1487901211, 7,  0}
         }));
+
+        System.out.println("\nOutput: " + BusiestTimeInTheMall.findBusiestPeriod(new int[][]{
+                {1487799425,14,1},
+                {1487799425,4,1},
+                {1487799425,2,1},
+                {1487800378,10,1},
+                {1487801478,18,1},
+                {1487901013,1,1},
+                {1487901211,7,1},
+                {1487901211,7,1}}));
     }
 }
