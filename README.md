@@ -119,6 +119,8 @@ Data Structure &amp; Algorithms
 - [Maximum Product Subarray](./Solution.md#maximum-product-subarray) - [Java](java/com/dsalgo/practice/MaximumProductSubarray.java)
 - [Magical Candy Bags](./Solution.md#magical-candy-bags) - [Java](java/com/dsalgo/practice/MagicalCandyBags.java)
 - [Regular Expression Matching](./Solution.md#regular-expression-matching) - [Java](java/com/dsalgo/practice/RegularExpressionMatching.java)
+- [Element Equality](./Solution.md#element-equality) - [Java](java/com/dsalgo/practice/ElementEquality.java)
+
 
 
 
