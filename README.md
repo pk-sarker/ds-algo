@@ -124,6 +124,7 @@ Data Structure &amp; Algorithms
 - [Filter Restaurants](./Solution.md#filter-restaurants) - [Java](java/com/dsalgo/practice/FilterRestaurants.java)
 - [Destination City](./Solution.md#destination-city) - [Java](java/com/dsalgo/practice/FilterRestaurants.java)
 - [Design Twitter](./Solution.md#design-twitter) - [Java](java/com/dsalgo/practice/DesignTwitterBeta.java)
+- [Integer to English Words](./Solution.md#integer-to-english-words) - [Java](java/com/dsalgo/practice/DesignTwitterBeta.java)
 
 
 

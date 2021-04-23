@@ -2210,3 +2210,25 @@ twitter.getNewsFeed(1);  // User 1's news feed should return a list with 1 tweet
 ```
 
 [Implementation - Java](java/com/dsalgo/practice/DesignTwitterBeta.java) 
+
+#### Integer to English Words
+Convert a non-negative integer num to its English words representation.
+
+Example:
+```
+Input: num = 123
+Output: "One Hundred Twenty Three"
+
+Input: num = 12345
+Output: "Twelve Thousand Three Hundred Forty Five"
+
+Input: num = 1234567
+Output: "One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven"
+
+Input: num = 1234567891
+Output: "One Billion Two Hundred Thirty Four Million Five Hundred Sixty Seven Thousand Eight Hundred Ninety One"
+```
+
+[Implementation - Java](java/com/dsalgo/practice/IntegerToEnglishWords.java) 
+
+
