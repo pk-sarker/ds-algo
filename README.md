@@ -126,6 +126,7 @@ Data Structure &amp; Algorithms
 - [Design Twitter](./Solution.md#design-twitter) - [Java](java/com/dsalgo/practice/DesignTwitterBeta.java)
 - [Integer to English Words](./Solution.md#integer-to-english-words) - [Java](java/com/dsalgo/practice/DesignTwitterBeta.java)
 - [Find Median from Data Stream](./Solution.md#find-median-from-data-stream) - [Java](java/com/dsalgo/practice/MedianFromDataStream.java)
+- [Median Stream](./Solution.md#median-stream) - [Java](java/com/dsalgo/practice/MedianStream.java)
 
 
 
