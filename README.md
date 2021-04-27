@@ -132,7 +132,7 @@ Data Structure &amp; Algorithms
 - [Maximum Depth of Binary Tree](./Solution.md#maximum-depth-of-binary-tree) - [Java](java/com/dsalgo/practice/MaximumDepthOfBinaryTree.java)
 - [Left side view of Binary Tree](java/com/dsalgo/practice/LeftSideViewOfBinaryTree.java) - [Java](java/com/dsalgo/practice/LeftSideViewOfBinaryTree.java)
 - [Nodes in a Subtree](./Solution.md#nodes-in-a-subtree) - [Java](java/com/dsalgo/practice/LeftSideViewOfBinaryTree.java)
-
+- [Slow Sums](./Solution.md#slow-sums) - [Java](java/com/dsalgo/practice/SlowSums.java)
 
 
 
