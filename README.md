@@ -130,6 +130,7 @@ Data Structure &amp; Algorithms
 - [Sliding Window Median](./Solution.md#sliding-window-median) - [Java](java/com/dsalgo/practice/MedianInSlidingWindow.java)
 - [Reverse Operations](./Solution.md#reverse-operations) - [Java](java/com/dsalgo/practice/LinkedListReverseOperations.java)
 - [Maximum Depth of Binary Tree](./Solution.md#maximum-depth-of-binary-tree) - [Java](java/com/dsalgo/practice/MaximumDepthOfBinaryTree.java)
+- [Left side view of Binary Tree](java/com/dsalgo/practice/LeftSideViewOfBinaryTree.java) - [Java](java/com/dsalgo/practice/LeftSideViewOfBinaryTree.java)
 
 
 
