@@ -2457,3 +2457,21 @@ output = [4, 6, 10]
 
 [Implementation - Java](java/com/dsalgo/practice/RevenueMilestones.java)
 
+#### Queue Removals
+You're given a list of *n* integers *arr*, which represent elements in a queue (in order from front to back). You're also given an integer *x*, and must perform *x* iterations of the following 3-step process:
+* Pop *x* elements from the front of queue (or, if it contains fewer than *x* elements, pop all of them)
+* Of the elements that were popped, find the one with the largest value (if there are multiple such elements, take the one which had been popped the earliest), and remove it
+* For each one of the remaining elements that were popped (in the order they had been popped), decrement its value by 1 if it's positive (otherwise, if its value is 0, then it's left unchanged), and then add it back to the queue
+
+Compute a list of *x* integers output, the *i*-th of which is the 1-based index in the original array of the element which had been removed in step 2 during the ith iteration.
+
+Example:
+```
+Input: [1, 2, 2, 3, 4, 5], x = 5
+Output = [5, 6, 4, 1, 2]
+
+Input: [2, 4, 2, 4, 3, 1, 2, 2, 3, 4, 3, 4, 4], x = 4
+Output: [2, 5, 10, 13]
+```
+
+[Implementation - Java](java/com/dsalgo/practice/QueueRemovals.java)

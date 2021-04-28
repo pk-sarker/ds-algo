@@ -134,7 +134,7 @@ Data Structure &amp; Algorithms
 - [Nodes in a Subtree](./Solution.md#nodes-in-a-subtree) - [Java](java/com/dsalgo/practice/LeftSideViewOfBinaryTree.java)
 - [Slow Sums](./Solution.md#slow-sums) - [Java](java/com/dsalgo/practice/SlowSums.java)
 - [Revenue Milestones](./Solution.md#revenue-milestones) - [Java](java/com/dsalgo/practice/RevenueMilestones.java)
-
+- [Queue Removals](./Solution.md#queue-removals) - [Java](java/com/dsalgo/practice/QueueRemovals.java)
 
 
 
