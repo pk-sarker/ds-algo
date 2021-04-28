@@ -136,6 +136,7 @@ Data Structure &amp; Algorithms
 - [Revenue Milestones](./Solution.md#revenue-milestones) - [Java](java/com/dsalgo/practice/RevenueMilestones.java)
 - [Queue Removals](./Solution.md#queue-removals) - [Java](java/com/dsalgo/practice/QueueRemovals.java)
 - [Counting Triangles](./Solution.md#counting-triangles) - [Java](java/com/dsalgo/practice/CountingTriangles.java)
+- [Encrypted Words](./Solution.md#encrypted-words) - [Java](java/com/dsalgo/practice/EncryptedWords.java)
 
 
 
