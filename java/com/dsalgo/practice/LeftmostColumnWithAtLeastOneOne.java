@@ -38,9 +38,44 @@ public class LeftmostColumnWithAtLeastOneOne {
         return oneMinPos == Integer.MAX_VALUE ? -1: oneMinPos;
     }
 
+    public int leftMostColumnWithOneBinarySearch(BinaryMatrix binaryMatrix) {
+        List<Integer> dim = binaryMatrix.dimensions();
+        int rows = dim.get(0);
+        int cols = dim.get(1);
+
+        int smallestIndex = cols;
+        for (int row = 0; row < rows; row++) {
+            // Binary Search for the first 1 in the row.
+            int lo = 0;
+            int hi = cols - 1;
+            while (lo <= hi) {
+                //int mid = (lo + hi) / 2;
+                int mid = lo + (hi-lo) / 2;
+                if (binaryMatrix.get(row, mid) == 0) {
+                    lo = mid + 1;
+                } else {
+                    hi = mid-1;
+                }
+            }
+            // If the last element in the search space is a 1, then this row
+            // contained a 1.
+            if (binaryMatrix.get(row, lo) == 1) {
+                smallestIndex = Math.min(smallestIndex, lo);
+            }
+        }
+        // If smallest_index is still set to cols, then there were no 1's in
+        // the grid.
+        return smallestIndex == cols ? -1 : smallestIndex;
+    }
+
     public static void main(String args[]) {
         LeftmostColumnWithAtLeastOneOne obj = new LeftmostColumnWithAtLeastOneOne();
-        BinaryMatrix bm = new BinaryMatrix(new int[][]{{0,0,0,1},{0,0,1,1},{1,1,1,1}});
+        BinaryMatrix bm = new BinaryMatrix(new int[][]{{0,0,0,1},{0,0,1,1},{0,1,1,1}});
         System.out.println(obj.leftMostColumnWithOne(bm));
+
+        BinaryMatrix bm1 = new BinaryMatrix(new int[][]{{0,0,0,1},{0,0,1,1},{0,1,1,1}});
+        System.out.println(obj.leftMostColumnWithOneBinarySearch(bm1));
+
+
     }
 }
