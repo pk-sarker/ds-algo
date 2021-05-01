@@ -2572,3 +2572,21 @@ We can't split the array into A = [6, 6, 7] and B = [7, 12] since this doesn't s
 ```
 
 [Implementation - Java](java/com/dsalgo/practice/BalancedSplit.java)
+
+#### Clone Graph
+Given a reference of a node in a connected undirected graph.
+
+Return a deep copy (clone) of the graph.
+
+Each node in the graph contains a val (int) and a list (List[Node]) of its neighbors.
+```java
+class Node {
+    public int val;
+    public List<Node> neighbors;
+}
+```
+ 
+You must return the copy of the given node as a reference to the cloned graph.
+
+
+[Implementation - Java](java/com/dsalgo/practice/CloneGraph.java)
