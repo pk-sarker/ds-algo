@@ -138,6 +138,7 @@ Data Structure &amp; Algorithms
 - [Counting Triangles](./Solution.md#counting-triangles) - [Java](java/com/dsalgo/practice/CountingTriangles.java)
 - [Encrypted Words](./Solution.md#encrypted-words) - [Java](java/com/dsalgo/practice/EncryptedWords.java)
 - [Leftmost Column with at Least a One](./Solution.md#leftmost-column-with-at-least-a-one) - [Java](java/com/dsalgo/practice/LeftmostColumnWithAtLeastOneOne.java)
+- [Balanced Split](./Solution.md#balanced-split) - [Java](java/com/dsalgo/practice/BalancedSplit.java)
 
 
 
