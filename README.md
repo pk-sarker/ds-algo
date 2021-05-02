@@ -140,6 +140,8 @@ Data Structure &amp; Algorithms
 - [Leftmost Column with at Least a One](./Solution.md#leftmost-column-with-at-least-a-one) - [Java](java/com/dsalgo/practice/LeftmostColumnWithAtLeastOneOne.java)
 - [Balanced Split](./Solution.md#balanced-split) - [Java](java/com/dsalgo/practice/BalancedSplit.java)
 - [Clone Graph](./Solution.md#clone-graph) - [Java](java/com/dsalgo/practice/CloneGraph.java)
+- [Bus Routes](./Solution.md#bus-routes) - [Java](java/com/dsalgo/practice/BusRoutes.java)
+
 
 
 
