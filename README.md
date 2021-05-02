@@ -141,6 +141,7 @@ Data Structure &amp; Algorithms
 - [Balanced Split](./Solution.md#balanced-split) - [Java](java/com/dsalgo/practice/BalancedSplit.java)
 - [Clone Graph](./Solution.md#clone-graph) - [Java](java/com/dsalgo/practice/CloneGraph.java)
 - [Bus Routes](./Solution.md#bus-routes) - [Java](java/com/dsalgo/practice/BusRoutes.java)
+- [Exclusive Time of Functions](./Solution.md#bus-routes) - [Java](java/com/dsalgo/practice/ExclusiveTimeFunctions.java)
 
 
 
