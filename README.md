@@ -147,6 +147,7 @@ Data Structure &amp; Algorithms
     - [Detect signs](./Solution.md#detect-signs) - [Java](java/com/dsalgo/practice/BitManipulation1.java)
     - [Swap two numbers without using third variable](java/com/dsalgo/practice/BitManipulation1.java)
     - [Single Number](./Solution.md#single-number) - [Java](java/com/dsalgo/practice/BitManipulation1.java)
+- [Design Bounded Blocking Queue](./Solution.md#design-bounded-blocking-queue) -[java](java/com/dsalgo/practice/DesignBoundedBlockingQueue.java)
 
 
 
