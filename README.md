@@ -141,7 +141,11 @@ Data Structure &amp; Algorithms
 - [Balanced Split](./Solution.md#balanced-split) - [Java](java/com/dsalgo/practice/BalancedSplit.java)
 - [Clone Graph](./Solution.md#clone-graph) - [Java](java/com/dsalgo/practice/CloneGraph.java)
 - [Bus Routes](./Solution.md#bus-routes) - [Java](java/com/dsalgo/practice/BusRoutes.java)
-
+- [Exclusive Time of Functions](./Solution.md#bus-routes) - [Java](java/com/dsalgo/practice/ExclusiveTimeFunctions.java)
+- [Bit manipulation]
+    - [Check odd even](./Solution.md#check-odd-even) - [Java](java/com/dsalgo/practice/BitManipulation1.java)
+    - [Detect signs](./Solution.md#detect-signs) - [Java](java/com/dsalgo/practice/BitManipulation1.java)
+    - [Swap two numbers without using third variable](java/com/dsalgo/practice/BitManipulation1.java)
 
 
 
