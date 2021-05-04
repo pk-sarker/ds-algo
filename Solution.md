@@ -2652,3 +2652,48 @@ Output: [1]
 ```
 
 [Implementation - Java](java/com/dsalgo/practice/ExclusiveTimeFunctions.java)
+
+#### Check odd even
+Given a integer *n*, write a function to check if *n* is even.
+
+Example:
+```
+Input: 21
+Output: false
+
+Input: 20
+Output: true
+```
+
+[Implementation - Java](java/com/dsalgo/practice/BitManipulation1.java)
+
+#### Detect signs
+Given two integer *m* and *n*, detect if two integers have opposite signs or not.
+
+Example:
+```
+Input: m=4, n=-7
+Output: true
+
+Input: m=4, n=7
+Output: false
+```
+
+The expression output `x ^ y`  is negative if `x` and `y`  have opposite signs. 
+We know that for a positive number, the leftmost bit is 0, and for a negative number, 
+it is 1. Now for similar sign integers, the XOR operator will set the leftmost bit of output as 0, 
+and for opposite sign integers, it will set the leftmost bit as 1.
+
+```
+00..000100    ^               (x = 4)
+00..001001                    (y = 7)
+----------
+00..001100                    positive number
+ 
+ 
+00..000100    ^               (x = 4)
+11..111001                    (y = -7)
+----------
+11..111101                    negative number
+```
+[Implementation - Java](java/com/dsalgo/practice/BitManipulation1.java)
