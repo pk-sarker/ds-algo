@@ -150,6 +150,7 @@ Data Structure &amp; Algorithms
 - [Design Bounded Blocking Queue](./Solution.md#design-bounded-blocking-queue) -[java](java/com/dsalgo/practice/DesignBoundedBlockingQueue.java)
 - [Robot Bounded In Circle](./Solution.md#robot-bounded-in-circle) -[java](java/com/dsalgo/practice/RobotBoundedInCircle.java)
 - [Add Binary](./Solution.md#add-binary) -[java](java/com/dsalgo/practice/AddBinary.java)
+- [Minimizing Permutations](./Solution.md#minimizing-permutations) -[java](java/com/dsalgo/practice/MinimizingPermutations.java)
 
 
 
