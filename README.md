@@ -151,6 +151,8 @@ Data Structure &amp; Algorithms
 - [Robot Bounded In Circle](./Solution.md#robot-bounded-in-circle) -[java](java/com/dsalgo/practice/RobotBoundedInCircle.java)
 - [Add Binary](./Solution.md#add-binary) -[java](java/com/dsalgo/practice/AddBinary.java)
 - [Minimizing Permutations](./Solution.md#minimizing-permutations) -[java](java/com/dsalgo/practice/MinimizingPermutations.java)
+- [Subarrays with K Different Integers](./Solution.md#subarrays-with-k-different-integers) -[java](java/com/dsalgo/practice/SubarraysWithKDifferentIntegers.java)
+- [Binary Tree Maximum Path Sum](./Solution.md#binary-tree-maximum-path-sum) -[java](java/com/dsalgo/practice/BinaryTreeMaximumPathSum.java)
 
 
 

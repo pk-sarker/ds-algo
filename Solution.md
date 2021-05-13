@@ -2807,4 +2807,49 @@ output = 2
 
 [Implementation - Java](java/com/dsalgo/practice/MinimizingPermutations.java)
 
+#### Subarrays with K Different Integers
+Given an array A of positive integers, call a (contiguous, not necessarily distinct) subarray of A good if the number of different integers in that subarray is exactly K.
 
+(For example, [1,2,3,1,2] has 3 different integers: 1, 2, and 3.)
+
+Return the number of good subarrays of A.
+
+Example:
+```
+Input: A = [1,2,1,2,3], K = 2
+Output: 7
+Explanation: Subarrays formed with exactly 2 different integers: [1,2], [2,1], [1,2], [2,3], [1,2,1], [2,1,2], [1,2,1,2].
+
+Input: A = [1,2,1,3,4], K = 3
+Output: 3
+Explanation: Subarrays formed with exactly 3 different integers: [1,2,1,3], [2,1,3], [1,3,4].
+```
+[Implementation - Java](java/com/dsalgo/practice/SubarraysWithKDifferentIntegers.java)
+
+### Binary Tree Maximum Path Sum
+A path in a binary tree is a sequence of nodes where each pair of adjacent nodes in the sequence has an edge connecting them. A node can only appear in the sequence at most once. Note that the path does not need to pass through the root.
+
+The path sum of a path is the sum of the node's values in the path.
+
+Given the root of a binary tree, return the maximum path sum of any path.
+
+Example:
+```
+Input: root = [1,2,3]
+           1
+          / \
+         2   3 
+Output: 6
+Explanation: The optimal path is 2 -> 1 -> 3 with a path sum of 2 + 1 + 3 = 6.
+
+Input: root = [-10,9,20,null,null,16,6]
+Output: 42
+                -10
+                /  \
+               9    20
+                   /  \
+                  15   7
+Explanation: The optimal path is 16 -> 20 -> 6 with a path sum of 16 + 20 + 6 = 42.
+```
+
+[Implementation - Java](java/com/dsalgo/practice/BinaryTreeMaximumPathSum.java)
