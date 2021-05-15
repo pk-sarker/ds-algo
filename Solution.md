@@ -2956,3 +2956,37 @@ Now we can store the tree in hashmap. We will use depth and position of the node
 Then we will do DFS traversal.  
 
 [Implementation - Java](java/com/dsalgo/practice/PathSumIV.java)
+
+
+#### Sum Root to Leaf Numbers
+You are given the root of a binary tree containing digits from `0` to `9` only.
+
+Each root-to-leaf path in the tree represents a number.
+
+* For example, the root-to-leaf path `1 -> 2 -> 3` represents the number `123`.
+Return the total sum of all root-to-leaf numbers. Test cases are generated so that the answer will fit in a 32-bit integer.
+
+A leaf node is a node with no children.
+
+Example:
+```
+        1                1
+       / \              / \
+      2   3            2   3
+       \              / \ / \   
+        4            1  5 5  2
+       (a)              (b)
+
+For (a)
+    Paths: [1->2->4, 1->3] 
+    Numbers: 124, 13 
+    Sum: 124+13 = 137 
+
+For (b)
+    Paths: [1->2->1, 1->2->5, 1->3->5, 1->3->2] 
+        Numbers: 121, 125, 135, 132 
+        Sum: 121 + 125 + 135 + 132 = 513
+```
+
+[Implementation - Java](java/com/dsalgo/practice/PathSumRootToLeaf.java)
+

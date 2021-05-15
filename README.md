@@ -147,17 +147,17 @@ Data Structure &amp; Algorithms
     - [Detect signs](./Solution.md#detect-signs) - [Java](java/com/dsalgo/practice/BitManipulation1.java)
     - [Swap two numbers without using third variable](java/com/dsalgo/practice/BitManipulation1.java)
     - [Single Number](./Solution.md#single-number) - [Java](java/com/dsalgo/practice/BitManipulation1.java)
-- [Design Bounded Blocking Queue](./Solution.md#design-bounded-blocking-queue) -[java](java/com/dsalgo/practice/DesignBoundedBlockingQueue.java)
-- [Robot Bounded In Circle](./Solution.md#robot-bounded-in-circle) -[java](java/com/dsalgo/practice/RobotBoundedInCircle.java)
-- [Add Binary](./Solution.md#add-binary) -[java](java/com/dsalgo/practice/AddBinary.java)
-- [Minimizing Permutations](./Solution.md#minimizing-permutations) -[java](java/com/dsalgo/practice/MinimizingPermutations.java)
-- [Subarrays with K Different Integers](./Solution.md#subarrays-with-k-different-integers) -[java](java/com/dsalgo/practice/SubarraysWithKDifferentIntegers.java)
-- [Binary Tree Maximum Path Sum](./Solution.md#binary-tree-maximum-path-sum) -[java](java/com/dsalgo/practice/BinaryTreeMaximumPathSum.java)
-- [Path Sum](./Solution.md#path-sum) -[java](java/com/dsalgo/practice/PathSum.java)
-- [Path Sum 2](./Solution.md#path-sum-2) -[java](java/com/dsalgo/practice/PathSumII.java)
-- [Path Sum 3](./Solution.md#path-sum-3) -[java](java/com/dsalgo/practice/PathSumIII.java)
-- [Path Sum 4](./Solution.md#path-sum-4) -[java](java/com/dsalgo/practice/PathSumIV.java)
-
+- [Design Bounded Blocking Queue](./Solution.md#design-bounded-blocking-queue) - [java](java/com/dsalgo/practice/DesignBoundedBlockingQueue.java)
+- [Robot Bounded In Circle](./Solution.md#robot-bounded-in-circle) - [java](java/com/dsalgo/practice/RobotBoundedInCircle.java)
+- [Add Binary](./Solution.md#add-binary) - [java](java/com/dsalgo/practice/AddBinary.java)
+- [Minimizing Permutations](./Solution.md#minimizing-permutations) - [java](java/com/dsalgo/practice/MinimizingPermutations.java)
+- [Subarrays with K Different Integers](./Solution.md#subarrays-with-k-different-integers) - [java](java/com/dsalgo/practice/SubarraysWithKDifferentIntegers.java)
+- [Binary Tree Maximum Path Sum](./Solution.md#binary-tree-maximum-path-sum) - [java](java/com/dsalgo/practice/BinaryTreeMaximumPathSum.java)
+- [Path Sum](./Solution.md#path-sum) - [java](java/com/dsalgo/practice/PathSum.java)
+- [Path Sum 2](./Solution.md#path-sum-2) - [java](java/com/dsalgo/practice/PathSumII.java)
+- [Path Sum 3](./Solution.md#path-sum-3) - [java](java/com/dsalgo/practice/PathSumIII.java)
+- [Path Sum 4](./Solution.md#path-sum-4) - [java](java/com/dsalgo/practice/PathSumIV.java)
+- [Sum Root to Leaf Numbers](./Solution.md#sum-root-to-leaf-numbers) - [java](java/com/dsalgo/practice/PathSumRootToLeaf.java)
 
 
 
