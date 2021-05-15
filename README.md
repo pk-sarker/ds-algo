@@ -155,6 +155,7 @@ Data Structure &amp; Algorithms
 - [Binary Tree Maximum Path Sum](./Solution.md#binary-tree-maximum-path-sum) -[java](java/com/dsalgo/practice/BinaryTreeMaximumPathSum.java)
 - [Path Sum](./Solution.md#path-sum) -[java](java/com/dsalgo/practice/PathSum.java)
 - [Path Sum 2](./Solution.md#path-sum-2) -[java](java/com/dsalgo/practice/PathSumII.java)
+- [Path Sum 3](./Solution.md#path-sum-3) -[java](java/com/dsalgo/practice/PathSumIII.java)
 
 
 
