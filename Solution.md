@@ -2990,3 +2990,30 @@ For (b)
 
 [Implementation - Java](java/com/dsalgo/practice/PathSumRootToLeaf.java)
 
+
+
+#### Binary Tree Paths
+Given the root of a binary tree, return all root-to-leaf paths in any order.
+
+A leaf is a node with no children.
+
+Example:
+```
+        1
+	  /   \ 
+	 2     3
+	/ \     \ 
+   4   5     7
+        (a) 
+Output: ["1->2->4","1->2->5", 1->3->7]
+
+		1
+	  /   \ 
+	 20    -300
+	/  \     \ 
+   -13  5     72
+        (b) 
+Output: ["1->20->-13","1->20->5", 1->-300->72]
+```
+
+[Implementation - Java](java/com/dsalgo/practice/BinaryTreePaths.java)
