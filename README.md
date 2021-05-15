@@ -156,6 +156,7 @@ Data Structure &amp; Algorithms
 - [Path Sum](./Solution.md#path-sum) -[java](java/com/dsalgo/practice/PathSum.java)
 - [Path Sum 2](./Solution.md#path-sum-2) -[java](java/com/dsalgo/practice/PathSumII.java)
 - [Path Sum 3](./Solution.md#path-sum-3) -[java](java/com/dsalgo/practice/PathSumIII.java)
+- [Path Sum 4](./Solution.md#path-sum-4) -[java](java/com/dsalgo/practice/PathSumIV.java)
 
 
 

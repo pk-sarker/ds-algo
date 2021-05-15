@@ -2906,3 +2906,53 @@ Output: 3
 **Solution**: Prefix sum + HashMap
 
 [Implementation - Java](java/com/dsalgo/practice/PathSumIII.java)
+
+
+#### Path Sum 4
+If the depth of a tree is smaller than *5*, then this tree can be represented by an array of 
+three-digit integers. For each integer in this array:
+
+* The hundreds digit represents the depth d of this node where `1 <= d <= 4`.
+* The tens digit represents the position p of this node in the level it belongs to where `1 <= p <= 8`. The position is the same as that in a full binary tree.
+* The units digit represents the value v of this node where `0 <= v <= 9`.
+
+Given an array of ascending three-digit integers nums representing a binary tree with a depth smaller than `5`, return the sum of all paths from the root towards the leaves.
+
+It is guaranteed that the given array represents a valid connected binary tree.
+
+Example:
+``` 
+        
+		1                 111                 11X
+	  /   \               /  \               /   \    
+	 2     3  =>        212   223   =>     21X   22X
+	/ \   / \          /  \   /  \        /  \   /  \   
+   4   5 6   7       314 325 336 347    31X 32X 33X 34X
+        (a)                 (b)               (c) 
+   [111, 212, 223, 314, 325, 336, 347]
+All path sum = (1+2+4) + (1+2+5) + (1+3+6) + (1+3+7) = 38 	
+```
+
+**Solution**:
+Base on the three digit representation of each node we can come up with some rule which may help use to 
+find the left and right child. 
+So we can represent each node by `dpv`, `d` is the depth, `p` position in the level and `v` is the value.
+
+From the above examples, 
+Node | Left Chile | Right Child
+111   
+
+| Node  | Left Child | Right Child | 
+| ------------- | ------------- | ------------- |
+| 11X | 21X  | 22X
+| 21X | 31X  | 32X
+| 22X | 33X  | 34X
+
+so if `d` is the depth of the current node and `p` is the position then
+the left child will be (d+1)(2*p-1) and (d+1)(2*p) right child.
+
+Now we can store the tree in hashmap. We will use depth and position of the node as key and value as the value.
+
+Then we will do DFS traversal.  
+
+[Implementation - Java](java/com/dsalgo/practice/PathSumIV.java)
