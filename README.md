@@ -153,6 +153,8 @@ Data Structure &amp; Algorithms
 - [Minimizing Permutations](./Solution.md#minimizing-permutations) -[java](java/com/dsalgo/practice/MinimizingPermutations.java)
 - [Subarrays with K Different Integers](./Solution.md#subarrays-with-k-different-integers) -[java](java/com/dsalgo/practice/SubarraysWithKDifferentIntegers.java)
 - [Binary Tree Maximum Path Sum](./Solution.md#binary-tree-maximum-path-sum) -[java](java/com/dsalgo/practice/BinaryTreeMaximumPathSum.java)
+- [Path Sum](./Solution.md#path-sum) -[java](java/com/dsalgo/practice/PathSum.java)
+- [Path Sum 2](./Solution.md#path-sum-2) -[java](java/com/dsalgo/practice/PathSumII.java)
 
 
 
