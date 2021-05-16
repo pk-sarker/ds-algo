@@ -159,6 +159,7 @@ Data Structure &amp; Algorithms
 - [Path Sum 4](./Solution.md#path-sum-4) - [java](java/com/dsalgo/practice/PathSumIV.java)
 - [Sum Root to Leaf Numbers](./Solution.md#sum-root-to-leaf-numbers) - [java](java/com/dsalgo/practice/PathSumRootToLeaf.java)
 - [Binary Tree Paths](./Solution.md#binary-tree-paths) - [java](java/com/dsalgo/practice/BinaryTreePaths.java)
+- [Dot Product of Two Sparse Vectors](./Solution.md#dot-product-of-two-sparse-vectors) - [java](java/com/dsalgo/practice/SparseVectorMain.java)
 
 
 
