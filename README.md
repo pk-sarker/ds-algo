@@ -161,7 +161,7 @@ Data Structure &amp; Algorithms
 - [Binary Tree Paths](./Solution.md#binary-tree-paths) - [java](java/com/dsalgo/practice/BinaryTreePaths.java)
 - [Dot Product of Two Sparse Vectors](./Solution.md#dot-product-of-two-sparse-vectors) - [java](java/com/dsalgo/practice/SparseVectorMain.java)
 - [Range Sum of BST](./Solution.md#range-sum-of-bst) - [java](java/com/dsalgo/practice/RangeSumOfBST.java)
-
+- [Design Add and Search Words Data Structure](./Solution.md#design-add-and-search-words-data-structure) - [java](java/com/dsalgo/practice/SearchWordsDataStructure.java)
 
 
 
