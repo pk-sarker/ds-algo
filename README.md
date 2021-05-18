@@ -163,6 +163,7 @@ Data Structure &amp; Algorithms
 - [Range Sum of BST](./Solution.md#range-sum-of-bst) - [java](java/com/dsalgo/practice/RangeSumOfBST.java)
 - [Design Add and Search Words Data Structure](./Solution.md#design-add-and-search-words-data-structure) - [java](java/com/dsalgo/practice/SearchWordsDataStructure.java)
 - [Alien Dictionary](./Solution.md#alien-dictionary) - [java](java/com/dsalgo/practice/AlienDictionary.java)
+- [Course Schedule II](./Solution.md#course-schedule-ii) - [java](java/com/dsalgo/practice/CourseSchedule2.java)
 
 
 
