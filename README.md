@@ -167,6 +167,8 @@ Data Structure &amp; Algorithms
 - [Divide Two Integers](./Solution.md#divide-two-integers) - [java](java/com/dsalgo/practice/DivideTwoIntegers.java);
 - [Continuous Subarray Sum](./Solution.md#continuous-subarray-sum) - [java](java/com/dsalgo/practice/ContinuousSubarraySum.java);
 - [Find Pivot Index](./Solution.md#find-pivot-index) - [java](java/com/dsalgo/practice/FindPivotIndex.java);
+- [Subarray Sums Divisible by K](./Solution.md#subarray-sums-divisible-by-k) - [java](java/com/dsalgo/practice/SubarraySumsDivisibleByK.java);
+
 
 
 
