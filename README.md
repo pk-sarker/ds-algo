@@ -164,6 +164,9 @@ Data Structure &amp; Algorithms
 - [Design Add and Search Words Data Structure](./Solution.md#design-add-and-search-words-data-structure) - [java](java/com/dsalgo/practice/SearchWordsDataStructure.java)
 - [Alien Dictionary](./Solution.md#alien-dictionary) - [java](java/com/dsalgo/practice/AlienDictionary.java)
 - [Course Schedule II](./Solution.md#course-schedule-ii) - [java](java/com/dsalgo/practice/CourseSchedule2.java)
+- [Divide Two Integers](./Solution.md#divide-two-integers) - [java](java/com/dsalgo/practice/DivideTwoIntegers.java);
+- [Continuous Subarray Sum](./Solution.md#continuous-subarray-sum) - [java](java/com/dsalgo/practice/ContinuousSubarraySum.java);
+
 
 
 
