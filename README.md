@@ -169,7 +169,7 @@ Data Structure &amp; Algorithms
 - [Find Pivot Index](./Solution.md#find-pivot-index) - [java](java/com/dsalgo/practice/FindPivotIndex.java);
 - [Subarray Sums Divisible by K](./Solution.md#subarray-sums-divisible-by-k) - [java](java/com/dsalgo/practice/SubarraySumsDivisibleByK.java);
 - [Minimum Operations to Reduce X to Zero](./Solution.md#minimum-operations-to-reduce-x-to-zero) - [java](java/com/dsalgo/practice/MinOperationToReduceToZero.java);
-
+- [Next Permutation](./Solution.md#next-permutation) - [java](java/com/dsalgo/practice/NextPermutation.java);
  
 
 
