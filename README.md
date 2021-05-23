@@ -165,14 +165,14 @@ Data Structure &amp; Algorithms
 - [Alien Dictionary](./Solution.md#alien-dictionary) - [java](java/com/dsalgo/practice/AlienDictionary.java)
 - [Course Schedule II](./Solution.md#course-schedule-ii) - [java](java/com/dsalgo/practice/CourseSchedule2.java)
 - [Divide Two Integers](./Solution.md#divide-two-integers) - [java](java/com/dsalgo/practice/DivideTwoIntegers.java);
-- [Continuous Subarray Sum](./Solution.md#continuous-subarray-sum) - [java](java/com/dsalgo/practice/ContinuousSubarraySum.java);
-- [Find Pivot Index](./Solution.md#find-pivot-index) - [java](java/com/dsalgo/practice/FindPivotIndex.java);
-- [Subarray Sums Divisible by K](./Solution.md#subarray-sums-divisible-by-k) - [java](java/com/dsalgo/practice/SubarraySumsDivisibleByK.java);
-- [Minimum Operations to Reduce X to Zero](./Solution.md#minimum-operations-to-reduce-x-to-zero) - [java](java/com/dsalgo/practice/MinOperationToReduceToZero.java);
-- [Next Permutation](./Solution.md#next-permutation) - [java](java/com/dsalgo/practice/NextPermutation.java);
-- [Remove Invalid Parentheses](./Solution.md#remove-invalid-parentheses) - [java](java/com/dsalgo/practice/RemoveInvalidParentheses.java);
- 
-
+- [Continuous Subarray Sum](./Solution.md#continuous-subarray-sum) - [java](java/com/dsalgo/practice/ContinuousSubarraySum.java)
+- [Find Pivot Index](./Solution.md#find-pivot-index) - [java](java/com/dsalgo/practice/FindPivotIndex.java)
+- [Subarray Sums Divisible by K](./Solution.md#subarray-sums-divisible-by-k) - [java](java/com/dsalgo/practice/SubarraySumsDivisibleByK.java)
+- [Minimum Operations to Reduce X to Zero](./Solution.md#minimum-operations-to-reduce-x-to-zero) - [java](java/com/dsalgo/practice/MinOperationToReduceToZero.java)
+- [Next Permutation](./Solution.md#next-permutation) - [java](java/com/dsalgo/practice/NextPermutation.java)
+- [Remove Invalid Parentheses](./Solution.md#remove-invalid-parentheses) - [java](java/com/dsalgo/practice/RemoveInvalidParentheses.java)
+- [Account Merge](./Solution.md#account-merge) - [java](java/com/dsalgo/practice/AccountsMerge.java)
+- [Convert Binary Search Tree to Sorted Doubly Linked List](./Solution.md#convert-binary-search-tree-to-sorted-doubly-linked-list) - [java](java/com/dsalgo/practice/ConvertBSTtoSortedDoublyLinkedList.java)
 
 
 
