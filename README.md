@@ -172,6 +172,7 @@ Data Structure &amp; Algorithms
 - [Next Permutation](./Solution.md#next-permutation) - [java](java/com/dsalgo/practice/NextPermutation.java)
 - [Remove Invalid Parentheses](./Solution.md#remove-invalid-parentheses) - [java](java/com/dsalgo/practice/RemoveInvalidParentheses.java)
 - [Account Merge](./Solution.md#account-merge) - [java](java/com/dsalgo/practice/AccountsMerge.java)
+- [Convert Binary Search Tree to Sorted Doubly Linked List](./Solution.md#convert-binary-search-tree-to-sorted-doubly-linked-list) - [java](java/com/dsalgo/practice/ConvertBSTtoSortedDoublyLinkedList.java)
 
 
 
