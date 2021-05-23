@@ -170,6 +170,7 @@ Data Structure &amp; Algorithms
 - [Subarray Sums Divisible by K](./Solution.md#subarray-sums-divisible-by-k) - [java](java/com/dsalgo/practice/SubarraySumsDivisibleByK.java);
 - [Minimum Operations to Reduce X to Zero](./Solution.md#minimum-operations-to-reduce-x-to-zero) - [java](java/com/dsalgo/practice/MinOperationToReduceToZero.java);
 - [Next Permutation](./Solution.md#next-permutation) - [java](java/com/dsalgo/practice/NextPermutation.java);
+- [Remove Invalid Parentheses](./Solution.md#remove-invalid-parentheses) - [java](java/com/dsalgo/practice/RemoveInvalidParentheses.java);
  
 
 
