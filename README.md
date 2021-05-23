@@ -173,6 +173,7 @@ Data Structure &amp; Algorithms
 - [Remove Invalid Parentheses](./Solution.md#remove-invalid-parentheses) - [java](java/com/dsalgo/practice/RemoveInvalidParentheses.java)
 - [Account Merge](./Solution.md#account-merge) - [java](java/com/dsalgo/practice/AccountsMerge.java)
 - [Convert Binary Search Tree to Sorted Doubly Linked List](./Solution.md#convert-binary-search-tree-to-sorted-doubly-linked-list) - [java](java/com/dsalgo/practice/ConvertBSTtoSortedDoublyLinkedList.java)
+- [Lowest Common Ancestor of a Binary Tree III](./Solution.md#lowest-common-ancestor-of-a-binary-tree-iii) - [java](java/com/dsalgo/practice/LowestCommonAncestor.java)
 
 
 
