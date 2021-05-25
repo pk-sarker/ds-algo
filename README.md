@@ -178,6 +178,7 @@ Data Structure &amp; Algorithms
 - [Closest Binary Search Tree Value](./Solution.md#closest-binary-search-tree-value) - [java](java/com/dsalgo/practice/ClosestBinarySearchTreeValue.java)
 - [String to Integer](./Solution.md#string-to-integer) - [java](java/com/dsalgo/practice/StringToInteger.java)
 - [Remove Linked List Elements](./Solution.md#remove-linked-list-elements) - [java](java/com/dsalgo/practice/RemoveLinkedListElements.java)
+- [Valid Number](./Solution.md#valid-number) - [java](java/com/dsalgo/practice/ValidNumber.java)
 
 
 
