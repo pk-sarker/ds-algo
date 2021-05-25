@@ -176,6 +176,8 @@ Data Structure &amp; Algorithms
 - [Lowest Common Ancestor of a Binary Tree III](./Solution.md#lowest-common-ancestor-of-a-binary-tree-iii) - [java](java/com/dsalgo/practice/LowestCommonAncestor.java)
 - [Buildings With an Ocean View](./Solution.md#buildings-with-an-ocean-view) - [java](java/com/dsalgo/practice/BuildingsWithAnOceanView.java)
 - [Closest Binary Search Tree Value](./Solution.md#closest-binary-search-tree-value) - [java](java/com/dsalgo/practice/ClosestBinarySearchTreeValue.java)
+- [String to Integer](./Solution.md#string-to-integer) - [java](java/com/dsalgo/practice/StringToInteger.java)
+
 
 
 
