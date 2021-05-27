@@ -180,6 +180,7 @@ Data Structure &amp; Algorithms
 - [Remove Linked List Elements](./Solution.md#remove-linked-list-elements) - [java](java/com/dsalgo/practice/RemoveLinkedListElements.java)
 - [Valid Number](./Solution.md#valid-number) - [java](java/com/dsalgo/practice/ValidNumber.java)
 - [Making A Large Island](./Solution.md#making-a-large-island) - [java](java/com/dsalgo/practice/MakingALargeIsland.java)
+- [Group Shifted Strings](./Solution.md#group-shifted-strings) - [java](java/com/dsalgo/practice/GroupShiftedStrings.java)
 
 
 
