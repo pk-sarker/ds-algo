@@ -183,7 +183,7 @@ Data Structure &amp; Algorithms
 - [Group Shifted Strings](./Solution.md#group-shifted-strings) - [java](java/com/dsalgo/practice/GroupShiftedStrings.java)
 - [Simplify Path](./Solution.md#simplify-path) - [java](java/com/dsalgo/practice/SimplifyPath.java)
 - [Insert into a Sorted Circular Linked List](./Solution.md#insert-into-a-sorted-circular-linked-list) - [java](java/com/dsalgo/practice/InsertIntoSortedCircularLinkedList.java)
-
+- [Balance a Binary Search Tree](./Solution.md#balance-a-binary-search-tree) - [java](java/com/dsalgo/practice/BalanceABinarySearchTree.java)
 
 
 
