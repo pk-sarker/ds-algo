@@ -182,7 +182,7 @@ Data Structure &amp; Algorithms
 - [Making A Large Island](./Solution.md#making-a-large-island) - [java](java/com/dsalgo/practice/MakingALargeIsland.java)
 - [Group Shifted Strings](./Solution.md#group-shifted-strings) - [java](java/com/dsalgo/practice/GroupShiftedStrings.java)
 - [Simplify Path](./Solution.md#simplify-path) - [java](java/com/dsalgo/practice/SimplifyPath.java)
-
+- [Insert into a Sorted Circular Linked List](./Solution.md#insert-into-a-sorted-circular-linked-list) - [java](java/com/dsalgo/practice/InsertIntoSortedCircularLinkedList.java)
 
 
 
