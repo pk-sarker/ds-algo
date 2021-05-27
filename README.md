@@ -181,6 +181,8 @@ Data Structure &amp; Algorithms
 - [Valid Number](./Solution.md#valid-number) - [java](java/com/dsalgo/practice/ValidNumber.java)
 - [Making A Large Island](./Solution.md#making-a-large-island) - [java](java/com/dsalgo/practice/MakingALargeIsland.java)
 - [Group Shifted Strings](./Solution.md#group-shifted-strings) - [java](java/com/dsalgo/practice/GroupShiftedStrings.java)
+- [Simplify Path](./Solution.md#simplify-path) - [java](java/com/dsalgo/practice/SimplifyPath.java)
+
 
 
 
