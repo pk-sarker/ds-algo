@@ -1,6 +1,6 @@
 package com.dsalgo.practice;
 
-import com.dsalgo.fb.common.ListNode;
+import com.dsalgo.practice.common.ListNode;
 
 public class ReorderLinkedList {
 

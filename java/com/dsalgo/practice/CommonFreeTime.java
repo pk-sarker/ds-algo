@@ -1,6 +1,7 @@
 package com.dsalgo.practice;
 
 import com.dsalgo.practice.common.Interval;
+;
 
 import java.util.ArrayList;
 import java.util.List;

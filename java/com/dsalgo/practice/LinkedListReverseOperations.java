@@ -1,6 +1,6 @@
 package com.dsalgo.practice;
 
-import com.dsalgo.fb.common.ListNode;
+import com.dsalgo.practice.common.ListNode;
 
 /**
  * You are given a singly-linked list that contains N integers. A subpart of the list is a contiguous set of even elements,
