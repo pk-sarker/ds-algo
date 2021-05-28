@@ -28,20 +28,14 @@ public class TreeTraversalDFS {
     }
 
     public void inorderHelper(TreeNode root, List<Integer> nodeList) {
-        if (root == null) {
-            return;
-        }
-        if (root.left != null) {
-            inorderHelper(root.left, nodeList);
-        }
+        if (root == null) return;
+        inorderHelper(root.left, nodeList);
         nodeList.add(root.value);
-        if (root.right != null) {
-            inorderHelper(root.right, nodeList);
-        }
+        inorderHelper(root.right, nodeList);
     }
 
     /**
-     *
+     * Root - Left - Right
      * @param root
      * @return
      */
@@ -63,6 +57,11 @@ public class TreeTraversalDFS {
         }
     }
 
+    /**
+     * Left - Right - Root
+     * @param root
+     * @return
+     */
     public List<Integer> traversePostOrder(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         postOrderHelper(root, result);
@@ -94,9 +93,10 @@ public class TreeTraversalDFS {
                 "               / \\   \\  / \\\n" +
                 "              11 8   4 2  1");
         System.out.println("In Order: " + obj.traverseInOrder(root).toString());
-
-        System.out.println("Pre-Order: " + obj.traversePreOrder(root).toString());
-
-        System.out.println("Post-Order: " + obj.traversePostOrder(root).toString());
+        // In Order: [7, 11, 9, 8, 5, 3, 4, 10, 2, 6, 1]
+        //           [7, 11, 9, 8, 5, 3, 4, 10, 2, 6, 1]
+//        System.out.println("Pre-Order: " + obj.traversePreOrder(root).toString());
+//
+//        System.out.println("Post-Order: " + obj.traversePostOrder(root).toString());
     }
 }
