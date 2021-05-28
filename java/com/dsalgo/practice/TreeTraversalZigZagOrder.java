@@ -62,9 +62,46 @@ public class TreeTraversalZigZagOrder {
         }
         return result;
     }
+
+    public static List<List<Integer>> zigzagLevelOrder1(TreeNode root) {
+        if (root == null) {
+            return new ArrayList<>();
+        }
+
+        List<List<Integer>> result = new ArrayList<>();
+        LinkedList<TreeNode> q = new LinkedList<>();
+        q.offer(root);
+
+        boolean order_ltor = true;
+
+        while(!q.isEmpty()) {
+            int size = q.size();
+            LinkedList<Integer> level_result = new LinkedList<>();
+            for(int i=0; i<size; i++) {
+                TreeNode node = q.poll();
+                if (order_ltor) {
+                    level_result.addLast(node.value);
+                } else {
+                    level_result.addFirst(node.value);
+                }
+                if (node.left != null) {
+                    q.offer(node.left);
+                }
+                if (node.right != null) {
+                    q.offer(node.right);
+                }
+            }
+            result.add(level_result);
+            order_ltor = !order_ltor;
+        }
+        return result;
+    }
     
     public static void main(String args[]) {
         TreeNode root = new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7)));
         System.out.println(""+TreeTraversalZigZagOrder.zigzagLevelOrder(root).toString());
+
+        TreeNode root2 = new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7)));
+        System.out.println(""+TreeTraversalZigZagOrder.zigzagLevelOrder1(root2).toString());
     }
 }
