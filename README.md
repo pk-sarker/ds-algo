@@ -187,6 +187,7 @@ Data Structure &amp; Algorithms
 - [Max Area of Island](./Solution.md#max-area-of-island) - [java](java/com/dsalgo/practice/MaxAreaOfIsland.java)
 - [Random Pick Index](./Solution.md#random-pick-index) - [java](java/com/dsalgo/practice/RandomPickIndex.java)
 - [Expression Add Operators](./Solution.md#expression-add-operators) - [java](java/com/dsalgo/practice/ExpressionAddOperators.java)
+- [Longest Increasing Path in a Matrix](./Solution.md#longest-increasing-path-i-a-matrix) - [java](java/com/dsalgo/practice/LongestIncreasingPathInAMatrix.java)
 
 
 
