@@ -71,10 +71,10 @@ public class MinLengthSubstring {
     }
 
     public static void main(String args[]) {
-        System.out.println("\nInput: s=\"dcbefebce\" t=\"fd\" \nOutput: " + com.dsalgo.fb.String.MinLengthSubstring.minLengthSubstring("dcbefebce","fd"));
-        System.out.println("\nInput: s=\"dcbefedce\" t=\"fd\" \nOutput: " + com.dsalgo.fb.String.MinLengthSubstring.minLengthSubstring("dcbefedce","fd"));
-        System.out.println("\nInput: s=\"adacefboodcefxedceb\" t=\"bcd\" \nOutput: " + com.dsalgo.fb.String.MinLengthSubstring.minLengthSubstring("adacefboodcefxedceb","bcd"));
-        System.out.println("\nInput: s=\"acabd\" t=\"ab\" \nOutput: " + com.dsalgo.fb.String.MinLengthSubstring.minLengthSubstring("acabd","ab"));
-        System.out.println("\nInput: s=\"ababccd\" t=\"cba\" \nOutput: " + com.dsalgo.fb.String.MinLengthSubstring.minLengthSubstring("ababccd","cba"));
+        System.out.println("\nInput: s=\"dcbefebce\" t=\"fd\" \nOutput: " + MinLengthSubstring.minLengthSubstring("dcbefebce","fd"));
+        System.out.println("\nInput: s=\"dcbefedce\" t=\"fd\" \nOutput: " + MinLengthSubstring.minLengthSubstring("dcbefedce","fd"));
+        System.out.println("\nInput: s=\"adacefboodcefxedceb\" t=\"bcd\" \nOutput: " + MinLengthSubstring.minLengthSubstring("adacefboodcefxedceb","bcd"));
+        System.out.println("\nInput: s=\"acabd\" t=\"ab\" \nOutput: " + MinLengthSubstring.minLengthSubstring("acabd","ab"));
+        System.out.println("\nInput: s=\"ababccd\" t=\"cba\" \nOutput: " + MinLengthSubstring.minLengthSubstring("ababccd","cba"));
     }
 }
