@@ -57,8 +57,8 @@ public class DailyTemperature {
         return ans;
     }
     public static void main(String args[]) {
-        System.out.println("\n-- Bruteforce --\nInput: [73,74,75,71,69,72,76,73], \nOutput: " + Arrays.toString(com.dsalgo.fb.hashtable.DailyTemperature.dailyTemperaturesBF(new int[]{73,74,75,71,69,72,76,73})));
-        System.out.println("\n-- Using Next day temperature --Input: [73,74,75,71,69,72,76,73], \nOutput: " + Arrays.toString(com.dsalgo.fb.hashtable.DailyTemperature.dailyTemperatures(new int[]{73,74,75,71,69,72,76,73})));
-        System.out.println("\n-- Using  Stack --\nInput: [73,74,75,71,69,72,76,73], \nOutput: " + Arrays.toString(com.dsalgo.fb.hashtable.DailyTemperature.dailyTemperaturesWithStack(new int[]{73,74,75,71,69,72,76,73})));
+        System.out.println("\n-- Bruteforce --\nInput: [73,74,75,71,69,72,76,73], \nOutput: " + Arrays.toString(DailyTemperature.dailyTemperaturesBF(new int[]{73,74,75,71,69,72,76,73})));
+        System.out.println("\n-- Using Next day temperature --Input: [73,74,75,71,69,72,76,73], \nOutput: " + Arrays.toString(DailyTemperature.dailyTemperatures(new int[]{73,74,75,71,69,72,76,73})));
+        System.out.println("\n-- Using  Stack --\nInput: [73,74,75,71,69,72,76,73], \nOutput: " + Arrays.toString(DailyTemperature.dailyTemperaturesWithStack(new int[]{73,74,75,71,69,72,76,73})));
     }
 }
