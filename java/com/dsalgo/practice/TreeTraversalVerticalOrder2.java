@@ -45,24 +45,21 @@ public class TreeTraversalVerticalOrder2 {
         }
     }
 
-    List<Node<Integer,Integer,Integer>> nodeList = new ArrayList<>();
-
+    // List<Node<Integer,Integer,Integer>> nodeList = new ArrayList<>();
+    List<int[]> nodeList = new ArrayList<>();
     public List<List<Integer>> verticalTraversal(TreeNode root) {
         // traverse all the nodes and create
         DFS(root, 0, 0);
-
-        System.out.println(nodeList.toString());
-        // sort
-        Collections.sort(nodeList, new Comparator<Node<Integer,Integer,Integer>>() {
-            public int compare(Node<Integer,Integer,Integer> node1, Node<Integer,Integer,Integer> node2) {
-                if (node1.column.equals(node2.column)) {
-                    if (node1.row.equals(node2.row)) {
-                        return node1.value - node2.value;
+        Collections.sort(nodeList, new Comparator<int[]>() {
+            public int compare(int[] node1, int[] node2) {
+                if (node1[0] == node2[0]) {
+                    if (node1[1] == node2[1]) {
+                        return node1[2] - node2[2];
                     } else {
-                        return node1.row - node2.row;
+                        return node1[1] - node2[1];
                     }
                 } else {
-                    return node1.column - node2.column;
+                    return node1[0] - node2[0];
                 }
             }
         });
@@ -71,15 +68,15 @@ public class TreeTraversalVerticalOrder2 {
 
         List<List<Integer>> result = new ArrayList<>();
         List<Integer> columns = new ArrayList<>();
-        Integer currentColumn = nodeList.get(0).column;
-        for(Node<Integer, Integer, Integer> node : nodeList) {
-            if(currentColumn == node.column) {
-                columns.add(node.value);
+        Integer currentColumn = nodeList.get(0)[0];
+        for(int[] node : nodeList) {
+            if(currentColumn == node[0]) {
+                columns.add(node[2]);
             } else {
                 result.add(columns);
-                currentColumn = node.column;
+                currentColumn = node[0];
                 columns = new ArrayList<>();
-                columns.add(node.value);
+                columns.add(node[2]);
             }
         }
         result.add(columns);
@@ -87,11 +84,10 @@ public class TreeTraversalVerticalOrder2 {
     }
 
     public void DFS(TreeNode node, int row, int col) {
-
         if (node == null) {
             return;
         }
-        nodeList.add(new Node(col, row, node.value));
+        nodeList.add(new int[]{col, row, node.value});
 
         if (node.left != null) {
             DFS(node.left, row+1, col-1);

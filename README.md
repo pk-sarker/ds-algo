@@ -185,6 +185,8 @@ Data Structure &amp; Algorithms
 - [Insert into a Sorted Circular Linked List](./Solution.md#insert-into-a-sorted-circular-linked-list) - [java](java/com/dsalgo/practice/InsertIntoSortedCircularLinkedList.java)
 - [Balance a Binary Search Tree](./Solution.md#balance-a-binary-search-tree) - [java](java/com/dsalgo/practice/BalanceABinarySearchTree.java)
 - [Max Area of Island](./Solution.md#max-area-of-island) - [java](java/com/dsalgo/practice/MaxAreaOfIsland.java)
+- [Random Pick Index](./Solution.md#random-pick-index) - [java](java/com/dsalgo/practice/RandomPickIndex.java)
+- [Expression Add Operators](./Solution.md#expression-add-operators) - [java](java/com/dsalgo/practice/ExpressionAddOperators.java)
 
 
 

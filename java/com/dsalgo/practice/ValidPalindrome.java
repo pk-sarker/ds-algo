@@ -35,6 +35,8 @@ public class ValidPalindrome {
     }
 
     public static void main(String args[]) {
+        System.out.println("\nInput: \"ab c cb a\" \nOutput: " + ValidPalindrome.isPalindrome("a bc cb a"));
+
         System.out.println("\nInput: \"A man, a plan, a canal: Panama\" \nOutput: " + ValidPalindrome.isPalindrome("A man, a plan, a canal: Panama"));
 
         System.out.println("\nInput: \"race a car\" \nOutput: " + ValidPalindrome.isPalindrome("race a car"));
