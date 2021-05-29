@@ -190,6 +190,7 @@ Data Structure &amp; Algorithms
 - [Longest Increasing Path in a Matrix](./Solution.md#longest-increasing-path-i-a-matrix) - [java](java/com/dsalgo/practice/LongestIncreasingPathInAMatrix.java)
 - [Minimum Add to Make Parentheses Valid](./Solution.md#minimum-add-to-make-parentheses-valid) - [java](java/com/dsalgo/practice/MinimumAddToMakeParenthesesValid.java)
 - [Palindrome Permutation](./Solution.md#palindrome-permutation) - [java](java/com/dsalgo/practice/PalindromePermutation.java)
+- [Basic Calculator II](./Solution.md#basic-calculator-ii) - [java](java/com/dsalgo/practice/BasicCalculator2.java)
 
 
 
