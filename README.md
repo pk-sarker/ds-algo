@@ -191,6 +191,9 @@ Data Structure &amp; Algorithms
 - [Minimum Add to Make Parentheses Valid](./Solution.md#minimum-add-to-make-parentheses-valid) - [java](java/com/dsalgo/practice/MinimumAddToMakeParenthesesValid.java)
 - [Palindrome Permutation](./Solution.md#palindrome-permutation) - [java](java/com/dsalgo/practice/PalindromePermutation.java)
 - [Basic Calculator II](./Solution.md#basic-calculator-ii) - [java](java/com/dsalgo/practice/BasicCalculator2.java)
+- [Bipartite Graph](./Solution.md#bipartite-graph) - [java](java/com/dsalgo/practice/BipartiteGraph.java)
+
+
 
 
 
