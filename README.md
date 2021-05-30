@@ -195,6 +195,8 @@ Data Structure &amp; Algorithms
 - [Maximum Swap](./Solution.md#maximum-swap) - [java](java/com/dsalgo/practice/MaximumSwap.java)
 - [Find Peak Element](./Solution.md#find-peak-element) - [java](java/com/dsalgo/practice/FindPeakElement.java)
 - [Palindromic Substrings](./Solution.md#palindromic-substrings) - [java](java/com/dsalgo/practice/PalindromicSubstrings.java)
+- [Range Sum Query 2D - Immutable](./Solution.md#range-sum-query-2d-immutable) - [java](java/com/dsalgo/practice/RangeSumQuery2DMatrix.java)
+- [Find K Closest Elements](./Solution.md#find-k-closest-elements) - [java](java/com/dsalgo/practice/FindKClosestElements.java)
 
 
 
