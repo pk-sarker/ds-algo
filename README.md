@@ -197,6 +197,9 @@ Data Structure &amp; Algorithms
 - [Palindromic Substrings](./Solution.md#palindromic-substrings) - [java](java/com/dsalgo/practice/PalindromicSubstrings.java)
 - [Range Sum Query 2D - Immutable](./Solution.md#range-sum-query-2d-immutable) - [java](java/com/dsalgo/practice/RangeSumQuery2DMatrix.java)
 - [Find K Closest Elements](./Solution.md#find-k-closest-elements) - [java](java/com/dsalgo/practice/FindKClosestElements.java)
+- [Shortest Distance from All Buildings](./Solution.md#shortest-distance-from-all-buildings) - [java](java/com/dsalgo/practice/ShortestDistanceFromAllBuildings.java)
+
+
 
 
 
