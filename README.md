@@ -192,7 +192,7 @@ Data Structure &amp; Algorithms
 - [Palindrome Permutation](./Solution.md#palindrome-permutation) - [java](java/com/dsalgo/practice/PalindromePermutation.java)
 - [Basic Calculator II](./Solution.md#basic-calculator-ii) - [java](java/com/dsalgo/practice/BasicCalculator2.java)
 - [Bipartite Graph](./Solution.md#bipartite-graph) - [java](java/com/dsalgo/practice/BipartiteGraph.java)
-
+- [Maximum Swap](./Solution.md#maximum-swap) - [java](java/com/dsalgo/practice/MaximumSwap.java)
 
 
 
