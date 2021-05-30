@@ -194,6 +194,7 @@ Data Structure &amp; Algorithms
 - [Bipartite Graph](./Solution.md#bipartite-graph) - [java](java/com/dsalgo/practice/BipartiteGraph.java)
 - [Maximum Swap](./Solution.md#maximum-swap) - [java](java/com/dsalgo/practice/MaximumSwap.java)
 - [Find Peak Element](./Solution.md#find-peak-element) - [java](java/com/dsalgo/practice/FindPeakElement.java)
+- [Palindromic Substrings](./Solution.md#palindromic-substrings) - [java](java/com/dsalgo/practice/PalindromicSubstrings.java)
 
 
 
