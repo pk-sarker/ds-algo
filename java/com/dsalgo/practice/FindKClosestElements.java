@@ -6,6 +6,85 @@ import java.util.List;
 public class FindKClosestElements {
 
     /**
+     * Binary Search + Sliding Window
+     * Problem that involves a sorted array, we can consider binary search.
+     * First find the closest number to x in arr.
+     * Logically, the second closest number to x must be directly beside the first number,
+     * either to the left or right. Then, the third closest number to x must be either
+     * to the left of the first number or to the right of the second number. This pattern continues, and
+     * is true because the input is sorted.
+     *
+     * Using two pointers, we can maintain a sliding window that will expand to
+     * contain the k closest elements to x.
+     *
+     * Algorithm:
+     * 1. base case: arr.length == k, return arr.
+     * 2. Use binary search to find the index of the closest element to x in arr.
+     * 3. Initailize two pointers left and right, with left set equal to this index,
+     *    and right equal to this index plus one.
+     * 4. While the window's size is less than k, check which number is closer to
+     *    x: arr[left] or arr[right]. Whichever pointer has the closer number,
+     *    move that pointer towards the edge to include that element in our output.
+     * 5. Return the elements inside arr contained within the window defined between
+     *    left and right.
+     */
+    public List<Integer> findClosestElements(int[] arr, int k, int x) {
+        List<Integer> result = new ArrayList<Integer>();
+
+        // Base case
+        if (arr.length == k) {
+            for (int i = 0; i < k; i++) {
+                result.add(arr[i]);
+            }
+
+            return result;
+        }
+
+        // Binary search to find the closest element
+        int left = 0;
+        int right = arr.length - 1;
+        int mid = 0;
+        while (left <= right) {
+            mid = (left + right) / 2;
+            if (arr[mid] > x) {
+                right = mid - 1;
+            } else if (arr[mid] < x) {
+                left = mid + 1;
+            } else {
+                break;
+            }
+        }
+
+        // Initialize our sliding window's bounds
+        left = mid - 1;
+        right = left + 1;
+
+        // While the window size is less than k
+        while (right - left - 1 < k) {
+            // Be careful to not go out of bounds
+            if (left == -1) {
+                right += 1;
+                continue;
+            }
+
+            // Expand the window towards the side with the closer number
+            // Be careful to not go out of bounds with the pointers
+            if (right == arr.length || Math.abs(arr[left] - x) <= Math.abs(arr[right] - x)) {
+                left -= 1;
+            } else {
+                right += 1;
+            }
+        }
+
+        // Build and return the window
+        for (int i = left + 1; i < right; i++) {
+            result.add(arr[i]);
+        }
+
+        return result;
+    }
+
+    /**
      * Time complexity: O(log(N−k)+k).
      *
      * Although finding the bounds only takes O(log(N−k)) time from the binary search,
@@ -32,7 +111,7 @@ public class FindKClosestElements {
      * our right pointer to avoid considering them. The logic is the same vice-versa
      * - if arr[mid + k] is closer to x, then move the left pointer.
      */
-    public List<Integer> findClosestElements(int[] arr, int k, int x) {
+    public List<Integer> findClosestElementsOpt(int[] arr, int k, int x) {
         List<Integer> result = new ArrayList<>();
         int n = arr.length;
         // if x is lower then the first element
@@ -74,8 +153,8 @@ public class FindKClosestElements {
 
     public static void main(String args[]) {
         FindKClosestElements obj = new FindKClosestElements();
-        System.out.println(obj.findClosestElements(new int[]{0,1,2,4,5,6}, 4, -1).toString());
-        System.out.println(obj.findClosestElements(new int[]{0,1,2,4,5,6}, 4, 7).toString());
-        System.out.println(obj.findClosestElements(new int[]{0,1,2,4,5,6}, 4, 3).toString());
+        System.out.println(obj.findClosestElementsOpt(new int[]{0,1,2,4,5,6}, 4, -1).toString());
+        System.out.println(obj.findClosestElementsOpt(new int[]{0,1,2,4,5,6}, 4, 7).toString());
+        System.out.println(obj.findClosestElementsOpt(new int[]{0,1,2,4,5,6}, 4, 3).toString());
     }
 }
