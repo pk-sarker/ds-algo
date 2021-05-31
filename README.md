@@ -199,6 +199,7 @@ Data Structure &amp; Algorithms
 - [Find K Closest Elements](./Solution.md#find-k-closest-elements) - [java](java/com/dsalgo/practice/FindKClosestElements.java)
 - [Shortest Distance from All Buildings](./Solution.md#shortest-distance-from-all-buildings) - [java](java/com/dsalgo/practice/ShortestDistanceFromAllBuildings.java)
 - [Read N Characters Given Read4 II](./Solution.md#read-n-characters-given-read4-ii) - [java](java/com/dsalgo/practice/BufferReader4.java)
+- [Remove All Adjacent Duplicates in String 2](./Solution.md#remove-all-adjacent-duplicates-in-string-ii) - [java](java/com/dsalgo/practice/RemoveAllAdjacentDuplicatesInString.java)
 
 
 
