@@ -201,6 +201,7 @@ Data Structure &amp; Algorithms
 - [Read N Characters Given Read4 II](./Solution.md#read-n-characters-given-read4-ii) - [java](java/com/dsalgo/practice/BufferReader4.java)
 - [Remove All Adjacent Duplicates in String 2](./Solution.md#remove-all-adjacent-duplicates-in-string-ii) - [java](java/com/dsalgo/practice/RemoveAllAdjacentDuplicatesInString.java)
 - [Generate Parentheses](./Solution.md#generate-parentheses) - [java](java/com/dsalgo/practice/GenerateParentheses.java)
+- [Can Place Flowers](./Solution.md#can-place-flowers) - [java](java/com/dsalgo/practice/CanPlaceFlowers.java)
 
 
 
