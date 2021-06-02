@@ -207,7 +207,7 @@ Data Structure &amp; Algorithms
 - [Sort Colors](./Solution.md#sort-colors) - [java](java/com/dsalgo/practice/SortColors.java)
 - [Validate Binary Tree Nodes](./Solution.md#validate-binary-tree-nodes) - [java](java/com/dsalgo/practice/ValidateBinaryTreeNodes.java)
 - [Connected Components in an Undirected Graph](./Solution.md#connected-components-in-an-undirected-graph) - [java](java/com/dsalgo/practice/ComponentsInAnUndirectedGraph.java)
-
+- [Set Matrix Zeroes](./Solution.md#set-matrix-zeroes) - [java](java/com/dsalgo/practice/MatrixSetToZero.java)
 
 
 
