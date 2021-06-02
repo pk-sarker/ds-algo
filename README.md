@@ -204,6 +204,9 @@ Data Structure &amp; Algorithms
 - [Can Place Flowers](./Solution.md#can-place-flowers) - [java](java/com/dsalgo/practice/CanPlaceFlowers.java)
 - [Monotonic Array](./Solution.md#monotonic-array) - [java](java/com/dsalgo/practice/CanPlaceFlowers.java)
 - [Valid Palindrome III](./Solution.md#valid-palindrome-iii) - [java](java/com/dsalgo/practice/ValidPalindrome3.java)
+- [Sort Colors](./Solution.md#sort-colors) - [java](java/com/dsalgo/practice/SortColors.java)
+
+
 
 
 
