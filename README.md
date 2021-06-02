@@ -205,7 +205,7 @@ Data Structure &amp; Algorithms
 - [Monotonic Array](./Solution.md#monotonic-array) - [java](java/com/dsalgo/practice/CanPlaceFlowers.java)
 - [Valid Palindrome III](./Solution.md#valid-palindrome-iii) - [java](java/com/dsalgo/practice/ValidPalindrome3.java)
 - [Sort Colors](./Solution.md#sort-colors) - [java](java/com/dsalgo/practice/SortColors.java)
-
+- [Validate Binary Tree Nodes](./Solution.md#validate-binary-tree-nodes) - [java](java/com/dsalgo/practice/ValidateBinaryTreeNodes.java)
 
 
 
