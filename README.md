@@ -208,6 +208,8 @@ Data Structure &amp; Algorithms
 - [Validate Binary Tree Nodes](./Solution.md#validate-binary-tree-nodes) - [java](java/com/dsalgo/practice/ValidateBinaryTreeNodes.java)
 - [Connected Components in an Undirected Graph](./Solution.md#connected-components-in-an-undirected-graph) - [java](java/com/dsalgo/practice/ComponentsInAnUndirectedGraph.java)
 - [Set Matrix Zeroes](./Solution.md#set-matrix-zeroes) - [java](java/com/dsalgo/practice/MatrixSetToZero.java)
+- [Missing Element in Sorted Array](./Solution.md#missing-element-in-sorted-array) - [java](java/com/dsalgo/practice/MissingElementInSortedArray.java)
+
 
 
 
