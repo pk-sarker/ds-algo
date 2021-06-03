@@ -212,6 +212,7 @@ Data Structure &amp; Algorithms
 - [Maximum Nesting Depth of the Parentheses](./Solution.md#maximum-nesting-depth-of-the-parentheses) - [java](java/com/dsalgo/practice/MaximumNestingDepthOfParentheses.java)
 - [Maximum Difference Between Node and Ancestor](./Solution.md#maximum-difference-between-node-and-ancestor) - [java](java/com/dsalgo/practice/MaximumAncestorDifference.java)
 - [Subtree of Another Tree](./Solution.md#subtree-of-another-tree) - [java](java/com/dsalgo/practice/SubtreeOfAnotherTree.java)
+- [Symmetric Tree](./Solution.md#symmetric-tree) - [java](java/com/dsalgo/practice/SymmetricTree.java)
 
 
 
