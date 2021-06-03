@@ -210,6 +210,7 @@ Data Structure &amp; Algorithms
 - [Set Matrix Zeroes](./Solution.md#set-matrix-zeroes) - [java](java/com/dsalgo/practice/MatrixSetToZero.java)
 - [Missing Element in Sorted Array](./Solution.md#missing-element-in-sorted-array) - [java](java/com/dsalgo/practice/MissingElementInSortedArray.java)
 - [Maximum Nesting Depth of the Parentheses](./Solution.md#maximum-nesting-depth-of-the-parentheses) - [java](java/com/dsalgo/practice/MaximumNestingDepthOfParentheses.java)
+- [Maximum Difference Between Node and Ancestor](./Solution.md#maximum-difference-between-node-and-ancestor) - [java](java/com/dsalgo/practice/MaximumAncestorDifference.java)
 
 
 
