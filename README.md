@@ -214,6 +214,7 @@ Data Structure &amp; Algorithms
 - [Subtree of Another Tree](./Solution.md#subtree-of-another-tree) - [java](java/com/dsalgo/practice/SubtreeOfAnotherTree.java)
 - [Symmetric Tree](./Solution.md#symmetric-tree) - [java](java/com/dsalgo/practice/SymmetricTree.java)
 - [Unique Paths](./Solution.md#unique-paths) - [java](java/com/dsalgo/practice/UniquePaths.java)
+- [Unique Paths II ](./Solution.md#unique-paths-ii) - [java](java/com/dsalgo/practice/UniquePathsII.java)
 
 
 
