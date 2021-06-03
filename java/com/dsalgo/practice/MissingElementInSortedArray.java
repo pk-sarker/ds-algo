@@ -16,8 +16,14 @@ package com.dsalgo.practice;
  * Input: nums = [1,2,4], k = 3
  * Output: 6
  * Explanation: The missing numbers are [3,5,6,7,...], hence the third missing number is 6.
+ *
+ *
  */
 public class MissingElementInSortedArray {
+    /**
+     * Time complexity: O(N) since in the worst case it's one pass along the array.
+     * Space complexity: O(1) since it's a constant space solution.
+     */
     public int missingElement(int[] nums, int k) {
         int n = nums.length;
 
@@ -42,8 +48,38 @@ public class MissingElementInSortedArray {
     }
 
     private int countMissingNumbers(int[] nums, int endIndex) {
-
         return nums[endIndex]-nums[0] - endIndex;
+    }
+
+    /**
+     *
+     */
+    public int missingElementBinarySearch(int[] nums, int k) {
+        int n = nums.length;
+
+        // if k-th missing number is greater than maximum value in the array
+        if (countMissingNumbers(nums, n-1) < k) {
+            // if there are no missing number in the array, then
+            // k-th missing number will be exactly k away from the last number
+            // if there are some missing number in the array but that number is
+            // less than k then we  deduct those missing numbers after finding
+            // k missing number after the last number  in the array
+            return nums[n-1]+k-countMissingNumbers(nums, n-1);
+        }
+
+        int left = 0, right = n-1, mid;
+        // find left = right index such that
+        // countMissingNumbers(left - 1) < k <= countMissingNumbers(left)
+        while (left != right) {
+            mid = left + (right-left)/2;
+            if (countMissingNumbers(nums, mid) < k) {
+                left = mid+1;
+            } else {
+                right = mid;
+            }
+        }
+
+        return nums[left-1] + k - countMissingNumbers(nums, left-1);
     }
 
     public static void main(String args[]) {
@@ -51,5 +87,10 @@ public class MissingElementInSortedArray {
         System.out.println("Input: [4,7,9,10], k=2 \nOutput: " + obj.missingElement(new int[]{4,7,9,10}, 2));
         System.out.println("Input: [4,7,9,10], k=4 \nOutput: " + obj.missingElement(new int[]{4,7,9,10}, 4));
         System.out.println("Input: [1,2,4], k=3 \nOutput: " + obj.missingElement(new int[]{1,2,4}, 3));
+
+        System.out.println("\n --- Binary Search --- \n");
+        System.out.println("Input: [4,7,9,10], k=2 \nOutput: " + obj.missingElementBinarySearch(new int[]{4,7,9,10}, 2));
+        System.out.println("Input: [4,7,9,10], k=4 \nOutput: " + obj.missingElementBinarySearch(new int[]{4,7,9,10}, 4));
+        System.out.println("Input: [1,2,4], k=3 \nOutput: " + obj.missingElementBinarySearch(new int[]{1,2,4}, 3));
     }
 }
