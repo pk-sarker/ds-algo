@@ -215,7 +215,7 @@ Data Structure &amp; Algorithms
 - [Symmetric Tree](./Solution.md#symmetric-tree) - [java](java/com/dsalgo/practice/SymmetricTree.java)
 - [Unique Paths](./Solution.md#unique-paths) - [java](java/com/dsalgo/practice/UniquePaths.java)
 - [Unique Paths II ](./Solution.md#unique-paths-ii) - [java](java/com/dsalgo/practice/UniquePathsII.java)
-
+- [Diagonal Traverse](./Solution.md#diagonal-traverse) - [java](java/com/dsalgo/practice/DiagonalTraverse.java)
 
 
  q
