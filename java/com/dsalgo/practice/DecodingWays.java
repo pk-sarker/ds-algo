@@ -67,9 +67,36 @@ public class DecodingWays {
         return count;
     }
 
+    public int numDecodingItr(String s) {
+        if (s == null || s.isEmpty()) {
+            return 0;
+        }
+        int n = s.length();
+
+        int prev = (s.charAt(0) != '0' ? 1:0);
+        int prevprev = 1;
+        int current = prev;
+
+        for(int i=2;i<n+1;i++) {
+            current = 0;
+            if (s.charAt(i-1) != '0') {
+                current = prev;
+            }
+            int lastTwoDigits = Integer.parseInt(s.substring(i-2, i));
+            if (lastTwoDigits>10 && lastTwoDigits <= 26) {
+                current = current + prevprev;
+            }
+            prevprev = prev;
+            prev = current;
+        }
+
+        return current;
+    }
     public static void main(String args[]) {
         DecodingWays obj = new DecodingWays();
 
         System.out.println(obj.numDecodings("226"));
+
+        System.out.println(obj.numDecodingItr("226"));
     }
 }
