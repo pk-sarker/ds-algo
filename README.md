@@ -218,9 +218,8 @@ Data Structure &amp; Algorithms
 - [Diagonal Traverse](./Solution.md#diagonal-traverse) - [java](java/com/dsalgo/practice/DiagonalTraverse.java)
 - [Decode Ways](./Solution.md#decode-ways) - [java](java/com/dsalgo/practice/DecodingWays.java)
 - [Kth Smallest Element in a BST](./Solution.md#kth-smallest-element-in-a-bst) - [java](java/com/dsalgo/practice/KthSmallestElementInBST.java)
+- [Check Completeness of a Binary Tree](./Solution.md#check-completeness-of-a-binary-tree) - [java](java/com/dsalgo/practice/CompleteBinaryTree.java)
 
-
- q
 
 
 
