@@ -72,6 +72,45 @@ public class NextRightPointer {
         return root;
     }
 
+    /**
+     * The idea is to traverse the tree and set the next pointer while traversing
+     *           a
+     *         /  \
+     *        b    c
+     *      /  \  / \
+     *     d   e f   g
+     * Next pointer should set to the immediate right node, There are two cases
+     * 1) the immediate right node belongs to the same parent of current node,
+     *    so right child of the current nodes parent. like [b a c]
+     * 2) the immediate right node belongs to different parent, for example node e and f
+     *    e's parent is b and f's parent is c. In this case we should have already set the next pointer
+     *    of current nodes' parent  if not root node. So we can just go next of current nodes parent and then
+     *    left child of that parent, right node of e: e->b, b->c, c->f
+     *
+     *
+     *
+     */
+    public static Node connectSpaceOpt(Node root) {
+        if (root == null) {
+            return null;
+        }
+        Node leftmost = root;
+        while(leftmost.left != null) {
+            Node head = leftmost;
+            while(head != null) {
+                head.left.next = head.right;
+                if (head.next != null) {
+                    head.right.next = head.next.left;
+                }
+                // go to next right node
+                head = head.next;
+            }
+            // proceed to next level
+            leftmost = leftmost.left;
+        }
+        return root;
+    }
+
     public  static void main(String args[]) {
         Node root = new Node(1, new Node(2, new Node(4), new Node(5), null), new Node(3, new Node(6), new Node(7), null), null);
         Node node = NextRightPointer.connect(root);
