@@ -221,6 +221,7 @@ Data Structure &amp; Algorithms
 - [Check Completeness of a Binary Tree](./Solution.md#check-completeness-of-a-binary-tree) - [java](java/com/dsalgo/practice/CompleteBinaryTree.java)
 - [Populating Next Right Pointers in Each Node](./Solution.md#populating-next-right-pointers-in-each-node) - [java](java/com/dsalgo/practice/NextRightPointer.java)
 - [Populating Next Right Pointers in Each Node 2](./Solution.md#populating-next-right-pointers-in-each-node-2) - [java](java/com/dsalgo/practice/NextRightPointer2.java)
+- [Strobogrammatic Number](./Solution.md#strobogrammatic-number) - [java](java/com/dsalgo/practice/StrobogrammaticNumber.java)
 
 
 
