@@ -1,5 +1,7 @@
 package com.dsalgo.practice;
 
+import java.util.ArrayList;
+
 public class DivideTwoIntegers {
     // 32-bit integer range 2^-31 to 2^32-1
     // half of min range 2^-31/2 = 1073741824
@@ -10,43 +12,55 @@ public class DivideTwoIntegers {
         if (dividend == Integer.MIN_VALUE && divisor == -1) {
             return Integer.MAX_VALUE;
         }
-        int negativeCount = 2;
+
+        /* We need to convert both numbers to negatives.
+         * Also, we count the number of negatives signs. */
+        int negatives = 2;
         if (dividend > 0) {
-            negativeCount--;
+            negatives--;
             dividend = -dividend;
         }
         if (divisor > 0) {
-            negativeCount--;
+            negatives--;
             divisor = -divisor;
         }
 
-        int quotient = 0;
-        /* Once the divisor is bigger than the current dividend,
-         * we can't fit any more copies of the divisor into it. */
-        while(divisor >= dividend) { // -5 > -10, we converted both the divisor and dividend to negative
+        ArrayList<Integer> doubles = new ArrayList<>();
+        ArrayList<Integer> powersOfTwo = new ArrayList<>();
 
-            /* We know it'll fit at least once as divivend >= divisor.
-             * Note: We use a negative powerOfTwo as it's possible we might have
-             * the case divide(INT_MIN, -1). */
-            int powerOfTwo = -1;
-
-            int tempDivisor = divisor;
-            int tempQuotient = 1;
-            /* Check if double the current value is too big. If not, continue doubling.
-             * If it is too big, stop doubling and continue with the next step */
-            while(tempDivisor >= HALF_INT_MIN && tempDivisor+tempDivisor>= dividend) {
-                tempQuotient += tempQuotient;
-                tempDivisor += tempDivisor;
+        /* Nothing too exciting here, we're just making a list of doubles of 1 and
+         * the divisor. This is pretty much the same as Approach 2, except we're
+         * actually storing the values this time. */
+        int powerOfTwo = -1;
+        while (divisor >= dividend) {
+            doubles.add(divisor);
+            powersOfTwo.add(powerOfTwo);
+            // Prevent needless overflows from occurring...
+            if (divisor < HALF_INT_MIN) {
+                break;
             }
-            quotient += tempQuotient;
-            // Remove value so far so that we can continue the process with remainder.
-            dividend -= tempDivisor;
+            divisor += divisor;
+            powerOfTwo += powerOfTwo;
         }
 
-        if (negativeCount != 1) {
+        int quotient = 0;
+        /* Go from largest double to smallest, checking if the current double fits.
+         * into the remainder of the dividend. */
+        for (int i = doubles.size() - 1; i >= 0; i--) {
+            if (doubles.get(i) >= dividend) {
+                // If it does fit, add the current powerOfTwo to the quotient.
+                quotient += powersOfTwo.get(i);
+                // Update dividend to take into account the bit we've now removed.
+                dividend -= doubles.get(i);
+            }
+        }
+
+        /* If there was originally one negative sign, then
+         * the quotient remains negative. Otherwise, switch
+         * it to positive. */
+        if (negatives != 1) {
             return -quotient;
         }
-
         return quotient;
     }
     public static void main(String args[]) {
