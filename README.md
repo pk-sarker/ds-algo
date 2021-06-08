@@ -223,6 +223,7 @@ Data Structure &amp; Algorithms
 - [Populating Next Right Pointers in Each Node 2](./Solution.md#populating-next-right-pointers-in-each-node-2) - [java](java/com/dsalgo/practice/NextRightPointer2.java)
 - [Strobogrammatic Number](./Solution.md#strobogrammatic-number) - [java](java/com/dsalgo/practice/StrobogrammaticNumber.java)
 - [Valid Word Abbreviation](./Solution.md#valid-word-abbreviation) - [java](java/com/dsalgo/practice/ValidWordAbbreviation.java)
+- [All Elements in Two Binary Search Trees](./Solution.md#all-elements-in-two-binary-search-trees) - [java](java/com/dsalgo/practice/SearchTwoBinaryTrees.java)
 
 
 
