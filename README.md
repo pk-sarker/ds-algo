@@ -224,6 +224,7 @@ Data Structure &amp; Algorithms
 - [Strobogrammatic Number](./Solution.md#strobogrammatic-number) - [java](java/com/dsalgo/practice/StrobogrammaticNumber.java)
 - [Valid Word Abbreviation](./Solution.md#valid-word-abbreviation) - [java](java/com/dsalgo/practice/ValidWordAbbreviation.java)
 - [All Elements in Two Binary Search Trees](./Solution.md#all-elements-in-two-binary-search-trees) - [java](java/com/dsalgo/practice/SearchTwoBinaryTrees.java)
+- [Maximum Profit in Job Scheduling](./Solution.md#maximum-profit-in-job-scheduling) - [java](java/com/dsalgo/practice/MaximumProfitInJobScheduling.java)
 
 
 
