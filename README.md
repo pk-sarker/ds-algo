@@ -225,6 +225,7 @@ Data Structure &amp; Algorithms
 - [Valid Word Abbreviation](./Solution.md#valid-word-abbreviation) - [java](java/com/dsalgo/practice/ValidWordAbbreviation.java)
 - [All Elements in Two Binary Search Trees](./Solution.md#all-elements-in-two-binary-search-trees) - [java](java/com/dsalgo/practice/SearchTwoBinaryTrees.java)
 - [Maximum Profit in Job Scheduling](./Solution.md#maximum-profit-in-job-scheduling) - [java](java/com/dsalgo/practice/MaximumProfitInJobScheduling.java)
+- [Guess the Word](./Solution.md#guess-the-word) - [java](java/com/dsalgo/practice/GuessTheWord.java)
 
 
 
