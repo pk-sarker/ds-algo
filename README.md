@@ -1,6 +1,12 @@
 # ds-algo
 Data Structure &amp; Algorithms
 
+## [Data Structures](./java/ds/README.md)
+- [Array](./java/ds/Array/README.md)
+
+## Algorithms
+
+## Mixed Problems
 - [Sum of Two Numbers](./Solution.md#sum-of-two-numbers) - [Java](java/com/dsalgo/practice/TwoSumLE.java) [Python](./python/TwoSumLE.py) [Scala](./scala/src/com/ds/scala/practice/TwoSumLE.scala) [JavaScript](./javascript/two_sum.js)
 - [Best Time to Buy and Sell Stock](./Solution.md#best-time-to-buy-and-sell-stock) - [Java](java/com/dsalgo/practice/BuyAndSellStockLE.java) [Python](./python/BuyAndSellStockLE.py)
 - [Verifying an Alien Dictionary](./Solution.md#verifying-an-alien-dictionary) - [Java](java/com/dsalgo/practice/VerifyingAnAlienDictionary.java)
