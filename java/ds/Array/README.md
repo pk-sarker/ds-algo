@@ -9,7 +9,7 @@
 - [Monotonic Array](#monotonic-array) - [Java](./MonotonicArray.java)
 - [Move Zeroes](#move-zeroes) - [Java](./MonotonicArray.java)
 - [Product of Array Except Self](#product-of-array-except-self) - [Java](./CalculateProductExceptItself.java)
-- [Non-decreasing Array](#non-decreasing-array) - [Java](./CalculateProductExceptItself.java)
+- [Non-decreasing Array](#non-decreasing-array) - [Java](./NonDecreasingArray.java)
 
 
 
