@@ -5,6 +5,10 @@
 - [Validate Subsequence Array](#validate-subsequence-array) - [Java](./ValidSubsequence.java)
 - [Is Validate Subsequence](#is-validate-subsequence) - [Java](./ValidSubsequence2.java)
 - [Squares of a Sorted Array](#square-of-a-sorted-array) - [Java](./SquaresOfASortedArray.java)
+- [Remove Duplicates from Sorted Array](#remove-duplicates-from-sorted-array) - [Java](./RemoveDuplicateFromSortedArray.java)
+- [Monotonic Array](#monotonic-array) - [Java](./MonotonicArray.java)
+
+
 #### Sum of Two Numbers
 Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to target.
 
@@ -188,3 +192,63 @@ we can sort the array and then search.
 
 [Implementation](./SumOfThree.java)
   
+#### Remove Duplicates from Sorted Array
+Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that 
+each unique element appears only once. The relative order of the elements should be kept the same.
+
+Example:
+```
+Input: nums = [1,1,2]
+Output: 2, nums = [1,2,_]
+Explanation: Your function should return k = 2, with the first two elements of nums being 1 and 2 respectively.
+It does not matter what you leave beyond the returned k (hence they are underscores).
+
+Input: nums = [0,0,1,1,1,2,2,3,3,4]
+Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
+Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
+It does not matter what you leave beyond the returned k (hence they are underscores).
+```
+
+**Solution**
+Keep a pointer for non duplicate number, initially point at the first index of the array.
+
+As the array is sorted then, duplicate elements will be consecutive but in different blocks, for 
+example: `[0,1,1,1,1,2,2,3,3,3,4,5,5,5]`.
+
+Iterate over the numbers and keep checking if last number(non duplicate) is same as current number or not. If not then 
+add the current number next to last non-duplicate number; otherwise check the next number.
+
+*Time Complexity*: *O(n)*\
+*Space Complexity*: *O(n)* 
+
+[Implementation](./RemoveDuplicateFromSortedArray.java)
+
+#### Monotonic Array
+An array is monotonic if it is either monotone increasing or monotone decreasing.
+
+An array nums is monotone increasing if for all `i <= j`, `nums[i] <= nums[j]`.  An array nums is monotone decreasing if for all `i <= j`, `nums[i] >= nums[j]`.
+
+Return true if and only if the given array nums is monotonic.
+Example:
+```
+Input: nums = [1,2,2,3]
+Output: true
+
+Input: nums = [1,3,2]
+Output: false
+
+Input: nums = [1,2,4,5]
+Output: true
+
+Input: nums = [1,1,1]
+Output: true
+```
+
+**Solution**
+Check first two numbers to identify if the array suppose to be incremental or decremental. And then 
+base on the type, check every consecutive pairs.
+
+*Time Complexity*: *O(n)*\
+*Space Complexity*: *O(n)* 
+
+[Implementation](./MonotonicArray.java)
