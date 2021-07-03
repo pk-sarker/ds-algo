@@ -3,6 +3,14 @@
 ## Array
 - [Sum of Two Numbers](./Array/README.md#sum-of-two-numbers) - [Java](./Array/SumOfTwo.java) [Python](../../python/TwoSumLE.py) [Scala](../../scala/src/com/ds/scala/practice/TwoSumLE.scala) [JavaScript](../../javascript/two_sum.js)
 - [First non-repeating character](./Array/README.md#first-non-repeating-character) - [Java](./Array/FirstNonRepeatingCharacter.java)
+- [Validate Subsequence Array](./Array/README.md#validate-subsequence-array) - [Java](./Array/ValidSubsequence.java)
+- [Is Validate Subsequence](./Array/README.md#is-validate-subsequence) - [Java](./Array/ValidSubsequence2.java)
+- [Squares of a Sorted Array](./Array/README.md#square-of-a-sorted-array) - [Java](./Array/SquaresOfASortedArray.java)
+- [Remove Duplicates from Sorted Array](./Array/README.md#remove-duplicates-from-sorted-array) - [Java](./Array/RemoveDuplicateFromSortedArray.java)
+- [Monotonic Array](./Array/README.md#monotonic-array) - [Java](./Array/MonotonicArray.java)
+- [Product of Array Except Self](./Array/README.md#product-of-array-except-self) - [Java](./Array/CalculateProductExceptItself.java)
+- [Non-decreasing Array](./Array/README.md#non-decreasing-array) - [Java](./Array/NonDecreasingArray.java)
+- [Smallest Difference](./Array/README.md##smallest-difference) - [Java](./Array/SmallestDifference.java)
 
 ## [Stack](./Stack/README.md)
 

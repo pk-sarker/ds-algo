@@ -10,7 +10,7 @@
 - [Move Zeroes](#move-zeroes) - [Java](./MonotonicArray.java)
 - [Product of Array Except Self](#product-of-array-except-self) - [Java](./CalculateProductExceptItself.java)
 - [Non-decreasing Array](#non-decreasing-array) - [Java](./NonDecreasingArray.java)
-
+- [Smallest Difference](#smallest-difference) - [Java](./SmallestDifference.java)
 
 
 #### Sum of Two Numbers
@@ -341,5 +341,43 @@ This approach is single pass, so time complexity is *O(n)*.
 
 **Space Complexity**\
 Constant space
+
+[Implementation](./NonDecreasingArray.java)
+
+
+#### Smallest Difference
+Write a function that takes in two non-empty arrays of integers, finds the pair of numbers (one from each array) whose absolute 
+difference is closest to zero, and returns an array containing these two numbers, with the number from the first array in the first position.
+
+Note that the absolute difference of two integers is the distance between them on the real number line. For example, the absolute 
+difference of -5 and 5 is 10, and the absolute difference of -5 and -4 is 1.
+
+Example:
+```
+array1 = [-1, 5, 10, 20, 28, 3]
+array2 = [26, 134, 135, 15, 17]
+Output: [26,28]
+```
+
+**Solution**
+In the naive approach we can use two loops. For each number in one array we compare absolute difference with 
+every other element in the other array and keep updating the pari when we see a smaller difference. Time complexity 
+will be *O(n^2)*.
+
+We can optimize this, by sorting both arrays in either ascending or descending order. After sorting the arrays
+consider in ascending order, all the smaller elements will be at the begining.
+We use two pointer, pointing start of both array, initially pointing the smallest element in both array,
+
+Then we compare both number pointed by the pointer. If both numbers are same then we return the numbers as their 
+absolute difference is zero. Otherwise, if number in array one is greater than number in array two then 
+we increment the pointer whose value is less, move to next number which may be higher. We also keep 
+calculating the absolute difference and compare with lastly calculated absolute difference.
+If current difference is less then we update the min difference and the numbers are saved.
+
+
+**Time Complexity:**\
+*O(n log n)*
+**Space Complexity:**\
+*O(1)*
 
 [Implementation](./NonDecreasingArray.java)
