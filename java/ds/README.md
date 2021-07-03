@@ -13,6 +13,7 @@
 - [Smallest Difference](./Array/README.md##smallest-difference) - [Java](./Array/SmallestDifference.java)
 
 ## [Stack](./Stack/README.md)
+- [Valid Parentheses](./Stack/README.md#valid-parentheses) - [Java](./Stack/ValidateParentheses.java)
 
 ## [Queue](./Queue/README.md)
 
