@@ -5,6 +5,14 @@
 - [Validate Subsequence Array](#validate-subsequence-array) - [Java](./ValidSubsequence.java)
 - [Is Validate Subsequence](#is-validate-subsequence) - [Java](./ValidSubsequence2.java)
 - [Squares of a Sorted Array](#square-of-a-sorted-array) - [Java](./SquaresOfASortedArray.java)
+- [Remove Duplicates from Sorted Array](#remove-duplicates-from-sorted-array) - [Java](./RemoveDuplicateFromSortedArray.java)
+- [Monotonic Array](#monotonic-array) - [Java](./MonotonicArray.java)
+- [Move Zeroes](#move-zeroes) - [Java](./MonotonicArray.java)
+- [Product of Array Except Self](#product-of-array-except-self) - [Java](./CalculateProductExceptItself.java)
+- [Non-decreasing Array](#non-decreasing-array) - [Java](./NonDecreasingArray.java)
+
+
+
 #### Sum of Two Numbers
 Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to target.
 
@@ -188,3 +196,150 @@ we can sort the array and then search.
 
 [Implementation](./SumOfThree.java)
   
+#### Remove Duplicates from Sorted Array
+Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that 
+each unique element appears only once. The relative order of the elements should be kept the same.
+
+Example:
+```
+Input: nums = [1,1,2]
+Output: 2, nums = [1,2,_]
+Explanation: Your function should return k = 2, with the first two elements of nums being 1 and 2 respectively.
+It does not matter what you leave beyond the returned k (hence they are underscores).
+
+Input: nums = [0,0,1,1,1,2,2,3,3,4]
+Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
+Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
+It does not matter what you leave beyond the returned k (hence they are underscores).
+```
+
+**Solution**
+Keep a pointer for non duplicate number, initially point at the first index of the array.
+
+As the array is sorted then, duplicate elements will be consecutive but in different blocks, for 
+example: `[0,1,1,1,1,2,2,3,3,3,4,5,5,5]`.
+
+Iterate over the numbers and keep checking if last number(non duplicate) is same as current number or not. If not then 
+add the current number next to last non-duplicate number; otherwise check the next number.
+
+*Time Complexity*: *O(n)*\
+*Space Complexity*: *O(n)* 
+
+[Implementation](./RemoveDuplicateFromSortedArray.java)
+
+#### Monotonic Array
+An array is monotonic if it is either monotone increasing or monotone decreasing.
+
+An array nums is monotone increasing if for all `i <= j`, `nums[i] <= nums[j]`.  An array nums is monotone decreasing if for all `i <= j`, `nums[i] >= nums[j]`.
+
+Return true if and only if the given array nums is monotonic.
+Example:
+```
+Input: nums = [1,2,2,3]
+Output: true
+
+Input: nums = [1,3,2]
+Output: false
+
+Input: nums = [1,2,4,5]
+Output: true
+
+Input: nums = [1,1,1]
+Output: true
+```
+
+**Solution**
+Check first two numbers to identify if the array suppose to be incremental or decremental. And then 
+base on the type, check every consecutive pairs.
+
+*Time Complexity*: *O(n)*\
+*Space Complexity*: *O(n)* 
+
+[Implementation](./MonotonicArray.java)
+
+#### Move Zeroes
+Given an array nums, write a function to move all 0's to the end of it while
+ maintaining the relative order of the non-zero elements.
+ 
+Example:
+```
+Input: [0,1,0,3,12]
+Output: [1,3,12,0,0]
+``` 
+
+**Solution**
+We could have just swapped the zeors to last position but it will break relative ordering 
+of the non-zero numbers. So we will have a pointer variable refer  to the array index of 
+next non-zero element position. Initially it will be set to zero then increments on every swap. 
+We will do swap when the current index is pointing to 0.
+
+**Time Complexity:**\
+*O(n)*
+**Space Complexity:**\
+*O(1)*
+
+[Implementation](./MoveZeros.java)
+
+#### Product of Array Except Self
+Given an array nums of `n` integers where `n > 1`, return an array output such that `output[i]` is equal to the product of all the elements of nums except `nums[i]`. 
+
+Example:
+```
+Input array is [4, 5, 9, 3]
+Output should be [135, 108, 60, 180]
+```
+
+**Solution**
+We can use extra space to store product of all the elements in the left except current one in one array. 
+Similarly, store product of all the elements in right except current in another array. Then for each position/item we multiply product of left array and product of right array.
+
+**Time Complexity:**\
+There are two loops, the complexity is *O(2n)* = *O(n)*.\
+**Space Complexity**\
+As we are using three arrays, the space complexity is *O(3n)*=*O(n)*
+
+#### Non Decreasing Array
+Given an array *nums* with *n* integers, your task is to check if it could become non-decreasing by modifying at most *1* element.
+
+We define an array is non-decreasing if *nums[i] <= nums[i + 1]* holds for every *i (0-based)* such that *(0 <= i <= n - 2)*.\\
+```
+Input: [5, 2, 4]
+Output: True
+change 5 to 1, [1, 2, 4]
+
+Input: [3, 2, 5, 4]
+Output: False
+There are two downwards scenerio, 3 to 2, 5 to 4. Its posible to fix only one, not both. 
+```
+
+
+**Solution:**\
+Here, key points are: `non-decreasing`, `modify at most once`. Non-decreasing means equal or increasing. Let's discard a obvious case: if there are more than one scenario where the numbers are decreasing then return `False`. Because we are allowed to fix only one such occurrence.
+So we have to find decreasing pattern in the array, if there is none then return true. Decreasing pattern will be like this: 
+```
+array[i] > array[i+1] 
+or
+array[i-1] > array[i]
+```
+
+Let's point some decreasing cases and how to fix them:
+
+![Complexity](../../../assets/non-decreasing-array.png) 
+
+In *a)* if start index of decreasing line is the first  element then we can easily plot the stating point in reference to the next.
+For example: *[5, 3, 6]*, so we just need to move first element less than or equal to the next element, that is [2, 3, 6]
+
+In *b)*, if start index of decreasing line is the last element then we can easily plot the last point in reference to the previous point.
+For example: *[2, 5, 3]*, update last point equal to second last point or more than that. *[2, 5, 6]*
+
+If start index of decreasing line is in between first and last element then there could be two cases:
+In *c)*, if *[index + 2] >= [index]* then we can fix this case by moving *[index+1]* up equal to *[index + 2]*.
+in *d)*, if *[index + 1] >= [index - 1]* then we can fix this case by moving *[index]* down equal to *[index-1]* or *[index+1]*
+
+**Time Complexity**\
+This approach is single pass, so time complexity is *O(n)*.
+
+**Space Complexity**\
+Constant space
+
+[Implementation](./NonDecreasingArray.java)

@@ -1,7 +1,7 @@
 # Two Pointer
 
 - [Container With Most Water](#container-with-most-water) - [Java](./ContainerWithMostWater.java)
-
+- [Trapping Rain Water](#trapping-rain-water) - [Java](./TrappingRainWater.java)
 
 #### Container With Most Water
 Given n non-negative integers `a1, a2, ..., an` , where each represents a point at coordinate `(i, ai)`. `n` vertical lines are 
@@ -32,3 +32,31 @@ We can use two pointer, one at the beginning and another one at the end or the g
 *Space Complexity*: *O(n)* 
 
 [Implementation](./ContainerWithMostWater.java)
+
+#### Trapping Rain Water
+Given n non-negative integers representing an elevation map where the width of each bar is `1`, compute how much water it can trap after raining.
+
+Example:
+```
+Input: height = [0,1,0,2,1,0,1,3,2,1,2,1]
+Output: 6
+Explanation: The above elevation map (black section) is represented by array [0,1,0,2,1,0,1,3,2,1,2,1]. In this case, 6 units of rain water (blue section) are being trapped.
+
+Input: height = [4,2,0,3,2,5]
+Output: 9
+```
+**Solution**
+To trap water we need to have a `U` shape. If we consider three consecutive bars then, the middle bar has to be
+less than left and right bar. And the amount of water trapped by the middle bar is the difference between lowest of 
+left, right bar and the middle bar. For example, if the height of three bars are `[3,1,5]`, then trapped water in middle
+bar = `min(3,5) - 1 = 2`
+Important observation is that, trapped rain water depends on the lowest bar.
+
+We can apply two pointer approach. We keep track of max height from the left and right. If 
+left max height is less than right max height then we try to find a bar from left which is 
+less than left max height and calculate trapped water. Example: `[4,5,3,2,4,...5,4,7]`. 
+
+*Time Complexity*: *O(n)*\
+*Space Complexity*: *O(n)* 
+
+[Implementation](./TrappingRainWater.java)
