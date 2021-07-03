@@ -3,7 +3,8 @@
 - [Sum of Two Numbers](#sum-of-two-numbers) - [Java](./SumOfTwo.java) [Python](../../../python/TwoSumLE.py) [Scala](../../../scala/src/com/ds/scala/practice/TwoSumLE.scala) [JavaScript](../../../javascript/two_sum.js)
 - [First non-repeating character](#first-non-repeating-character) - [Java](./FirstNonRepeatingCharacter.java)
 - [Validate Subsequence Array](#validate-subsequence-array) - [Java](./ValidSubsequence.java)
-
+- [Is Validate Subsequence](#is-validate-subsequence) - [Java](./ValidSubsequence2.java)
+- [Squares of a Sorted Array](#square-of-a-sorted-array) - [Java](./SquaresOfASortedArray.java)
 #### Sum of Two Numbers
 Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to target.
 
@@ -74,7 +75,6 @@ hash map. If the count is 1 then the character is the first non-repeating charac
 
 [Implementation](./FirstNonRepeatingCharacter.java)
 
-
 #### Validate Subsequence Array
 Given two non-empty arrays of integers, write a function that determines whether the second array is a subsequence of the first one.
 
@@ -100,3 +100,91 @@ If matches then we increment the sequence pointer to check next number in the se
 *Space Complexity*: *O(n)* 
 
 [Implementation](./ValidSubsequence.java)
+
+#### Is Validate Subsequence 
+Given two strings `s` and `t`, return true if `s` is a subsequence of `t`, or `false` otherwise.
+
+A subsequence of a string is a new string that is formed from the original string by deleting 
+some (can be none) of the characters without disturbing the relative positions of the remaining 
+characters. (i.e., "ace" is a subsequence of "abcde" while "aec" is not).
+
+
+**Solution**
+Same as [Validate Subsequence Array](#validate-subsequence-array).
+
+*Time Complexity*: *O(n)*\
+*Space Complexity*: *O(n)* 
+
+[Implementation](./ValidSubsequence2.java)
+
+#### Squares of a Sorted Array
+Given an integer array nums sorted in non-decreasing order, return an array of the squares of
+each number sorted in non-decreasing order.
+
+Example:
+```
+Input: nums = [-4,-1,0,3,10]
+Output: [0,1,9,16,100]
+Explanation: After squaring, the array becomes [16,1,0,9,100].
+After sorting, it becomes [0,1,9,16,100].
+
+Input: nums = [-7,-3,2,3,11]
+Output: [4,9,9,49,121]
+
+Input: nums = [-3,-2,-1,0,1,2,3]
+Output: [0,1,1,4,4,9,9]
+
+Input: nums = [-3,-2,-1,0,1,2]
+Output: [0,1,1,4,4,9]
+```
+**Solution**
+If all the numbers are positive and numbers are in increasing order then the squares will be also be the same order.
+But, if there are negative numbers then orders won't be the same because square of a negative number is positive.
+
+That means, square of `-7` is `49`. So for `[-3,0,1,2,4]` squares will be `[9,0,1,4,16]`. Here the squares of the positive numbers are 
+in increasing order but not for the negative number.
+
+If we want to keep the squares in incremental order then we need to consider the numbers without sign.
+The bigger numbers  will be either on the right end, for positive numbers or at the begining of negative numbers.
+
+We can have two pointers, one pointing at the beginning of the list and one at the end. Then we iterate over the list of numbers.
+In each iteration we compare the number at the beginning and end and take the bigger one, do square and store in result from the end.
+
+*Time Complexity*: *O(n)*\
+*Space Complexity*: *O(n)* 
+
+[Implementation](./SquaresOfASortedArray.java)
+
+
+#### Sum of 3 number
+Given an integer array nums, return all the triplets `[nums[i], nums[j], nums[k]]` such that `i != j`, `i != k`, and `j != k`, and `nums[i] + nums[j] + nums[k] == 0`.
+
+Notice that the solution set must not contain duplicate triplets.
+
+Example:
+```
+Input: nums = [-1,0,1,2,-1,-4]
+Output: [[-1,-1,2],[-1,0,1]]
+
+Input: nums = []
+Output: []
+```
+
+**Solution**
+Lets represent the problem in equation: 
+```
+a + b + c = 0
+a + b = -c 
+```
+High level idea is we pick a number from the list which we consider as target, like two sum problem, then we try 
+to find two numbers whose sum is negative of the target. And we find `a` and `b` in the remaining list. 
+
+It might be possible that there is no two number, `a` & `b` that sum to `-c`. To reduce the search space
+we can sort the array and then search. 
+
+
+*Time Complexity*: *O(n^2)*\
+*Space Complexity*: *O(n)* 
+
+[Implementation](./SumOfThree.java)
+  
