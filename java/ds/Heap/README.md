@@ -1,7 +1,8 @@
 # Heap
 
 - [Minimum Difference Between Largest and Smallest Value in Three Moves](#minimum-difference-between-largest-and-smallest-value-in-three-moves) - [Java](./MinimumDifferenceBetweenLargestAndSmallest.java)
-
+- [Largest triplet product](./LargestTripleProducts.java)
+- [Filter Restaurants](./FilterRestaurants.java)
 
 #### Minimum Difference Between Largest and Smallest Value in Three Moves
 Given an array nums, you are allowed to choose one element of nums and change it by any value in one move.
