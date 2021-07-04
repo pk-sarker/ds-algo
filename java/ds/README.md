@@ -1,6 +1,6 @@
 # Data Structures
 
-## Array
+## [Array](./Array/README.md)
 - [Sum of Two Numbers](./Array/README.md#sum-of-two-numbers) - [Java](./Array/SumOfTwo.java) [Python](../../python/TwoSumLE.py) [Scala](../../scala/src/com/ds/scala/practice/TwoSumLE.scala) [JavaScript](../../javascript/two_sum.js)
 - [First non-repeating character](./Array/README.md#first-non-repeating-character) - [Java](./Array/FirstNonRepeatingCharacter.java)
 - [Validate Subsequence Array](./Array/README.md#validate-subsequence-array) - [Java](./Array/ValidSubsequence.java)
@@ -18,14 +18,25 @@
 ## [Stack](./Stack/README.md)
 - [Valid Parentheses](./Stack/README.md#valid-parentheses) - [Java](./Stack/ValidateParentheses.java)
 - [Min Stack](./Stack/README.md#min-stack) - [Java](./Stack/MinStack.java)
+- [Decode String](./Stack/DecodeString.java)
+- [Simplify Path](./Stack/SimplifyPath.java)
+- [Basic Calculator](./Stack/BasicCalculator.java)
 
 ## [Queue](./Queue/README.md)
 
 ## [Hash Table](./Hash/README.md)
+- [Longest Substring Without Repeating Characters](./Hash/LongestSubstringWithoutRepeatingCharacters.java)
+- [Alien Dictionary](./Hash/AlienDictionary.java)
+- [Daily Temperature](./Hash/DailyTemperature.java)
+- [Intersection of Three Sorted Arrays](./Hash/IntersectionOfThreeSortedArrays.java)
+- [Group Anagrams](./Hash/GroupAnagrams.java)
+- [Substring with Concatenation of All Words](./Hash/SubstringWithConcatenationOfWords.java)
+
 
 ## [Heap](./Heap/README.md)
 - [Minimum Difference Between Largest and Smallest Value in Three Moves](./Heap/README.md#minimum-difference-between-largest-and-smallest-value-in-three-moves) - [Java](./Heap/MinimumDifferenceBetweenLargestAndSmallest.java)
-
+- [Largest triplet product](./Heap/LargestTripleProducts.java)
+- [Filter Restaurants](./Heap/FilterRestaurants.java)
 
 ## [Linked List]((./Linked/README.md))
 

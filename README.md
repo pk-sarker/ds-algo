@@ -3,6 +3,10 @@ Data Structure &amp; Algorithms
 
 ## [Data Structures](./java/ds/README.md)
 - [Array](./java/ds/Array/README.md)
+- [Stack](./java/ds/Stack/README.md)
+- [Hash](./java/ds/Hash/README.md)
+- [LinkedList](./java/ds/LinkedList/README.md)
+- [Heap](./java/ds/Heap/README.md)
 
 ## Algorithms
 
