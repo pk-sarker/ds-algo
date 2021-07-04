@@ -10,16 +10,22 @@
 - [Monotonic Array](./Array/README.md#monotonic-array) - [Java](./Array/MonotonicArray.java)
 - [Product of Array Except Self](./Array/README.md#product-of-array-except-self) - [Java](./Array/CalculateProductExceptItself.java)
 - [Non-decreasing Array](./Array/README.md#non-decreasing-array) - [Java](./Array/NonDecreasingArray.java)
-- [Smallest Difference](./Array/README.md##smallest-difference) - [Java](./Array/SmallestDifference.java)
+- [Smallest Difference](./Array/README.md#smallest-difference) - [Java](./Array/SmallestDifference.java)
+- [Running Sum of 1d Array](./Array/README.md#running-sum-of-1d-array) - [Java](./Array/RunningSum.java)
+- [Sort Array By Parity](./Array/README.md#sort-array-by-parity) - [Java](./Array/SortArrayByParity.java)
+- [Find Second Maximum Value in an Array](./Array/SecondMaximumValue.java)
 
 ## [Stack](./Stack/README.md)
 - [Valid Parentheses](./Stack/README.md#valid-parentheses) - [Java](./Stack/ValidateParentheses.java)
+- [Min Stack](./Stack/README.md#min-stack) - [Java](./Stack/MinStack.java)
 
 ## [Queue](./Queue/README.md)
 
 ## [Hash Table](./Hash/README.md)
 
 ## [Heap](./Heap/README.md)
+- [Minimum Difference Between Largest and Smallest Value in Three Moves](./Heap/README.md#minimum-difference-between-largest-and-smallest-value-in-three-moves) - [Java](./Heap/MinimumDifferenceBetweenLargestAndSmallest.java)
+
 
 ## [Linked List]((./Linked/README.md))
 
@@ -29,4 +35,4 @@
 
 ## [Binary Search Tree](./BST/README.md)
 
-## N-Ary Tree
+## [N-Ary Tree](./N-array/README.md)
