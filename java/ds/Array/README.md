@@ -11,6 +11,10 @@
 - [Product of Array Except Self](#product-of-array-except-self) - [Java](./CalculateProductExceptItself.java)
 - [Non-decreasing Array](#non-decreasing-array) - [Java](./NonDecreasingArray.java)
 - [Smallest Difference](#smallest-difference) - [Java](./SmallestDifference.java)
+- [Running Sum of 1d Array](#running-sum-of-1d-array) - [Java](./RunningSum.java)
+- [Sort Array By Parity](#sort-array-by-parity) - [Java](./SortArrayByParity.java)
+- [Find Second Maximum Value in an Array](./SecondMaximumValue.java)
+
 
 
 #### Sum of Two Numbers
@@ -381,3 +385,50 @@ If current difference is less then we update the min difference and the numbers 
 *O(1)*
 
 [Implementation](./NonDecreasingArray.java)
+
+#### Running Sum of 1d Array
+Given an array nums. We define a running sum of an array as `runningSum[i] = sum(nums[0]…nums[i])`.
+
+Return the running sum of nums.
+
+Example:
+```
+Input: nums = [1,2,3,4]
+Output: [1,3,6,10]
+Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
+
+Input: nums = [1,1,1,1,1]
+Output: [1,2,3,4,5]
+Explanation: Running sum is obtained as follows: [1, 1+1, 1+1+1, 1+1+1+1, 1+1+1+1+1].
+```
+
+**Solution**
+We can keep the previous sum till *(i-1)-th* position, and the sum of *i-th* position will be
+previous sum + number at *i-th* position.
+
+**Time Complexity:**\
+*O(n)*
+**Space Complexity:**\
+*O(1)*
+
+[Implementation](./RunningSum.java)
+
+#### Sort Array By Parity
+Given an array nums of non-negative integers, return an array consisting of all the even elements of nums, followed by all the odd elements of nums.
+
+You may return any answer array that satisfies this condition.
+
+Example: 
+```
+Input: nums = [3,1,2,4]
+Output: [2,4,3,1]
+The outputs [4,2,3,1], [2,4,1,3], and [4,2,1,3] would also be accepted.
+
+```
+
+**Time Complexity:**\
+*O(n)*
+**Space Complexity:**\
+*O(1)*
+
+[Implementation](./SortArrayByParity.java)
