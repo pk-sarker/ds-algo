@@ -3,6 +3,12 @@
 - [Minimum Difference Between Largest and Smallest Value in Three Moves](#minimum-difference-between-largest-and-smallest-value-in-three-moves) - [Java](./MinimumDifferenceBetweenLargestAndSmallest.java)
 - [Largest triplet product](./LargestTripleProducts.java)
 - [Filter Restaurants](./FilterRestaurants.java)
+- [Find K-th Largest element](./KthLargestElement.java)
+- [Find Top K Frequent Elements](./TopKFrequentElement.java)
+- [Count minimum meeting room required](./MeetingRoomCount.java)
+- [Find Employee Free Time](./EmployeeFreeTime.java)
+- [Median of a Stream](./MedianStream.java)
+- [Find Median from Data Stream](./MedianFromDataStream.java)
 
 #### Minimum Difference Between Largest and Smallest Value in Three Moves
 Given an array nums, you are allowed to choose one element of nums and change it by any value in one move.

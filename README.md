@@ -32,7 +32,20 @@ Data Structure &amp; Algorithms
     - [Group Anagrams](./java/ds/Hash/GroupAnagrams.java)
     - [Substring with Concatenation of All Words](./java/ds/Hash/SubstringWithConcatenationOfWords.java)
 - [LinkedList](./java/ds/LinkedList/README.md)
+    - [Reverse a LinkedList](./java/ds/LinkedList/ReverseLinkedList.java)
+    - [Find middle of a LinkedList](./java/ds/LinkedList/FindMiddle.java)
+    - [Check cycle in a LinkedList](./java/ds/LinkedList/LinkedListCycle.java)
+    - [Add two numbers](./java/ds/LinkedList/AddNumber.java)
 - [Heap](./java/ds/Heap/README.md)
+    - [Minimum Difference Between Largest and Smallest Value in Three Moves](#minimum-difference-between-largest-and-smallest-value-in-three-moves) - [Java](./java/ds/Heap/MinimumDifferenceBetweenLargestAndSmallest.java)
+    - [Largest triplet product](./java/ds/Heap/LargestTripleProducts.java)
+    - [Filter Restaurants](./java/ds/Heap/FilterRestaurants.java)
+    - [Find K-th Largest element](./java/ds/Heap/KthLargestElement.java)
+    - [Find Top K Frequent Elements](./java/ds/Heap/TopKFrequentElement.java)
+    - [Count minimum meeting room required](./java/ds/Heap/MeetingRoomCount.java)
+    - [Find Employee Free Time](./java/ds/Heap/EmployeeFreeTime.java)
+    - [Find Median of a Stream](./java/ds/Heap/MedianStream.java)
+    - [Find Median from Data Stream](./java/ds/Heap/MedianFromDataStream.java)
 
 ## Algorithms
 
@@ -49,6 +62,22 @@ Data Structure &amp; Algorithms
     - [Count contiguous subarrays](./java/pattern/SubArray/CountContiguousSubarray.java)
     - [Shortest Unsorted Continuous Subarray](./java/pattern/SubArray/ShortestUnsortedContinuousSubarray.java)
     - [Minimum Size Subarray Sum](./java/pattern/SubArray/MinimumSizeSubarraySum.java)
+- [Sliding Window](./java/pattern/SlidingWindow/README.md)
+    - [Maximum Sum Subarray of Size K](./java/pattern/SlidingWindow/MaximumSumSubarrayOfSizeK.java)
+    - [Smallest Subarray with a given sum](./java/pattern/SlidingWindow/SmallestSubarrayWithAGivenSum.java)
+    - [Longest Substring with K Distinct Characters](./java/pattern/SlidingWindow/)
+    - [Fruits into Baskets](./java/pattern/SlidingWindow/MaxFruitCountOf2Types.java)
+    - [Longest NonRepeated Substring](./java/pattern/SlidingWindow/LongestNonRepeatedSubstring.java)
+    - [Longest Substring with Same Letters after Replacement](./java/pattern/SlidingWindow/LongestSubstringWithSameLettersAfterReplacement.java)
+    - [Longest Subarray with Ones after Replacement](./java/pattern/SlidingWindow/LongestSubarrayWithOnesAfterReplacement.java)
+    - [Permutation in a String](./java/pattern/SlidingWindow/PermutationInString.java)
+    - [String Anagrams](./java/pattern/SlidingWindow/StringAnagrams.java)
+    - [Smallest Window containing Substring](./java/pattern/SlidingWindow/MinimumWindowSubstring.java)
+    - [Words Concatenation](./java/pattern/SlidingWindow/WordConcatenation.java)
+- [Interval](./java/pattern/Interval/README.md)
+    - [Merge Intervals](./java/pattern/Interval/MergeIntervals.java)
+    - [Meeting Rooms](./java/pattern/Interval/MeetingRooms.java)
+
 
 ## Mixed Problems
 - [Sum of Two Numbers](./Solution.md#sum-of-two-numbers) - [Java](java/com/dsalgo/practice/TwoSumLE.java) [Python](./python/TwoSumLE.py) [Scala](./scala/src/com/ds/scala/practice/TwoSumLE.scala) [JavaScript](./javascript/two_sum.js)
