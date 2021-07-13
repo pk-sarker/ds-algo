@@ -47,7 +47,13 @@ Data Structure &amp; Algorithms
     - [Find Median of a Stream](./java/ds/Heap/MedianStream.java)
     - [Find Median from Data Stream](./java/ds/Heap/MedianFromDataStream.java)
 
-## Algorithms
+## [Algorithms](./java/algo/README.md)
+- [BFS](./java/algo/BFS/README.md)
+- [DFS](./java/algo/DFS/README.md)
+    - [Employee Importance](./java/algo/DFS/README.md#employee-importance) - [Java](./java/algo/DFS/EmployeeImportance.java)
+- [Dynamic Programming](./java/algo/DP/README.md)
+    - [Number of Good Ways to Split a String](./java/algo/DP/README.md#number-of-good-ways-to-split-a-string) - [Code](./java/algo/DP/CountStringSplit.java)
+
 
 ## Pattern
 - [Two Pointer](./java/pattern/TwoPointer/README.md)
