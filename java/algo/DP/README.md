@@ -1,7 +1,7 @@
 # Dynamic Programming
 
 - [Number of Good Ways to Split a String](#number-of-good-ways-to-split-a-string) - [Code](./CountStringSplit.java)
-
+- [Longest String Chain](#longest-string-chain) - [Code](./LongestStringChain.java)
 
 #### Number of Good Ways to Split a String
 You are given a string `s`, a split is called good if you can split `s` into 2 non-empty strings 
@@ -46,8 +46,50 @@ Then for each split position *i* we check if `perfix[i] = suffix[i+1]`
 
 [Implementation](./CountStringSplit.java)
 
+#### Longest String Chain
+You are given an array of words where each word consists of lowercase English letters.
 
+`word_A` is a predecessor of `word_B` if and only if we can insert exactly one letter anywhere in `word_A` without changing the 
+order of the other characters to make it equal to `word_B`.
 
+For example, `abc` is a predecessor of `abac`, while `cba` is not a predecessor of `bcad`.
+A word chain is a sequence of words `[word_1, word_2, ..., word_k]` with `k >= 1`, where `word_1` is a predecessor of `word_2`, `word_2` 
+is a predecessor of `word_3`, and so on. A single word is trivially a word chain with `k == 1`.
+
+Return the length of the longest possible word chain with words chosen from the given list of words.
+
+Example:
+```
+Input: words = ["a","b","ba","bca","bda","bdca"]
+Output: 4
+Explanation: One of the longest word chains is ["a","ba","bda","bdca"].
+
+Input: words = ["xbc","pcxbcf","xb","cxbc","pcxbc"]
+Output: 5
+Explanation: All the words can be put in a word chain ["xb", "xbc", "cxbc", "pcxbc", "pcxbcf"].
+
+Input: words = ["abcd","dbqca"]
+Output: 1
+Explanation: The trivial word chain ["abcd"] is one of the longest word chains.
+["abcd","dbqca"] is not a valid word chain because the ordering of the letters is changed.
+```
+
+**Solution**
+Two way we can think of the solution, we take the smallest word and try to add a letter to that
+and check if the new word is there in the list. This way we need to try each 26 letters and there will be 
+n-1 positions to at the letter, where n is the length of the current word.
+
+Another approach will be based on idea is that we will remove a letter from a word and check 
+if the new word exist or not. We will start with the smaller word and then move to the bigger ones because
+smaller words will be a substring of the bigger words except a letter. 
+
+So first we sort the array of words in ascending order of the word length. Then for each word
+we remove one letter from the word and check if the word exists in memo.
+
+*Time Complexity*: *O(n log n)*\
+*Space Complexity*: *O(n)* 
+
+[Implementation](./LongestStringChain.java)
 
 
 
