@@ -2,7 +2,7 @@
 
 - [Number of Good Ways to Split a String](#number-of-good-ways-to-split-a-string) - [Code](./CountStringSplit.java)
 - [Longest String Chain](#longest-string-chain) - [Code](./LongestStringChain.java)
-
+- [Count Square Submatrices with All Ones](#count-square-submatrices-with-all-ones)  - [Code](./CountSquareSubmatricesWithOnes.java)
 #### Number of Good Ways to Split a String
 You are given a string `s`, a split is called good if you can split `s` into 2 non-empty strings 
 `p` and `q` where its concatenation is equal to `s` and the number of distinct letters in `p` and `q` are the same.
@@ -91,6 +91,26 @@ we remove one letter from the word and check if the word exists in memo.
 
 [Implementation](./LongestStringChain.java)
 
+#### Count Square Submatrices with All Ones
+Given a `m * n` matrix of ones and zeros, return how many square submatrices have all ones.
 
+Example:
+```
+Input: matrix =
+[
+  [0,1,1,1],
+  [1,1,1,1],
+  [0,1,1,1]
+]
+Output: 15
+Explanation: 
+There are 10 squares of side 1.
+There are 4 squares of side 2.
+There is  1 square of side 3.
+Total number of squares = 10 + 4 + 1 = 15.
+``` 
 
- 
+*Time Complexity*: *O(m*n)*\
+*Space Complexity*: *O(1)* 
+
+[Implementation](./CountSquareSubmatricesWithOnes.java)

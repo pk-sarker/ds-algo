@@ -54,6 +54,7 @@ Data Structure &amp; Algorithms
 - [Dynamic Programming](./java/algo/DP/README.md)
     - [Number of Good Ways to Split a String](./java/algo/DP/README.md#number-of-good-ways-to-split-a-string) - [Code](./java/algo/DP/CountStringSplit.java)
     - [Longest String Chain](./java/algo/DP/README.md#longest-string-chain) - [Code](./java/algo/DP/LongestStringChain.java)
+    - [Count Square Submatrices with All Ones](./java/algo/DP/README.md#count-square-submatrices-with-all-ones)  - [Code](./java/algo/DP/CountSquareSubmatricesWithOnes.java)
 
 
 ## Pattern
