@@ -49,8 +49,11 @@ Data Structure &amp; Algorithms
 
 ## [Algorithms](./java/algo/README.md)
 - [BFS](./java/algo/BFS/README.md)
+    - [Count Good Nodes in Binary Tree](./java/algo/BFS/README.md#count-good-nodes-in-binary-tree) - [Code](./java/algo/BFS/CountGoodNodes.java)
+
 - [DFS](./java/algo/DFS/README.md)
     - [Employee Importance](./java/algo/DFS/README.md#employee-importance) - [Java](./java/algo/DFS/EmployeeImportance.java)
+
 - [Dynamic Programming](./java/algo/DP/README.md)
     - [Number of Good Ways to Split a String](./java/algo/DP/README.md#number-of-good-ways-to-split-a-string) - [Code](./java/algo/DP/CountStringSplit.java)
     - [Longest String Chain](./java/algo/DP/README.md#longest-string-chain) - [Code](./java/algo/DP/LongestStringChain.java)

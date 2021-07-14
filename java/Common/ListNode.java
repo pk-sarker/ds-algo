@@ -1,4 +1,4 @@
-package ds.Common;
+package Common;
 
 public class ListNode {
     public int val;
