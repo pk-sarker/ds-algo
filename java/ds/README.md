@@ -38,6 +38,10 @@
 - [Largest triplet product](./Heap/LargestTripleProducts.java)
 - [Filter Restaurants](./Heap/FilterRestaurants.java)
 
+# [Binary Tree](./BinaryTree/README.md)
+- [Binary Traversal - In Order, Pre Order, Post Order](./BinaryTree/BinaryTreeTraverse.java)
+- [Construct Binary Tree from String](./BinaryTree/BinaryTreeFromString.java)
+
 ## [Linked List]((./Linked/README.md))
 
 ## [Trie](./Trie/README.md)

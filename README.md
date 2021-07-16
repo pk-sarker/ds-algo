@@ -47,9 +47,12 @@ Data Structure &amp; Algorithms
     - [Find Median of a Stream](./java/ds/Heap/MedianStream.java)
     - [Find Median from Data Stream](./java/ds/Heap/MedianFromDataStream.java)
 
+- [Binary Tree](./java/ds/BinaryTree/README.md)
+    - [Binary Traversal - In Order, Pre Order, Post Order](./java/ds/BinaryTree/BinaryTreeTraverse.java)
+    - [Construct Binary Tree from String](./java/ds/BinaryTree/BinaryTreeFromString.java)
+
 ## [Algorithms](./java/algo/README.md)
-- [Binary Tree](./java/algo/BinaryTree/README.md)
-    - [Construct Binary Tree from String](./java/algo/BinaryTree/BinaryTreeFromString.java)
+
     
 - [BFS](./java/algo/BFS/README.md)
     - [Count Good Nodes in Binary Tree](./java/algo/BFS/README.md#count-good-nodes-in-binary-tree) - [Code](./java/algo/BFS/CountGoodNodes.java)
