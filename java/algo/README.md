@@ -4,6 +4,7 @@
 - [DFS](./DFS/README.md)
 - [Binary Tree](./BinaryTree/README.md)
 - [Binary Search](./Searching/BinarySearch/README.md)
+    - [Find number in bitonic array](./Searching/BinarySearch/README.md#find-number-in-bitonic-array) - [Code](./Searching/BinarySearch/SearchInBitonicArray.java)
 - [Tree](./Tree/README.md)
 - [Quick Select](./Searching/QuickSelect/README.md)
 - [Greedy](./Greedy/README.md)
