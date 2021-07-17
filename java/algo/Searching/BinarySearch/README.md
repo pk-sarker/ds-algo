@@ -1,6 +1,7 @@
 # Binary Search
 
 - [Find number in bitonic array](#find-number-in-bitonic-array) - [Code](./SearchInBitonicArray.java)
+- [Smallest or equal number](#smallest-or-equal-number) - [Code](./SmallerOrEqualElements.java)
 
 
 #### Find number in bitonic array
@@ -50,3 +51,21 @@ check both in left and right side, because the smaller number are at the both en
 *Time Complexity*: *O( 3 log n) = O(log n)* \ 
 
 [Implementation](./SearchInBitonicArray.java)
+
+
+#### Smallest or equal number
+Given an sorted array A of size N. Find number of elements which are less than or equal to B.
+Expected Time Complexity O(log N)
+
+Example Input
+```
+Input: A = [1, 3, 4, 4, 6], B = 4
+Output: 4
+Input 2: A = [1, 2, 5, 5], B = 3
+Output: 2
+```
+
+*Time Complexity*: *O(log n)* \ 
+
+[Implementation](./SmallerOrEqualElements.java)
+
