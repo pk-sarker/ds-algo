@@ -63,7 +63,8 @@ Data Structure &amp; Algorithms
 
 - [Binary Search](./java/algo/Searching/BinarySearch/README.md)
     - [Find number in bitonic array](./java/algo/Searching/BinarySearch/README.md#find-number-in-bitonic-array) - [Code](./java/algo/Searching/BinarySearch/SearchInBitonicArray.java)
-
+    - [Smallest or equal number](./java/algo/Searching/BinarySearch/README.md#smallest-or-equal-number) - [Code](./java/algo/Searching/BinarySearch/SmallerOrEqualElements.java)
+    
 - [Dynamic Programming](./java/algo/DP/README.md)
     - [Number of Good Ways to Split a String](./java/algo/DP/README.md#number-of-good-ways-to-split-a-string) - [Code](./java/algo/DP/CountStringSplit.java)
     - [Longest String Chain](./java/algo/DP/README.md#longest-string-chain) - [Code](./java/algo/DP/LongestStringChain.java)

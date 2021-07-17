@@ -5,6 +5,7 @@
 - [Binary Tree](./BinaryTree/README.md)
 - [Binary Search](./Searching/BinarySearch/README.md)
     - [Find number in bitonic array](./Searching/BinarySearch/README.md#find-number-in-bitonic-array) - [Code](./Searching/BinarySearch/SearchInBitonicArray.java)
+    - [Smallest or equal number](./Searching/BinarySearch/README.md#smallest-or-equal-number) - [Code](./Searching/BinarySearch/SmallerOrEqualElements.java)
 - [Tree](./Tree/README.md)
 - [Quick Select](./Searching/QuickSelect/README.md)
 - [Greedy](./Greedy/README.md)
