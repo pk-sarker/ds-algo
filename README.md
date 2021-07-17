@@ -50,6 +50,7 @@ Data Structure &amp; Algorithms
 - [Binary Tree](./java/ds/BinaryTree/README.md)
     - [Binary Traversal - In Order, Pre Order, Post Order](./java/ds/BinaryTree/BinaryTreeTraverse.java)
     - [Construct Binary Tree from String](./java/ds/BinaryTree/BinaryTreeFromString.java)
+    - [Validate Binary Search Tree](./java/ds/BinaryTree/ValidateBST.java)
 
 ## [Algorithms](./java/algo/README.md)
 
