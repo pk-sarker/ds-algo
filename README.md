@@ -71,7 +71,10 @@ Data Structure &amp; Algorithms
     - [Longest String Chain](./java/algo/DP/README.md#longest-string-chain) - [Code](./java/algo/DP/LongestStringChain.java)
     - [Count Square Submatrices with All Ones](./java/algo/DP/README.md#count-square-submatrices-with-all-ones)  - [Code](./java/algo/DP/CountSquareSubmatricesWithOnes.java)
 
-
+- [Design](./java/algo/design/README.md)
+    - [Design LRU Cache](./java/algo/design/LRUCache.java)
+    - [Serialize and Deserialize Binary Tree](./java/algo/design/SerializeDeserializeTree.java)
+    
 ## Pattern
 - [Two Pointer](./java/pattern/TwoPointer/README.md)
     - [Container With Most Water](./java/pattern/TwoPointer/README.md#container-with-most-water) - [Java](./java/pattern/TwoPointer/ContainerWithMostWater.java)
