@@ -16,3 +16,6 @@
     - [Design LRU Cache](./design/LRUCache.java)
     - [Serialize and Deserialize Binary Tree](./design/SerializeDeserializeTree.java)
     - [Serialize and Deserialize BST](./design/SerializeDeserializeBST.java)
+    - [Find Median from Data Stream](./design/MedianFinder.java)
+    - [Design a min stack](./design/MinStack.java)
+    - [Binary Search Tree Iterator](./design/BSTIterator.java)
