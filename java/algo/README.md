@@ -12,3 +12,5 @@
 - [Divide and Conquer](./DivideAndConquer/README.md)
 - [Sorting](./Sorting/README.md)
 - [Dynamic Programming](./DP/README.md)
+- [Design](./design/README.md)
+    - [Design LRU Cache](./design/LRUCache.java)
