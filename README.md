@@ -75,6 +75,9 @@ Data Structure &amp; Algorithms
     - [Design LRU Cache](./java/algo/design/LRUCache.java)
     - [Serialize and Deserialize Binary Tree](./java/algo/design/SerializeDeserializeTree.java)
     - [Serialize and Deserialize BST](./java/algo/design/SerializeDeserializeBST.java)
+    - [Find Median from Data Stream](./java/algo/design/MedianFinder.java)
+    - [Design a min stack](./java/algo/design/MinStack.java)
+    - [Binary Search Tree Iterator](./java/algo/design/BSTIterator.java)
     
 ## Pattern
 - [Two Pointer](./java/pattern/TwoPointer/README.md)
