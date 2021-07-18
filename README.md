@@ -74,6 +74,7 @@ Data Structure &amp; Algorithms
 - [Design](./java/algo/design/README.md)
     - [Design LRU Cache](./java/algo/design/LRUCache.java)
     - [Serialize and Deserialize Binary Tree](./java/algo/design/SerializeDeserializeTree.java)
+    - [Serialize and Deserialize BST](./java/algo/design/SerializeDeserializeBST.java)
     
 ## Pattern
 - [Two Pointer](./java/pattern/TwoPointer/README.md)

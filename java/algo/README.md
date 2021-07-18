@@ -15,3 +15,4 @@
 - [Design](./design/README.md)
     - [Design LRU Cache](./design/LRUCache.java)
     - [Serialize and Deserialize Binary Tree](./design/SerializeDeserializeTree.java)
+    - [Serialize and Deserialize BST](./design/SerializeDeserializeBST.java)
