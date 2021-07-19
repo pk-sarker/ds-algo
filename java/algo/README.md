@@ -21,3 +21,6 @@
     - [Binary Search Tree Iterator](./design/BSTIterator.java)
     - [Design a Trie data structure](./design/Trie.java)
     - [Flatten Nested List Iterator](./design/NestedIterator.java)
+    - [Design a Peek Iterator](./design/PeekingIterator.java)
+    - [Design a Zigzag Iterator](./design/ZigzagIterator.java)
+    - [Design Add and Search Words Data Structure](./design/SearchDataStructure.java)
