@@ -79,6 +79,7 @@ Data Structure &amp; Algorithms
     - [Design a min stack](./java/algo/design/MinStack.java)
     - [Binary Search Tree Iterator](./java/algo/design/BSTIterator.java)
     - [Design a Trie data structure](./java/algo/design/Trie.java)
+    - [Flatten Nested List Iterator](./java/algo/design/NestedIterator.java)
     
 ## Pattern
 - [Two Pointer](./java/pattern/TwoPointer/README.md)
