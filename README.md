@@ -51,6 +51,8 @@ Data Structure &amp; Algorithms
     - [Binary Traversal - In Order, Pre Order, Post Order](./java/ds/BinaryTree/BinaryTreeTraverse.java)
     - [Construct Binary Tree from String](./java/ds/BinaryTree/BinaryTreeFromString.java)
     - [Validate Binary Search Tree](./java/ds/BinaryTree/ValidateBST.java)
+    - [Longest Univalue Path](./java/ds/BinaryTree/LongestUnivaluePath.java)
+    - [Merge Two Binary Trees](./java/ds/BinaryTree/MergeTwoBinaryTrees.java)
 
 ## [Algorithms](./java/algo/README.md)
 
@@ -80,6 +82,9 @@ Data Structure &amp; Algorithms
     - [Binary Search Tree Iterator](./java/algo/design/BSTIterator.java)
     - [Design a Trie data structure](./java/algo/design/Trie.java)
     - [Flatten Nested List Iterator](./java/algo/design/NestedIterator.java)
+    - [Design a Peek Iterator](./java/algo/design/PeekingIterator.java)
+    - [Design a Zigzag Iterator](./java/algo/design/ZigzagIterator.java)
+    - [Design Add and Search Words Data Structure](./java/algo/design/SearchDataStructure.java)
     
 ## Pattern
 - [Two Pointer](./java/pattern/TwoPointer/README.md)
