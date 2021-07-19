@@ -7,3 +7,4 @@
 - [Design a min stack](./MinStack.java)
 - [Binary Search Tree Iterator](./BSTIterator.java)
 - [Design a Trie data structure](./Trie.java)
+- [Flatten Nested List Iterator](./NestedIterator.java)
