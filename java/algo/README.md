@@ -19,3 +19,4 @@
     - [Find Median from Data Stream](./design/MedianFinder.java)
     - [Design a min stack](./design/MinStack.java)
     - [Binary Search Tree Iterator](./design/BSTIterator.java)
+    - [Design a Trie data structure](./design/Trie.java)

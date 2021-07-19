@@ -78,6 +78,7 @@ Data Structure &amp; Algorithms
     - [Find Median from Data Stream](./java/algo/design/MedianFinder.java)
     - [Design a min stack](./java/algo/design/MinStack.java)
     - [Binary Search Tree Iterator](./java/algo/design/BSTIterator.java)
+    - [Design a Trie data structure](./java/algo/design/Trie.java)
     
 ## Pattern
 - [Two Pointer](./java/pattern/TwoPointer/README.md)
