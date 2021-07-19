@@ -12,3 +12,5 @@
 - [Design a Zigzag Iterator](./ZigzagIterator.java)
 - [Design Add and Search Words Data Structure](./SearchDataStructure.java)
 - [Design In-Memory File System](./InMemoryFileSystem.java)
+- [Logger Rate Limiter](./Logger.java)
+- [Design a simple version of Twitter](./Twitter.java)

@@ -86,6 +86,8 @@ Data Structure &amp; Algorithms
     - [Design a Zigzag Iterator](./java/algo/design/ZigzagIterator.java)
     - [Design Add and Search Words Data Structure](./java/algo/design/SearchDataStructure.java)
     - [Design In-Memory File System](./java/algo/design/InMemoryFileSystem.java)
+    - [Logger Rate Limiter](./java/algo/design/Logger.java)
+    - [Design a simple version of Twitter](./java/algo/design/Twitter.java)
     
 ## Pattern
 - [Two Pointer](./java/pattern/TwoPointer/README.md)
