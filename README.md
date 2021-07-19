@@ -85,6 +85,7 @@ Data Structure &amp; Algorithms
     - [Design a Peek Iterator](./java/algo/design/PeekingIterator.java)
     - [Design a Zigzag Iterator](./java/algo/design/ZigzagIterator.java)
     - [Design Add and Search Words Data Structure](./java/algo/design/SearchDataStructure.java)
+    - [Design In-Memory File System](./java/algo/design/InMemoryFileSystem.java)
     
 ## Pattern
 - [Two Pointer](./java/pattern/TwoPointer/README.md)

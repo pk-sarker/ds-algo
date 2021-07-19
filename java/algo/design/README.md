@@ -11,3 +11,4 @@
 - [Design a Peek Iterator](./PeekingIterator.java)
 - [Design a Zigzag Iterator](./ZigzagIterator.java)
 - [Design Add and Search Words Data Structure](./SearchDataStructure.java)
+- [Design In-Memory File System](./InMemoryFileSystem.java)
