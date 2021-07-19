@@ -24,3 +24,6 @@
     - [Design a Peek Iterator](./design/PeekingIterator.java)
     - [Design a Zigzag Iterator](./design/ZigzagIterator.java)
     - [Design Add and Search Words Data Structure](./design/SearchDataStructure.java)
+    - [Design In-Memory File System](./design/InMemoryFileSystem.java)
+    - [Logger Rate Limiter](./design/Logger.java)
+    - [Design a simple version of Twitter](./design/Twitter.java)
