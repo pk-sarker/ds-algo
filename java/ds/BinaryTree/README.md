@@ -2,4 +2,6 @@
 - [Binary Traversal - In Order, Pre Order, Post Order](./BinaryTreeTraverse.java)
 - [Construct Binary Tree from String](./BinaryTreeFromString.java)
 - [Validate Binary Search Tree](./ValidateBST.java)
-- [Merge Two Binary Trees]
+- [Longest Univalue Path](./LongestUnivaluePath.java)
+- [Merge Two Binary Trees](./MergeTwoBinaryTrees.java)
+- [Convert Sorted Array to Binary Search Tree](./SortedArrayToBST.java)
