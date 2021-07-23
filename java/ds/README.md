@@ -47,6 +47,7 @@
 - [Longest Univalue Path](./BinaryTree/LongestUnivaluePath.java)
 - [Merge Two Binary Trees](./BinaryTree/MergeTwoBinaryTrees.java)
 - [Convert Sorted Array to Binary Search Tree](./BinaryTree/SortedArrayToBST.java)
+- [Check Completeness of a Binary Tree](./BinaryTree/CompleteBinaryTree.java)
 
 ## [Linked List]((./Linked/README.md))
 

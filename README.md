@@ -58,7 +58,7 @@ Data Structure &amp; Algorithms
     - [Longest Univalue Path](./java/ds/BinaryTree/LongestUnivaluePath.java)
     - [Merge Two Binary Trees](./java/ds/BinaryTree/MergeTwoBinaryTrees.java)
     - [Convert Sorted Array to Binary Search Tree](./java/ds/BinaryTree/SortedArrayToBST.java)
-
+    - [Check Completeness of a Binary Tree](./java/ds/BinaryTree/CompleteBinaryTree.java)
 
 ## [Algorithms](./java/algo/README.md)
 
