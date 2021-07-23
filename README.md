@@ -91,6 +91,7 @@ Data Structure &amp; Algorithms
     - [Logger Rate Limiter](./java/algo/design/Logger.java)
     - [Design a simple version of Twitter](./java/algo/design/Twitter.java)
     - [Implement Stack using Queues](./java/algo/design/StackUsingQueue.java)
+    - [Implement Queue using Stacks](./java/algo/design/DesignQueueUsingStack.java)
     
 ## Pattern
 - [Two Pointer](./java/pattern/TwoPointer/README.md)

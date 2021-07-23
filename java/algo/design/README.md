@@ -15,3 +15,4 @@
 - [Logger Rate Limiter](./Logger.java)
 - [Design a simple version of Twitter](./Twitter.java)
 - [Implement Stack using Queues](./StackUsingQueue.java)
+- [Implement Queue using Stacks](./DesignQueueUsingStack.java)
