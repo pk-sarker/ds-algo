@@ -96,6 +96,8 @@ Data Structure &amp; Algorithms
     - [Design a simple version of Twitter](./java/algo/design/Twitter.java)
     - [Implement Stack using Queues](./java/algo/design/StackUsingQueue.java)
     - [Implement Queue using Stacks](./java/algo/design/DesignQueueUsingStack.java)
+    - [Design Circular Queue](./java/algo/design/CircularQueueDesign.java)
+
     
 ## Pattern
 - [Two Pointer](./java/pattern/TwoPointer/README.md)
