@@ -21,6 +21,8 @@
 - [Decode String](./Stack/DecodeString.java)
 - [Simplify Path](./Stack/SimplifyPath.java)
 - [Basic Calculator](./Stack/BasicCalculator.java)
+- [Basic Calculator II](./Stack/BasicCalculator2.java)
+- [Basic Calculator III](./Stack/BasicCalculator3.java)
 
 ## [Queue](./Queue/README.md)
 
@@ -44,6 +46,7 @@
 - [Validate Binary Search Tree](./BinaryTree/ValidateBST.java)
 - [Longest Univalue Path](./BinaryTree/LongestUnivaluePath.java)
 - [Merge Two Binary Trees](./BinaryTree/MergeTwoBinaryTrees.java)
+- [Convert Sorted Array to Binary Search Tree](./BinaryTree/SortedArrayToBST.java)
 
 ## [Linked List]((./Linked/README.md))
 

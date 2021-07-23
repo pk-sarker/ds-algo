@@ -18,12 +18,16 @@ Data Structure &amp; Algorithms
     - [Sort Array By Parity](./java/ds/Array/README.md#sort-array-by-parity) - [Java](./java/ds/Array/SortArrayByParity.java)
     - [Find Second Maximum Value in an Array](./java/ds/Array/SecondMaximumValue.java)
     - [Best Time to Buy and Sell Stock](./java/ds/Array/BuyAndSellStockLE.java)
+    
 - [Stack](./java/ds/Stack/README.md)
     - [Valid Parentheses](./java/ds/Stack/README.md#valid-parentheses) - [Java](./java/ds/Stack/ValidateParentheses.java)
     - [Min Stack](./java/ds/Stack/README.md#min-stack) - [Java](./java/ds/Stack/MinStack.java)
     - [Decode String](./java/ds/Stack/DecodeString.java)
     - [Simplify Path](./java/ds/Stack/SimplifyPath.java)
     - [Basic Calculator](./java/ds/Stack/BasicCalculator.java)
+    - [Basic Calculator II](./java/ds/Stack/BasicCalculator2.java)
+    - [Basic Calculator III](./java/ds/Stack/BasicCalculator3.java)
+    
 - [Hash](./java/ds/Hash/README.md)
     - [Longest Substring Without Repeating Characters](./vLongestSubstringWithoutRepeatingCharacters.java)
     - [Alien Dictionary](./java/ds/Hash/AlienDictionary.java)
@@ -92,6 +96,8 @@ Data Structure &amp; Algorithms
     - [Design a simple version of Twitter](./java/algo/design/Twitter.java)
     - [Implement Stack using Queues](./java/algo/design/StackUsingQueue.java)
     - [Implement Queue using Stacks](./java/algo/design/DesignQueueUsingStack.java)
+    - [Design Circular Queue](./java/algo/design/CircularQueueDesign.java)
+
     
 ## Pattern
 - [Two Pointer](./java/pattern/TwoPointer/README.md)
