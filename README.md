@@ -63,6 +63,7 @@ Data Structure &amp; Algorithms
     - [Merge Two Binary Trees](./java/ds/BinaryTree/MergeTwoBinaryTrees.java)
     - [Convert Sorted Array to Binary Search Tree](./java/ds/BinaryTree/SortedArrayToBST.java)
     - [Check Completeness of a Binary Tree](./java/ds/BinaryTree/CompleteBinaryTree.java)
+    - [Convert Sorted List to Binary Search Tree](./java/ds/BinaryTree/ConvertSortedListToBinarySearchTree.java)
 
 ## [Algorithms](./java/algo/README.md)
 

@@ -6,3 +6,4 @@
 - [Merge Two Binary Trees](./MergeTwoBinaryTrees.java)
 - [Convert Sorted Array to Binary Search Tree](./SortedArrayToBST.java)
 - [Check Completeness of a Binary Tree](./CompleteBinaryTree.java)
+- [Convert Sorted List to Binary Search Tree](./ConvertSortedListToBinarySearchTree.java)
