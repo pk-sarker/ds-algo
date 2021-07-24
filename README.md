@@ -37,6 +37,8 @@ Data Structure &amp; Algorithms
     - [Substring with Concatenation of All Words](./java/ds/Hash/SubstringWithConcatenationOfWords.java)
     - [Check Duplicate number in a array](./java/ds/Hash/ContainsDuplicate.java)
     - [Check nearby duplicate number in a array](./java/ds/Hash/ContainsDuplicateII.java)
+    - [Check nearby duplicate number in a array 2](./java/ds/Hash/ContainsDuplicateIII.java)
+    
 - [LinkedList](./java/ds/LinkedList/README.md)
     - [Reverse a LinkedList](./java/ds/LinkedList/ReverseLinkedList.java)
     - [Find middle of a LinkedList](./java/ds/LinkedList/FindMiddle.java)
