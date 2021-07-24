@@ -68,7 +68,9 @@ Data Structure &amp; Algorithms
 
 ## [Algorithms](./java/algo/README.md)
 
-    
+- [Sorting](./java/algo/Sorting/README.md)
+    - [Custom Sort String](./java/algo/Sorting/CustomSortString.java)
+        
 - [BFS](./java/algo/BFS/README.md)
     - [Count Good Nodes in Binary Tree](./java/algo/BFS/README.md#count-good-nodes-in-binary-tree) - [Code](./java/algo/BFS/CountGoodNodes.java)
 
