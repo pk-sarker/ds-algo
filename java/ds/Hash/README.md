@@ -7,3 +7,4 @@
 - [Group Anagrams](./GroupAnagrams.java)
 - [Substring with Concatenation of All Words](./SubstringWithConcatenationOfWords.java)
 - [Check Duplicate number in a array](./ContainsDuplicate.java)
+- [Check nearby duplicate number in a array](./ContainsDuplicateII.java)
