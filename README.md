@@ -18,6 +18,7 @@ Data Structure &amp; Algorithms
     - [Sort Array By Parity](./java/ds/Array/README.md#sort-array-by-parity) - [Java](./java/ds/Array/SortArrayByParity.java)
     - [Find Second Maximum Value in an Array](./java/ds/Array/SecondMaximumValue.java)
     - [Best Time to Buy and Sell Stock](./java/ds/Array/BuyAndSellStockLE.java)
+    - [Count and Say](./java/ds/Array/CountAndSay.java)
     
 - [Stack](./java/ds/Stack/README.md)
     - [Valid Parentheses](./java/ds/Stack/README.md#valid-parentheses) - [Java](./java/ds/Stack/ValidateParentheses.java)

@@ -15,6 +15,7 @@
 - [Sort Array By Parity](#sort-array-by-parity) - [Java](./SortArrayByParity.java)
 - [Find Second Maximum Value in an Array](./SecondMaximumValue.java)
 - [Best Time to Buy and Sell Stock](./BuyAndSellStockLE.java)
+- [Count and Say](./CountAndSay.java)
 
 
 
