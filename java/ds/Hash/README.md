@@ -6,3 +6,4 @@
 - [Intersection of Three Sorted Arrays](./IntersectionOfThreeSortedArrays.java)
 - [Group Anagrams](./GroupAnagrams.java)
 - [Substring with Concatenation of All Words](./SubstringWithConcatenationOfWords.java)
+- [Check Duplicate number in a array](./ContainsDuplicate.java)

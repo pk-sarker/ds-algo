@@ -33,7 +33,7 @@
 - [Intersection of Three Sorted Arrays](./Hash/IntersectionOfThreeSortedArrays.java)
 - [Group Anagrams](./Hash/GroupAnagrams.java)
 - [Substring with Concatenation of All Words](./Hash/SubstringWithConcatenationOfWords.java)
-
+- [Check Duplicate number in a array](./Hash/ContainsDuplicate.java)
 
 ## [Heap](./Heap/README.md)
 - [Minimum Difference Between Largest and Smallest Value in Three Moves](./Heap/README.md#minimum-difference-between-largest-and-smallest-value-in-three-moves) - [Java](./Heap/MinimumDifferenceBetweenLargestAndSmallest.java)
