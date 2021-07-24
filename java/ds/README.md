@@ -14,6 +14,7 @@
 - [Running Sum of 1d Array](./Array/README.md#running-sum-of-1d-array) - [Java](./Array/RunningSum.java)
 - [Sort Array By Parity](./Array/README.md#sort-array-by-parity) - [Java](./Array/SortArrayByParity.java)
 - [Find Second Maximum Value in an Array](./Array/SecondMaximumValue.java)
+- [Count and Say](./Array/CountAndSay.java)
 
 ## [Stack](./Stack/README.md)
 - [Valid Parentheses](./Stack/README.md#valid-parentheses) - [Java](./Stack/ValidateParentheses.java)
@@ -50,6 +51,7 @@
 - [Merge Two Binary Trees](./BinaryTree/MergeTwoBinaryTrees.java)
 - [Convert Sorted Array to Binary Search Tree](./BinaryTree/SortedArrayToBST.java)
 - [Check Completeness of a Binary Tree](./BinaryTree/CompleteBinaryTree.java)
+- [Convert Sorted List to Binary Search Tree](./BinaryTree/ConvertSortedListToBinarySearchTree.java)
 
 ## [Linked List]((./Linked/README.md))
 
