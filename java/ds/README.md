@@ -49,6 +49,7 @@
 - [Median of a Stream](./Heap/MedianStream.java)
 - [Find Median from Data Stream](./Heap/MedianFromDataStream.java)
 - [Max Value of Equation](./Heap/MaxValueOfEquation.java)
+- [Single-Threaded CPU](./Heap/SingleThreadedCPU.java)
 
 # [Binary Tree](./BinaryTree/README.md)
 - [Binary Traversal - In Order, Pre Order, Post Order](./BinaryTree/BinaryTreeTraverse.java)
@@ -62,6 +63,7 @@
 - [Smallest Subtree with all the Deepest Nodes](./BinaryTree/DeepestNodes.java)
 - [Delete Nodes And Return Forest](./BinaryTree/DeleteNodesFromTree.java)
 - [Invert Binary Tree](./BinaryTree/InvertBinaryTree.java)
+- [Complete Binary Tree Inserter](./BinaryTree/CompleteBinaryTreeInserter.java)
 
 ## [Linked List]((./Linked/README.md))
 
