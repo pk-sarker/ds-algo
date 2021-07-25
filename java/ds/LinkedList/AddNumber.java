@@ -1,6 +1,6 @@
 package ds.LinkedList;
 
-import ds.Common.ListNode;
+import Common.ListNode;
 
 public class AddNumber {
 

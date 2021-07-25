@@ -7,3 +7,4 @@
 - [Convert Sorted Array to Binary Search Tree](./SortedArrayToBST.java)
 - [Check Completeness of a Binary Tree](./CompleteBinaryTree.java)
 - [Convert Sorted List to Binary Search Tree](./ConvertSortedListToBinarySearchTree.java)
+- [Smallest Subtree with all the Deepest Nodes](./DeepestNodes.java)

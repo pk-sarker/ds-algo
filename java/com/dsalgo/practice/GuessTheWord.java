@@ -31,7 +31,7 @@ import java.util.Random;
  * master.guess("eiowzz") returns 2, because "eiowzz" has 2 matches.
  * master.guess("abcczz") returns 4, because "abcczz" has 4 matches.
  * We made 5 calls to master.guess and one of them was the secret, so we pass the test case.
- * 
+ *
  */
 public class GuessTheWord {
 
@@ -46,6 +46,13 @@ public class GuessTheWord {
         return count;
     }
 
+    /**
+     * Time complexity O(N)
+     * Space complexity O(N)
+     *
+     * @param wordlist
+     * @param master
+     */
     public static void findSecretWord(String[] wordlist, GuessMaster master) {
         // iterate 10 times and until all 6 character matches
         int i = 0, x = 0;

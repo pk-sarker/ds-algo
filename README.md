@@ -65,6 +65,7 @@ Data Structure &amp; Algorithms
     - [Convert Sorted Array to Binary Search Tree](./java/ds/BinaryTree/SortedArrayToBST.java)
     - [Check Completeness of a Binary Tree](./java/ds/BinaryTree/CompleteBinaryTree.java)
     - [Convert Sorted List to Binary Search Tree](./java/ds/BinaryTree/ConvertSortedListToBinarySearchTree.java)
+    - [Smallest Subtree with all the Deepest Nodes](./java/ds/BinaryTree/DeepestNodes.java)
 
 ## [Algorithms](./java/algo/README.md)
 
