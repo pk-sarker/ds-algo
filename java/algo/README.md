@@ -1,5 +1,6 @@
 # Algorithms
-
+- [Sorting](./Sorting/README.md)
+    - [Custom Sort String](./Sorting/CustomSortString.java)
 - [BFS](./BFS/README.md)
 - [DFS](./DFS/README.md)
 - [Binary Tree](./BinaryTree/README.md)
@@ -9,9 +10,14 @@
 - [Tree](./Tree/README.md)
 - [Quick Select](./Searching/QuickSelect/README.md)
 - [Greedy](./Greedy/README.md)
+    - [Guess the Word](./Greedy/GuessTheWord.java)
 - [Divide and Conquer](./DivideAndConquer/README.md)
-- [Sorting](./Sorting/README.md)
 - [Dynamic Programming](./DP/README.md)
+    - [Number of Good Ways to Split a String](./DP/README.md#number-of-good-ways-to-split-a-string) - [Code](./DP/CountStringSplit.java)
+    - [Longest String Chain](./DP/README.md#longest-string-chain) - [Code](./DP/LongestStringChain.java)
+    - [Count Square Submatrices with All Ones](./DP/README.md#count-square-submatrices-with-all-ones)  - [Code](./DP/CountSquareSubmatricesWithOnes.java)
+    - [Minimum Cost For Tickets](./DP/MinimumCostForTickets.java)
+    - [Partition Equal Subset Sum](./DP/PartitionEqualSubsetSum.java)
 - [Design](./design/README.md)
     - [Design LRU Cache](./design/LRUCache.java)
     - [Serialize and Deserialize Binary Tree](./design/SerializeDeserializeTree.java)
@@ -30,3 +36,4 @@
     - [Implement Stack using Queues](./design/StackUsingQueue.java)
     - [Implement Queue using Stacks](./design/DesignQueueUsingStack.java)
     - [Design Circular Queue](./design/CircularQueueDesign.java)
+    - [Design HashMap](./design/CustomHashMap.java)

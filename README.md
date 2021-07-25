@@ -45,6 +45,7 @@ Data Structure &amp; Algorithms
     - [Find middle of a LinkedList](./java/ds/LinkedList/FindMiddle.java)
     - [Check cycle in a LinkedList](./java/ds/LinkedList/LinkedListCycle.java)
     - [Add two numbers](./java/ds/LinkedList/AddNumber.java)
+    
 - [Heap](./java/ds/Heap/README.md)
     - [Minimum Difference Between Largest and Smallest Value in Three Moves](#minimum-difference-between-largest-and-smallest-value-in-three-moves) - [Java](./java/ds/Heap/MinimumDifferenceBetweenLargestAndSmallest.java)
     - [Largest triplet product](./java/ds/Heap/LargestTripleProducts.java)
@@ -55,6 +56,7 @@ Data Structure &amp; Algorithms
     - [Find Employee Free Time](./java/ds/Heap/EmployeeFreeTime.java)
     - [Find Median of a Stream](./java/ds/Heap/MedianStream.java)
     - [Find Median from Data Stream](./java/ds/Heap/MedianFromDataStream.java)
+    - [Max Value of Equation](./java/ds/Heap/MaxValueOfEquation.java)
 
 - [Binary Tree](./java/ds/BinaryTree/README.md)
     - [Binary Traversal - In Order, Pre Order, Post Order](./java/ds/BinaryTree/BinaryTreeTraverse.java)
@@ -66,6 +68,13 @@ Data Structure &amp; Algorithms
     - [Check Completeness of a Binary Tree](./java/ds/BinaryTree/CompleteBinaryTree.java)
     - [Convert Sorted List to Binary Search Tree](./java/ds/BinaryTree/ConvertSortedListToBinarySearchTree.java)
     - [Smallest Subtree with all the Deepest Nodes](./java/ds/BinaryTree/DeepestNodes.java)
+    - [Delete Nodes And Return Forest](./java/ds/BinaryTree/DeleteNodesFromTree.java)
+    - [Invert Binary Tree](./java/ds/BinaryTree/InvertBinaryTree.java)    
+    
+- [N-Ary Tree](./java/ds/NAry/README.md)
+    - [Diameter of N-Ary Tree](./java/ds/NAry/DiameterOfNAryTree.java)
+- [Trie](./java/ds/Trie/README.md)
+    - [Implement Trie](./java/ds/Trie/ImplementTrie.java)
 
 ## [Algorithms](./java/algo/README.md)
 
@@ -83,11 +92,15 @@ Data Structure &amp; Algorithms
     - [Smallest or equal number](./java/algo/Searching/BinarySearch/README.md#smallest-or-equal-number) - [Code](./java/algo/Searching/BinarySearch/SmallerOrEqualElements.java)
     - [Find First and Last Position of Element in Sorted Array](./java/algo/Searching/BinarySearch/README.md#find-first-and-last-position-of-element-in-sorted-array) - [Code](./java/algo/Searching/BinarySearch/Find1stAnd2ndPositionInSortedArray.java)
 
+- [Greedy](./java/algo/Greedy/README.md)
+    - [Guess the Word](./java/algo/Greedy/GuessTheWord.java)
+    
 - [Dynamic Programming](./java/algo/DP/README.md)
     - [Number of Good Ways to Split a String](./java/algo/DP/README.md#number-of-good-ways-to-split-a-string) - [Code](./java/algo/DP/CountStringSplit.java)
     - [Longest String Chain](./java/algo/DP/README.md#longest-string-chain) - [Code](./java/algo/DP/LongestStringChain.java)
     - [Count Square Submatrices with All Ones](./java/algo/DP/README.md#count-square-submatrices-with-all-ones)  - [Code](./java/algo/DP/CountSquareSubmatricesWithOnes.java)
-
+    - [Partition Equal Subset Sum](./java/algo/DP/PartitionEqualSubsetSum.java)
+    
 - [Design](./java/algo/design/README.md)
     - [Design LRU Cache](./java/algo/design/LRUCache.java)
     - [Serialize and Deserialize Binary Tree](./java/algo/design/SerializeDeserializeTree.java)
@@ -106,9 +119,19 @@ Data Structure &amp; Algorithms
     - [Implement Stack using Queues](./java/algo/design/StackUsingQueue.java)
     - [Implement Queue using Stacks](./java/algo/design/DesignQueueUsingStack.java)
     - [Design Circular Queue](./java/algo/design/CircularQueueDesign.java)
+    - [Design HashMap](./java/algo/design/CustomHashMap.java)
 
     
 ## Pattern
+- [Palindrome](./java/pattern/Palindrome/README.md)
+    - [Valid Palindrome](./java/pattern/Palindrome/ValidPalindrome.java)
+    - [Valid Palindrome II](./java/pattern/Palindrome/ValidPalindromeII.java)
+    - [Palindrome Linked List](./java/pattern/Palindrome/PalindromeLinkedList.java)
+    - [Palindrome Number](./java/pattern/Palindrome/PalindromeNumber.java)
+    - [Longest Palindromic Substring](./java/pattern/Palindrome/LongestPalindromicSubstring.java)
+    - [Palindromic Substrings](./java/pattern/Palindrome/PalindromicSubstrings.java)
+    - [Palindrome Permutation](./java/pattern/Palindrome/PalindromePermutation.java)
+    - [Palindrome Permutation](./java/pattern/Palindrome/PalindromePartitioning.java)
 - [Two Pointer](./java/pattern/TwoPointer/README.md)
     - [Container With Most Water](./java/pattern/TwoPointer/README.md#container-with-most-water) - [Java](./java/pattern/TwoPointer/ContainerWithMostWater.java)
     - [Trapping Rain Water](./java/pattern/TwoPointer/README.md#trapping-rain-water) - [Java](./java/pattern/TwoPointer/TrappingRainWater.java)
@@ -136,6 +159,10 @@ Data Structure &amp; Algorithms
 - [Interval](./java/pattern/Interval/README.md)
     - [Merge Intervals](./java/pattern/Interval/MergeIntervals.java)
     - [Meeting Rooms](./java/pattern/Interval/MeetingRooms.java)
+    - [Interval List Intersections](./java/pattern/Interval/IntervalListIntersections.java)
+    - [Merge Sorted Array](./java/pattern/Interval/MergeSortedArray.java)
+    - [Employee Free Time](./java/pattern/Interval/EmployeeFreeTime.java)
+    - [CPU Maximum Load](./java/pattern/Interval/MaximumCPULoad.java)
 
 
 ## Mixed Problems
