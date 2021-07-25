@@ -42,6 +42,13 @@
 - [Minimum Difference Between Largest and Smallest Value in Three Moves](./Heap/README.md#minimum-difference-between-largest-and-smallest-value-in-three-moves) - [Java](./Heap/MinimumDifferenceBetweenLargestAndSmallest.java)
 - [Largest triplet product](./Heap/LargestTripleProducts.java)
 - [Filter Restaurants](./Heap/FilterRestaurants.java)
+- [Find K-th Largest element](./Heap/KthLargestElement.java)
+- [Find Top K Frequent Elements](./Heap/TopKFrequentElement.java)
+- [Count minimum meeting room required](./Heap/MeetingRoomCount.java)
+- [Find Employee Free Time](./Heap/EmployeeFreeTime.java)
+- [Median of a Stream](./Heap/MedianStream.java)
+- [Find Median from Data Stream](./Heap/MedianFromDataStream.java)
+- [Max Value of Equation](./Heap/MaxValueOfEquation.java)
 
 # [Binary Tree](./BinaryTree/README.md)
 - [Binary Traversal - In Order, Pre Order, Post Order](./BinaryTree/BinaryTreeTraverse.java)
@@ -53,14 +60,17 @@
 - [Check Completeness of a Binary Tree](./BinaryTree/CompleteBinaryTree.java)
 - [Convert Sorted List to Binary Search Tree](./BinaryTree/ConvertSortedListToBinarySearchTree.java)
 - [Smallest Subtree with all the Deepest Nodes](./BinaryTree/DeepestNodes.java)
-
+- [Delete Nodes And Return Forest](./BinaryTree/DeleteNodesFromTree.java)
+- [Invert Binary Tree](./BinaryTree/InvertBinaryTree.java)
 
 ## [Linked List]((./Linked/README.md))
 
 ## [Trie](./Trie/README.md)
+- [Implement Trie](./Trie/ImplementTrie.java)
 
 ## [Disjoint Set](./DisjointSet/README.md)
 
 ## [Binary Search Tree](./BST/README.md)
 
-## [N-Ary Tree](./N-array/README.md)
+## [N-Ary Tree](NAry/README.md)
+   - [Diameter of N-Ary Tree](./NAry/DiameterOfNAryTree.java)
