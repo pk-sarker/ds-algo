@@ -2,3 +2,7 @@
 
 - [Merge Intervals](./MergeIntervals.java)
 - [Meeting Rooms](./MeetingRooms.java)
+- [Interval List Intersections](./IntervalListIntersections.java)
+- [Merge Sorted Array](./MergeSortedArray.java)
+- [Employee Free Time](./EmployeeFreeTime.java)
+- [CPU Maximum Load](./MaximumCPULoad.java)

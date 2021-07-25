@@ -122,6 +122,12 @@ Data Structure &amp; Algorithms
     - [Design HashMap](./java/algo/design/CustomHashMap.java)
 
     
+
+## [Math Problems](./java/math/README.md)
+- [Base 7](./java/math/Base7.java)
+- [Divide Two Integers](./java/math/DivideTwoIntegers.java)
+- [Reverse Integer](./java/math/ReverseInteger.java)  
+  
 ## Pattern
 - [Palindrome](./java/pattern/Palindrome/README.md)
     - [Valid Palindrome](./java/pattern/Palindrome/ValidPalindrome.java)

@@ -10,3 +10,4 @@
 - [Smallest Subtree with all the Deepest Nodes](./DeepestNodes.java)
 - [Delete Nodes And Return Forest](./DeleteNodesFromTree.java)
 - [Invert Binary Tree](./InvertBinaryTree.java)
+- [Path In Zigzag Labelled Binary Tree](./PathInZigzagLabelledBinaryTree.java)
