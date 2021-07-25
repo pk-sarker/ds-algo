@@ -8,3 +8,5 @@
 - [Check Completeness of a Binary Tree](./CompleteBinaryTree.java)
 - [Convert Sorted List to Binary Search Tree](./ConvertSortedListToBinarySearchTree.java)
 - [Smallest Subtree with all the Deepest Nodes](./DeepestNodes.java)
+- [Delete Nodes And Return Forest](./DeleteNodesFromTree.java)
+- [Invert Binary Tree](./InvertBinaryTree.java)

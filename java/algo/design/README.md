@@ -17,3 +17,4 @@
 - [Implement Stack using Queues](./StackUsingQueue.java)
 - [Implement Queue using Stacks](./DesignQueueUsingStack.java)
 - [Design Circular Queue](./CircularQueueDesign.java)
+- [Design HashMap](./CustomHashMap.java)

@@ -3,6 +3,9 @@
 - [Number of Good Ways to Split a String](#number-of-good-ways-to-split-a-string) - [Code](./CountStringSplit.java)
 - [Longest String Chain](#longest-string-chain) - [Code](./LongestStringChain.java)
 - [Count Square Submatrices with All Ones](#count-square-submatrices-with-all-ones)  - [Code](./CountSquareSubmatricesWithOnes.java)
+- [Minimum Cost For Tickets](./MinimumCostForTickets.java)
+- [Partition Equal Subset Sum](./PartitionEqualSubsetSum.java)
+
 #### Number of Good Ways to Split a String
 You are given a string `s`, a split is called good if you can split `s` into 2 non-empty strings 
 `p` and `q` where its concatenation is equal to `s` and the number of distinct letters in `p` and `q` are the same.
