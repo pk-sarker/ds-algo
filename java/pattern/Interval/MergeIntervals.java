@@ -22,15 +22,17 @@ public class MergeIntervals {
     public static int[][] merge(int[][] intervals) {
         int n = intervals.length;
         LinkedList<int[]> res = new LinkedList<>();
-        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+        Arrays.sort(intervals, (a, b) -> a[0] - b[0]); // O(n log n)
 
         res.add(intervals[0]);
 
         for(int i = 1; i<n; i++) {
             int[] last = res.getLast();
 
-            // if two intervals doesn't intersect (end of a interval is less than start of another interval)
-            //
+            // when to merge ?
+            // - if not overlapped then add a new one
+            //   otherwise current interval is overlapped with last one
+            //   so update the end of last interval
             if (last[1] < intervals[i][0]) {
                 res.add(intervals[i]);
             } else {
