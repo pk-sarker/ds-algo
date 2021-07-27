@@ -16,6 +16,7 @@
 - [Find Second Maximum Value in an Array](./SecondMaximumValue.java)
 - [Best Time to Buy and Sell Stock](./BuyAndSellStockLE.java)
 - [Count and Say](./CountAndSay.java)
+- [Maximum distance between two unequal elements](./MaximumDistanceBetweenUniqueNumbers.java)
 
 
 

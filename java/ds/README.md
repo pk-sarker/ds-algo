@@ -15,6 +15,7 @@
 - [Sort Array By Parity](./Array/README.md#sort-array-by-parity) - [Java](./Array/SortArrayByParity.java)
 - [Find Second Maximum Value in an Array](./Array/SecondMaximumValue.java)
 - [Count and Say](./Array/CountAndSay.java)
+- [Maximum distance between two unequal elements](./Array/MaximumDistanceBetweenUniqueNumbers.java)
 
 ## [Stack](./Stack/README.md)
 - [Valid Parentheses](./Stack/README.md#valid-parentheses) - [Java](./Stack/ValidateParentheses.java)
