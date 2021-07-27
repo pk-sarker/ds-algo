@@ -10,6 +10,7 @@
 - [Median of a Stream](./MedianStream.java)
 - [Find Median from Data Stream](./MedianFromDataStream.java)
 - [Max Value of Equation](./MaxValueOfEquation.java)
+- [Single-Threaded CPU](./SingleThreadedCPU.java)
 
 #### Minimum Difference Between Largest and Smallest Value in Three Moves
 Given an array nums, you are allowed to choose one element of nums and change it by any value in one move.

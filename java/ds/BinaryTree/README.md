@@ -11,3 +11,4 @@
 - [Delete Nodes And Return Forest](./DeleteNodesFromTree.java)
 - [Invert Binary Tree](./InvertBinaryTree.java)
 - [Path In Zigzag Labelled Binary Tree](./PathInZigzagLabelledBinaryTree.java)
+- [Complete Binary Tree Inserter](./CompleteBinaryTreeInserter.java)

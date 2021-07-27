@@ -19,6 +19,7 @@ Data Structure &amp; Algorithms
     - [Find Second Maximum Value in an Array](./java/ds/Array/SecondMaximumValue.java)
     - [Best Time to Buy and Sell Stock](./java/ds/Array/BuyAndSellStockLE.java)
     - [Count and Say](./java/ds/Array/CountAndSay.java)
+    - [Maximum distance between two unequal elements](./java/ds/Array/MaximumDistanceBetweenUniqueNumbers.java)
     
 - [Stack](./java/ds/Stack/README.md)
     - [Valid Parentheses](./java/ds/Stack/README.md#valid-parentheses) - [Java](./java/ds/Stack/ValidateParentheses.java)
