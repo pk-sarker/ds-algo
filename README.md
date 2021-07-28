@@ -87,6 +87,7 @@ Data Structure &amp; Algorithms
 
 - [DFS](./java/algo/DFS/README.md)
     - [Employee Importance](./java/algo/DFS/README.md#employee-importance) - [Java](./java/algo/DFS/EmployeeImportance.java)
+    - [Reconstruct Itinerary](./java/algo/DFS/ReconstructItinerary.java)
 
 - [Binary Search](./java/algo/Searching/BinarySearch/README.md)
     - [Find number in bitonic array](./java/algo/Searching/BinarySearch/README.md#find-number-in-bitonic-array) - [Code](./java/algo/Searching/BinarySearch/SearchInBitonicArray.java)

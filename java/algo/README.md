@@ -3,6 +3,7 @@
     - [Custom Sort String](./Sorting/CustomSortString.java)
 - [BFS](./BFS/README.md)
 - [DFS](./DFS/README.md)
+    - [Reconstruct Itinerary](./ReconstructItinerary.java)
 - [Backtracking](./Backtracking/README.md)
     - [Letter Combinations of a Phone Number](./Backtracking/PhoneNumberLetterCombinations.java)
 - [Binary Tree](./BinaryTree/README.md)
