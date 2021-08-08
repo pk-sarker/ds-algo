@@ -29,6 +29,7 @@ Data Structure &amp; Algorithms
     - [Basic Calculator](./java/ds/Stack/BasicCalculator.java)
     - [Basic Calculator II](./java/ds/Stack/BasicCalculator2.java)
     - [Basic Calculator III](./java/ds/Stack/BasicCalculator3.java)
+    - [Asteroid Collision](./java/ds/Stack/AsteroidCollision.java)
     
 - [Hash](./java/ds/Hash/README.md)
     - [Longest Substring Without Repeating Characters](./vLongestSubstringWithoutRepeatingCharacters.java)
@@ -102,7 +103,16 @@ Data Structure &amp; Algorithms
     - [Longest String Chain](./java/algo/DP/README.md#longest-string-chain) - [Code](./java/algo/DP/LongestStringChain.java)
     - [Count Square Submatrices with All Ones](./java/algo/DP/README.md#count-square-submatrices-with-all-ones)  - [Code](./java/algo/DP/CountSquareSubmatricesWithOnes.java)
     - [Partition Equal Subset Sum](./java/algo/DP/PartitionEqualSubsetSum.java)
-    
+    - [Unique Paths](./java/algo/DP/UniquePaths.java)
+    - [Unique Paths II](./java/algo/DP/UniquePathsII.java)
+    - [Distinct Subsequences](./java/algo/DP/DistinctSubsequences.java)
+    - [Distinct Subsequences II](./java/algo/DP/DistinctSubsequencesII.java)
+    - [Max Subset Sum with no adjacent numbers](./java/algo/DP/MaxSubsetSumNoAdjacent.java)
+    - [Number Of Ways To Make Change](./java/algo/DP/NumberOfWaysToMakeChange.java)
+    - [Coin Change](./java/algo/DP/CoinChange.java)
+    - [Edit Distance](./java/algo/DP/EditDistance.java)
+    - [Longest Common Subsequence](./java/algo/DP/LongestCommonSubsequence.java)
+    - [Number Of Ways To Traverse Graph](./java/algo/DP/NumberOfWaysToTraverseGraph.java)
 - [Design](./java/algo/design/README.md)
     - [Design LRU Cache](./java/algo/design/LRUCache.java)
     - [Serialize and Deserialize Binary Tree](./java/algo/design/SerializeDeserializeTree.java)
@@ -122,8 +132,8 @@ Data Structure &amp; Algorithms
     - [Implement Queue using Stacks](./java/algo/design/DesignQueueUsingStack.java)
     - [Design Circular Queue](./java/algo/design/CircularQueueDesign.java)
     - [Design HashMap](./java/algo/design/CustomHashMap.java)
+    - [LFU Cache](./java/algo/design/LFUCache.java)
 
-    
 
 ## [Math Problems](./java/math/README.md)
 - [Base 7](./java/math/Base7.java)
