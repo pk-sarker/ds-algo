@@ -5,6 +5,18 @@
 - [Count Square Submatrices with All Ones](#count-square-submatrices-with-all-ones)  - [Code](./CountSquareSubmatricesWithOnes.java)
 - [Minimum Cost For Tickets](./MinimumCostForTickets.java)
 - [Partition Equal Subset Sum](./PartitionEqualSubsetSum.java)
+- [Unique Paths](./UniquePaths.java)
+- [Unique Paths II](./UniquePathsII.java)
+- [Distinct Subsequences](./DistinctSubsequences.java)
+- [Distinct Subsequences II](./DistinctSubsequencesII.java)
+- [Max Subset Sum with no adjacent numbers](./MaxSubsetSumNoAdjacent.java)
+- [Number Of Ways To Make Change](./NumberOfWaysToMakeChange.java)
+- [Coin Change](./CoinChange.java)
+- [Edit Distance](./EditDistance.java)
+- [Longest Common Subsequence](./LongestCommonSubsequence.java)
+- [Number Of Ways To Traverse Graph](./NumberOfWaysToTraverseGraph.java)
+- [Maximum Number of Points with Cost](./MaximumNumberOfPointsWithCost.java)
+- [Climbing Stairs](./ClimbingStairs.java)
 
 #### Number of Good Ways to Split a String
 You are given a string `s`, a split is called good if you can split `s` into 2 non-empty strings 
