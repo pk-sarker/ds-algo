@@ -1,15 +1,6 @@
 package ds.Array;
 
 /**
- * Given an array arr[], the task is to find the maximum distance between two unequal
- * elements of the given array.
- *
- * Input: arr[] = {3, 2, 1, 2, 1}
- * Output: 4
- * The maximum distance is between the first and the last element.
- * Input: arr[] = {3, 3, 1, 3, 3}
- * Output: 2
- *
  * Solution:
  * Lets think about the values,
  *  - the smallest value could be 0, if all the number are same
@@ -21,10 +12,15 @@ package ds.Array;
  *
  * First we check if first and last number is the same or not, if not then return the max distance n
  * Otherwise we look from left and right.
+ *
  * When we look from left we fix start as the first element and try to find a number from right end which
  * is not same as the start. When we find one then calculate the distance.
  *
- * Again we fix the position of the last number as right and try to find a start from left.
+ * Do the same when looking from right, fix the end position to the last number as right end and
+ * try to find a start from left which is not same as the end. On finding one such number calculate the
+ * distance.
+ *
+ * Now we take the max of both distances and return.
  *
  * Time Complexity: O(n) // 2 pass
  * Space Complexity: O(1)

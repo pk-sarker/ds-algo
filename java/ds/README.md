@@ -16,6 +16,11 @@
 - [Find Second Maximum Value in an Array](./Array/SecondMaximumValue.java)
 - [Count and Say](./Array/CountAndSay.java)
 - [Maximum distance between two unequal elements](./Array/MaximumDistanceBetweenUniqueNumbers.java)
+- [Array Of Doubled Pairs](./Array/ArrayOfDoubledPairs.java)
+- [Intersection of two arrays II](./Array/IntersectionOfTwoArraysII.java)
+- [Largest divisible subset](./Array/LargestDivisibleSubset.java)
+- [Largest divisible subset](./Array/WhereWillTheBallFall.java)
+
 
 ## [Stack](./Stack/README.md)
 - [Valid Parentheses](./Stack/README.md#valid-parentheses) - [Java](./Stack/ValidateParentheses.java)
@@ -25,6 +30,7 @@
 - [Basic Calculator](./Stack/BasicCalculator.java)
 - [Basic Calculator II](./Stack/BasicCalculator2.java)
 - [Basic Calculator III](./Stack/BasicCalculator3.java)
+- [Asteroid Collision](./Stack/AsteroidCollision.java)
 
 ## [Queue](./Queue/README.md)
 
@@ -74,6 +80,6 @@
 ## [Disjoint Set](./DisjointSet/README.md)
 
 ## [Binary Search Tree](./BST/README.md)
-
+- [Construct BST](./BST/ConstructBST.java)
 ## [N-Ary Tree](NAry/README.md)
    - [Diameter of N-Ary Tree](./NAry/DiameterOfNAryTree.java)
