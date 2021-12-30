@@ -71,7 +71,8 @@ Data Structure &amp; Algorithms
     - [Convert Sorted List to Binary Search Tree](./java/ds/BinaryTree/ConvertSortedListToBinarySearchTree.java)
     - [Smallest Subtree with all the Deepest Nodes](./java/ds/BinaryTree/DeepestNodes.java)
     - [Delete Nodes And Return Forest](./java/ds/BinaryTree/DeleteNodesFromTree.java)
-    - [Invert Binary Tree](./java/ds/BinaryTree/InvertBinaryTree.java)    
+    - [Invert Binary Tree](./java/ds/BinaryTree/InvertBinaryTree.java) 
+    - [Find Leaves of Binary Tree](./python/leaves_of_binary_tree.py) 
     
 - [N-Ary Tree](./java/ds/NAry/README.md)
     - [Diameter of N-Ary Tree](./java/ds/NAry/DiameterOfNAryTree.java)
