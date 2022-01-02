@@ -95,6 +95,7 @@ Data Structure &amp; Algorithms
     - [Find number in bitonic array](./java/algo/Searching/BinarySearch/README.md#find-number-in-bitonic-array) - [Code](./java/algo/Searching/BinarySearch/SearchInBitonicArray.java)
     - [Smallest or equal number](./java/algo/Searching/BinarySearch/README.md#smallest-or-equal-number) - [Code](./java/algo/Searching/BinarySearch/SmallerOrEqualElements.java)
     - [Find First and Last Position of Element in Sorted Array](./java/algo/Searching/BinarySearch/README.md#find-first-and-last-position-of-element-in-sorted-array) - [Code](./java/algo/Searching/BinarySearch/Find1stAnd2ndPositionInSortedArray.java)
+    - [Split Array Largest Sum](./python/README.md#split-array-largest-sum) [Java](./java/algo/Searching/BinarySearch/SplitArrayLargestSum.java) [Python](./python/split_array_largest_sum.py)
 
 - [Greedy](./java/algo/Greedy/README.md)
     - [Guess the Word](./java/algo/Greedy/GuessTheWord.java)

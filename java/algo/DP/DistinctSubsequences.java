@@ -1,6 +1,6 @@
 package algo.DP;
 
-import Common.Pair;
+import Common.KeyValuePair;
 
 import java.util.HashMap;
 
@@ -47,10 +47,10 @@ import java.util.HashMap;
 public class DistinctSubsequences {
 
     // Dictionary that we will use for memoization
-    private HashMap<Pair<Integer, Integer>, Integer> memo;
+    private HashMap<KeyValuePair<Integer, Integer>, Integer> memo;
 
     public int numDistinct(String s, String t) {
-        this.memo = new HashMap<Pair<Integer, Integer>, Integer>();
+        this.memo = new HashMap<KeyValuePair<Integer, Integer>, Integer>();
         return this.recurse(s, t, 0, 0);
     }
 
@@ -61,7 +61,7 @@ public class DistinctSubsequences {
             return ti == n ? 1:0;
         }
 
-        Pair<Integer, Integer> key = new Pair<Integer, Integer>(si, ti);
+        KeyValuePair<Integer, Integer> key = new KeyValuePair<Integer, Integer>(si, ti);
 
         // If already calculated, then return
         if (this.memo.containsKey(key)) {
