@@ -2,6 +2,7 @@
 Data Structure &amp; Algorithms
 
 ## [Data Structures](./java/ds/README.md)
+- [String](./)
 - [Array](./java/ds/Array/README.md)
     - [Sum of Two Numbers](./java/ds/Array/README.md#sum-of-two-numbers) - [Java](./java/ds/Array/SumOfTwo.java)
     - [First non-repeating character](./java/ds/Array/README.md#first-non-repeating-character) - [Java](./java/ds/Array/FirstNonRepeatingCharacter.java)
@@ -86,6 +87,9 @@ Data Structure &amp; Algorithms
         
 - [BFS](./java/algo/BFS/README.md)
     - [Count Good Nodes in Binary Tree](./java/algo/BFS/README.md#count-good-nodes-in-binary-tree) - [Code](./java/algo/BFS/CountGoodNodes.java)
+    - [Pacific Atlantic Water Flow](./java/algo/BFS/README.md#pacific-atlantic-water-flow) - [code](./java/algo/BFS/PacificAtlanticWaterFlow.java)
+    - [Shortest Path in a Grid with Obstacles Elimination](./java/algo/BFS/ShortestPathInAGrid.java)
+    - [Shortest Path in Binary Matrix](./java/algo/BFS/ShortestPathInBinaryMatrix.java)
 
 - [DFS](./java/algo/DFS/README.md)
     - [Employee Importance](./java/algo/DFS/README.md#employee-importance) - [Java](./java/algo/DFS/EmployeeImportance.java)
