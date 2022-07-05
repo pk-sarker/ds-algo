@@ -95,6 +95,14 @@ Data Structure &amp; Algorithms
 - [DFS](./java/algo/DFS/README.md)
     - [Employee Importance](./java/algo/DFS/README.md#employee-importance) - [Java](./java/algo/DFS/EmployeeImportance.java)
     - [Reconstruct Itinerary](./java/algo/DFS/ReconstructItinerary.java)
+    - [Find Path Between Two City](./java/algo/DFS/FIndPathBtnTwoCity.java)
+    - [Flood Fill](./java/algo/DFS/FloodFill.java)
+    - [Word Search](./java/algo/DFS/WordSearch.java)
+    - [Graph Valid Tree](./java/algo/DFS/GraphValidTree.java)
+    - [Time Needed to Inform All Employees](./java/algo/DFS/TimeNeededToInformAllEmployees.java)
+    - [Nested List Weight Sum](./java/algo/DFS/NestedListWeightSum.java)
+    - [Nested List Weight Sum II](./java/algo/DFS/NestedListWeightSumII.java)
+
 
 - [Binary Search](./java/algo/Searching/BinarySearch/README.md)
     - [Find number in bitonic array](./java/algo/Searching/BinarySearch/README.md#find-number-in-bitonic-array) - [Code](./java/algo/Searching/BinarySearch/SearchInBitonicArray.java)
