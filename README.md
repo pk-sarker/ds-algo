@@ -189,6 +189,7 @@ Data Structure &amp; Algorithms
     - [String Anagrams](./java/pattern/SlidingWindow/StringAnagrams.java)
     - [Smallest Window containing Substring](./java/pattern/SlidingWindow/MinimumWindowSubstring.java)
     - [Words Concatenation](./java/pattern/SlidingWindow/WordConcatenation.java)
+    - [Find N words left and right of a word in list](./java/pattern/SlidingWindow/NWordsAfterAndBefore.java)
 - [Interval](./java/pattern/Interval/README.md)
     - [Merge Intervals](./java/pattern/Interval/MergeIntervals.java)
     - [Meeting Rooms](./java/pattern/Interval/MeetingRooms.java)
