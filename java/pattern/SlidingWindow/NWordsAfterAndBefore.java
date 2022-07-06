@@ -16,6 +16,17 @@ import java.util.*;
  * you should output: bat cat fish leetcode leetcode snip snap AND cat fish leetcode leetcode snip snap hat
  *
  * Solution:
+ * Idea is that at current index, if the word matches the target then get n-words from the left and n-words from right.
+ * Instead of reading n-words every time we find a matching middle word, we maintain two list with n words,
+ *
+ * - one for the n-words left of current word, wordsOnLeft
+ * - another one for the n-words right of current word, wordsOnRight
+ *
+ * We start the loop at n-th index. Every pass we add current word to wordsOnLeft and remove the oldest one to maintain n words in the list.
+ * Similarly, we add n-th word right of current word to wordsOnRight and remove the oldest/first word.
+ *
+ * Now when we find the current word is the target, n words left of it is already stored in wordsOnLeft and n words right of it is already stored in wordsOnRight
+ *
  */
 public class NWordsAfterAndBefore {
 
