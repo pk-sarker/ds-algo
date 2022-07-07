@@ -21,6 +21,9 @@ Data Structure &amp; Algorithms
     - [Best Time to Buy and Sell Stock](./java/ds/Array/BuyAndSellStockLE.java)
     - [Count and Say](./java/ds/Array/CountAndSay.java)
     - [Maximum distance between two unequal elements](./java/ds/Array/MaximumDistanceBetweenUniqueNumbers.java)
+    - [Largest Divisible Subset](./LargestDivisibleSubset.java)
+    - [Array of Doubled Pairs](./ArrayOfDoubledPairs.java)
+    - [Intersection of Two Arrays II](./IntersectionOfTwoArraysII.java)
     - [Shortest Word Distance](./java/ds/Array/ShortestWordDistance.java)
     
 - [Stack](./java/ds/Stack/README.md)
