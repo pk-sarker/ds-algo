@@ -21,6 +21,7 @@ Data Structure &amp; Algorithms
     - [Best Time to Buy and Sell Stock](./java/ds/Array/BuyAndSellStockLE.java)
     - [Count and Say](./java/ds/Array/CountAndSay.java)
     - [Maximum distance between two unequal elements](./java/ds/Array/MaximumDistanceBetweenUniqueNumbers.java)
+    - [Shortest Word Distance](./java/ds/Array/ShortestWordDistance.java)
     
 - [Stack](./java/ds/Stack/README.md)
     - [Valid Parentheses](./java/ds/Stack/README.md#valid-parentheses) - [Java](./java/ds/Stack/ValidateParentheses.java)
@@ -42,6 +43,7 @@ Data Structure &amp; Algorithms
     - [Check Duplicate number in a array](./java/ds/Hash/ContainsDuplicate.java)
     - [Check nearby duplicate number in a array](./java/ds/Hash/ContainsDuplicateII.java)
     - [Check nearby duplicate number in a array 2](./java/ds/Hash/ContainsDuplicateIII.java)
+    - [Design Underground System](./java/ds/Hash/UndergroundSystem.java)
     
 - [LinkedList](./java/ds/LinkedList/README.md)
     - [Reverse a LinkedList](./java/ds/LinkedList/ReverseLinkedList.java)
