@@ -27,16 +27,17 @@ package algo.Greedy;
  * 1st Iteration
  *      pick 2 "a"s, remaining "a" = 5-2 = 3
  *      pick 1 "b" as remaining "a" >= number of "b", 3>= 2
- *      Call next iteration with (remaining a, remaining b, remaining c) = (3,1,1)
+ *      Call next iteration with (remaining a, remaining b, remaining c) = (3,1,1) "aab"
  *
  * 2nd Iteration
  *      pick 2 "a"s, remaining "a" = 3-2 = 1
  *      pick 1 "b" as remaining "a" >= number of "b", 1>= 1
- *      Call next iteration with (remaining a, remaining b, remaining c) = (1,0,1)
+ *      Call next iteration with (remaining a, remaining b, remaining c) = (1,0,1) == "aabaab"
  *
  * 2nd Iteration
  *      sort a,b,c => now (a,c,b)
  *      and repeat the same process
+ *      "aabaabac"
  *
  */
 public class LongestHappyString {

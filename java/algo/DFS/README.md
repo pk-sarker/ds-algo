@@ -7,3 +7,5 @@
 - [Word Search](./WordSearch.java)
 - [Graph Valid Tree](./GraphValidTree.java)
 - [Time Needed to Inform All Employees](./TimeNeededToInformAllEmployees.java)
+- [Nested List Weight Sum](./NestedListWeightSum.java)
+- [Nested List Weight Sum II](./NestedListWeightSumII.java)

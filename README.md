@@ -114,10 +114,11 @@ Data Structure &amp; Algorithms
     - [Smallest or equal number](./java/algo/Searching/BinarySearch/README.md#smallest-or-equal-number) - [Code](./java/algo/Searching/BinarySearch/SmallerOrEqualElements.java)
     - [Find First and Last Position of Element in Sorted Array](./java/algo/Searching/BinarySearch/README.md#find-first-and-last-position-of-element-in-sorted-array) - [Code](./java/algo/Searching/BinarySearch/Find1stAnd2ndPositionInSortedArray.java)
     - [Split Array Largest Sum](./python/README.md#split-array-largest-sum) [Java](./java/algo/Searching/BinarySearch/SplitArrayLargestSum.java) [Python](./python/split_array_largest_sum.py)
+    - [Search Insert Position](./java/algo/Searching/BinarySearch/SearchInsertPosition.java) [Python](./python/search_insert_position.py)
 
 - [Greedy](./java/algo/Greedy/README.md)
     - [Guess the Word](./java/algo/Greedy/GuessTheWord.java)
-    
+
 - [Dynamic Programming](./java/algo/DP/README.md)
     - [Number of Good Ways to Split a String](./java/algo/DP/README.md#number-of-good-ways-to-split-a-string) - [Code](./java/algo/DP/CountStringSplit.java)
     - [Longest String Chain](./java/algo/DP/README.md#longest-string-chain) - [Code](./java/algo/DP/LongestStringChain.java)
@@ -154,12 +155,15 @@ Data Structure &amp; Algorithms
     - [Design HashMap](./java/algo/design/CustomHashMap.java)
     - [LFU Cache](./java/algo/design/LFUCache.java)
 
+## Number Theory
 
 ## [Math Problems](./java/math/README.md)
 - [Base 7](./java/math/Base7.java)
 - [Divide Two Integers](./java/math/DivideTwoIntegers.java)
 - [Reverse Integer](./java/math/ReverseInteger.java)  
-  
+
+## BIT Manipulation
+
 ## Pattern
 - [Palindrome](./java/pattern/Palindrome/README.md)
     - [Valid Palindrome](./java/pattern/Palindrome/ValidPalindrome.java)
