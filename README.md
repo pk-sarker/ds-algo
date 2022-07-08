@@ -116,8 +116,23 @@ Data Structure &amp; Algorithms
     - [Split Array Largest Sum](./python/README.md#split-array-largest-sum) [Java](./java/algo/Searching/BinarySearch/SplitArrayLargestSum.java) [Python](./python/split_array_largest_sum.py)
     - [Search Insert Position](./java/algo/Searching/BinarySearch/SearchInsertPosition.java) [Python](./python/search_insert_position.py)
 
+- [Backtracking](./java/algo/Backtracking/README.md)
+  - [Letter Combinations of a Phone Number](./java/algo/Backtracking/PhoneNumberLetterCombinations.java)
+  - [Permutations](./java/algo/Backtracking/Permutations.java)
+  - [Letter Combinations of a Phone Number](./java/algo/Backtracking/PhoneNumberLetterCombinations.java)
+  - [Letter Combination](./java/algo/Backtracking/LetterCombination.java)
+  - [Sudoku Solver](./java/algo/Backtracking/SudokuSolver.java)
+
 - [Greedy](./java/algo/Greedy/README.md)
-    - [Guess the Word](./java/algo/Greedy/GuessTheWord.java)
+  - [Guess the Word](./java/algo/Greedy/GuessTheWord.java)
+
+- [Quick Select](./java/algo/QuickSelect/README.md)
+
+- [Divide and Conquer](./java/algo/DivideAndConquer/README.md)
+
+- [Recursion](./java/algo/Recursion/README.md)
+
+- [Graph](./java/algo/Graph/README.md)
 
 - [Dynamic Programming](./java/algo/DP/README.md)
     - [Number of Good Ways to Split a String](./java/algo/DP/README.md#number-of-good-ways-to-split-a-string) - [Code](./java/algo/DP/CountStringSplit.java)
