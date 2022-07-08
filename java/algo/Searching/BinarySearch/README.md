@@ -3,6 +3,7 @@
 - [Find number in bitonic array](#find-number-in-bitonic-array) - [Code](./SearchInBitonicArray.java)
 - [Smallest or equal number](#smallest-or-equal-number) - [Code](./SmallerOrEqualElements.java)
 - [Find First and Last Position of Element in Sorted Array](#find-first-and-last-position-of-element-in-sorted-array) - [Code](./Find1stAnd2ndPositionInSortedArray.java)
+- [Split Array Largest Sum](#split-array-largest-sum) [Java](./SplitArrayLargestSum.java) [Python](../../../../python/split_array_largest_sum.py)
 
 
 #### Find number in bitonic array
