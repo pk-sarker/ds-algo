@@ -122,6 +122,7 @@ Data Structure &amp; Algorithms
   - [Letter Combinations of a Phone Number](./java/algo/Backtracking/PhoneNumberLetterCombinations.java)
   - [Letter Combination](./java/algo/Backtracking/LetterCombination.java)
   - [Sudoku Solver](./java/algo/Backtracking/SudokuSolver.java)
+  - [Jump Game](./java/algo/Backtracking/README.md)
 
 - [Greedy](./java/algo/Greedy/README.md)
   - [Guess the Word](./java/algo/Greedy/GuessTheWord.java)
