@@ -107,6 +107,7 @@ Data Structure &amp; Algorithms
     - [Time Needed to Inform All Employees](./java/algo/DFS/TimeNeededToInformAllEmployees.java)
     - [Nested List Weight Sum](./java/algo/DFS/NestedListWeightSum.java)
     - [Nested List Weight Sum II](./java/algo/DFS/NestedListWeightSumII.java)
+    - [Jump Game III](./java/algo/DFS/JumpGameIII.java)
 
 
 - [Binary Search](./java/algo/Searching/BinarySearch/README.md)
