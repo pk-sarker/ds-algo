@@ -126,6 +126,9 @@ Data Structure &amp; Algorithms
 
 - [Greedy](./java/algo/Greedy/README.md)
   - [Guess the Word](./java/algo/Greedy/GuessTheWord.java)
+  - [Longest Happy String](./java/algo/Greedy/LongestHappyString.java)
+  - [Jump Game](./java/algo/Greedy/JumpGame.java)
+  - [Jump Game II](./java/algo/Greedy/JumpGameII.java)
 
 - [Quick Select](./java/algo/QuickSelect/README.md)
 
