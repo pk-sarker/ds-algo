@@ -97,6 +97,7 @@ Data Structure &amp; Algorithms
     - [Shortest Path in Binary Matrix](./java/algo/BFS/ShortestPathInBinaryMatrix.java)
     - Nested List Weight Sum [Code - using BFS](./java/algo/BFS/NestedListWeightSum.java), [Code - using DFS](./java/algo/DFS/NestedListWeightSum.java)
     - [Jump Game III](./java/algo/BFS/JumpGameIII.java)
+    - [Jump Game VII](./java/algo/BFS/JumpGameVII.java)
 
 - [DFS](./java/algo/DFS/README.md)
     - [Employee Importance](./java/algo/DFS/README.md#employee-importance) - [Java](./java/algo/DFS/EmployeeImportance.java)
