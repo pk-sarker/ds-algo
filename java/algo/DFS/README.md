@@ -9,3 +9,4 @@
 - [Time Needed to Inform All Employees](./TimeNeededToInformAllEmployees.java)
 - [Nested List Weight Sum](./NestedListWeightSum.java)
 - [Nested List Weight Sum II](./NestedListWeightSumII.java)
+- [Jump Game III](./JumpGameIII.java)
