@@ -21,6 +21,7 @@
 - [Array of Doubled Pairs](./ArrayOfDoubledPairs.java)
 - [Intersection of Two Arrays II](./IntersectionOfTwoArraysII.java)
 - [Shortest Word Distance](./ShortestWordDistance.java)
+- [Query Kth Smallest Trimmed Number](./QueryKthSmallestTrimmedNumber.java)
 
 #### Sum of Two Numbers
 Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to target.
