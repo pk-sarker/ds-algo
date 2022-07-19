@@ -185,6 +185,7 @@ Data Structure &amp; Algorithms
 - [Base 7](./java/math/Base7.java)
 - [Divide Two Integers](./java/math/DivideTwoIntegers.java)
 - [Reverse Integer](./java/math/ReverseInteger.java)  
+- [Plus One](./java/math/PlusOne.java)
 
 ## BIT Manipulation
 
