@@ -25,6 +25,7 @@ Data Structure &amp; Algorithms
     - [Array of Doubled Pairs](./ArrayOfDoubledPairs.java)
     - [Intersection of Two Arrays II](./IntersectionOfTwoArraysII.java)
     - [Shortest Word Distance](./java/ds/Array/ShortestWordDistance.java)
+    - [Query Kth Smallest Trimmed Number](./java/ds/Array/QueryKthSmallestTrimmedNumber.java)
     
 - [Stack](./java/ds/Stack/README.md)
     - [Valid Parentheses](./java/ds/Stack/README.md#valid-parentheses) - [Java](./java/ds/Stack/ValidateParentheses.java)
