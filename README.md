@@ -188,12 +188,14 @@ Data Structure &amp; Algorithms
 - [Plus One](./java/math/PlusOne.java)
 
 ## BIT Manipulation
-- [Bit manipulation]
-  - [Check odd even](./Solution.md#check-odd-even) - [Java](java/pattern/BitManipulation/BitManipulation1.java)
-  - [Detect signs](./Solution.md#detect-signs) - [Java](java/pattern/BitManipulation/BitManipulation1.java)
-  - [Swap two numbers without using third variable](java/pattern/BitManipulation/BitManipulation1.java)
-  - [Single Number](./Solution.md#single-number) - [Java](java/pattern/BitManipulation/BitManipulation1.java)
-
+- [Check odd even](./java/pattern/BitManipulation/README.md#check-odd-even) - [Java](java/pattern/BitManipulation/BitManipulation1.java)
+- [Detect signs](./java/pattern/BitManipulation/README.md#detect-signs) - [Java](java/pattern/BitManipulation/BitManipulation1.java)
+- [Swap two numbers without using third variable](java/pattern/BitManipulation/BitManipulation1.java)
+- [Single Number](./java/pattern/BitManipulation/README.md#single-number) - [Java](java/pattern/BitManipulation/BitManipulation1.java)
+- [Inverse sign of a number](./java/pattern/BitManipulation/BitManipulation2.java)
+- [Multiply](./java/pattern/BitManipulation/BitManipulation2.java)
+- [Divide](./java/pattern/BitManipulation/BitManipulation2.java)
+- [Sum of Two number](./java/pattern/BitManipulation/BitManipulation2.java)
 
 ## Pattern
 - [Palindrome](./java/pattern/Palindrome/README.md)

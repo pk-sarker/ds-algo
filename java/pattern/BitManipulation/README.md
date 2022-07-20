@@ -3,6 +3,10 @@
 - [Detect signs](#detect-signs) - [Java](./BitManipulation1.java)
 - [Swap two numbers without using third variable](./BitManipulation1.java)
 - [Single Number](#single-number) - [Java](./BitManipulation1.java)
+- [Inverse sign of a number](./BitManipulation2.java)
+- [Multiply](./BitManipulation2.java)
+- [Divide](./BitManipulation2.java)
+- [Sum of Two number](./BitManipulation2.java)
 
 
 
