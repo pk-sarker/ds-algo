@@ -1,4 +1,4 @@
-package com.dsalgo.practice;
+package pattern.BitManipulation;
 
 public class BitManipulation1 {
     private static boolean isEven(int n) {
