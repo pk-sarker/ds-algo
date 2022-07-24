@@ -182,6 +182,7 @@ Data Structure &amp; Algorithms
     - [Design Circular Queue](./java/algo/design/CircularQueueDesign.java)
     - [Design HashMap](./java/algo/design/CustomHashMap.java)
     - [LFU Cache](./java/algo/design/LFUCache.java)
+    - [Design a Food Rating System](./java/algo/design/DesignFoodRatingSystem.java)
 
 ## Number Theory
 

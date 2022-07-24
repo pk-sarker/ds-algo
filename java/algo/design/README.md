@@ -18,3 +18,4 @@
 - [Implement Queue using Stacks](./DesignQueueUsingStack.java)
 - [Design Circular Queue](./CircularQueueDesign.java)
 - [Design HashMap](./CustomHashMap.java)
+- [Design a Food Rating System](./DesignFoodRatingSystem.java)
