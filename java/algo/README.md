@@ -19,6 +19,9 @@
 - [Greedy](./Greedy/README.md)
     - [Guess the Word](./Greedy/GuessTheWord.java)
 - [Divide and Conquer](./DivideAndConquer/README.md)
+- [Graph](./Graph/README.md)
+  - [Find the Celebrity](./Graph/FindTheCelebrity.java)
+
 - [Dynamic Programming](./DP/README.md)
     - [Number of Good Ways to Split a String](./DP/README.md#number-of-good-ways-to-split-a-string) - [Code](./DP/CountStringSplit.java)
     - [Longest String Chain](./DP/README.md#longest-string-chain) - [Code](./DP/LongestStringChain.java)

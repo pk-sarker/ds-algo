@@ -26,7 +26,8 @@ Data Structure &amp; Algorithms
     - [Intersection of Two Arrays II](./IntersectionOfTwoArraysII.java)
     - [Shortest Word Distance](./java/ds/Array/ShortestWordDistance.java)
     - [Query Kth Smallest Trimmed Number](./java/ds/Array/QueryKthSmallestTrimmedNumber.java)
-    
+    - [Find N Unique Integers Sum up to Zero](./java/ds/Array/UniqueIntegersSumUpToZero.java)
+  
 - [Stack](./java/ds/Stack/README.md)
     - [Valid Parentheses](./java/ds/Stack/README.md#valid-parentheses) - [Java](./java/ds/Stack/ValidateParentheses.java)
     - [Min Stack](./java/ds/Stack/README.md#min-stack) - [Java](./java/ds/Stack/MinStack.java)
@@ -134,6 +135,9 @@ Data Structure &amp; Algorithms
   - [Jump Game](./java/algo/Greedy/JumpGame.java)
   - [Jump Game II](./java/algo/Greedy/JumpGameII.java)
 
+- [Graph](./java/algo/Graph/README.md)
+  - [Find the Celebrity](./java/algo/Graph/FindTheCelebrity.java)
+
 - [Quick Select](./java/algo/QuickSelect/README.md)
 
 - [Divide and Conquer](./java/algo/DivideAndConquer/README.md)
@@ -178,6 +182,7 @@ Data Structure &amp; Algorithms
     - [Design Circular Queue](./java/algo/design/CircularQueueDesign.java)
     - [Design HashMap](./java/algo/design/CustomHashMap.java)
     - [LFU Cache](./java/algo/design/LFUCache.java)
+    - [Design a Food Rating System](./java/algo/design/DesignFoodRatingSystem.java)
 
 ## Number Theory
 
@@ -188,6 +193,14 @@ Data Structure &amp; Algorithms
 - [Plus One](./java/math/PlusOne.java)
 
 ## BIT Manipulation
+- [Check odd even](./java/pattern/BitManipulation/README.md#check-odd-even) - [Java](java/pattern/BitManipulation/BitManipulation1.java)
+- [Detect signs](./java/pattern/BitManipulation/README.md#detect-signs) - [Java](java/pattern/BitManipulation/BitManipulation1.java)
+- [Swap two numbers without using third variable](java/pattern/BitManipulation/BitManipulation1.java)
+- [Single Number](./java/pattern/BitManipulation/README.md#single-number) - [Java](java/pattern/BitManipulation/BitManipulation1.java)
+- [Inverse sign of a number](./java/pattern/BitManipulation/BitManipulation2.java)
+- [Multiply](./java/pattern/BitManipulation/BitManipulation2.java)
+- [Divide](./java/pattern/BitManipulation/BitManipulation2.java)
+- [Sum of Two number](./java/pattern/BitManipulation/BitManipulation2.java)
 
 ## Pattern
 - [Palindrome](./java/pattern/Palindrome/README.md)
@@ -375,11 +388,6 @@ Data Structure &amp; Algorithms
 - [Clone Graph](./Solution.md#clone-graph) - [Java](java/com/dsalgo/practice/CloneGraph.java)
 - [Bus Routes](./Solution.md#bus-routes) - [Java](java/com/dsalgo/practice/BusRoutes.java)
 - [Exclusive Time of Functions](./Solution.md#bus-routes) - [Java](java/com/dsalgo/practice/ExclusiveTimeFunctions.java)
-- [Bit manipulation]
-    - [Check odd even](./Solution.md#check-odd-even) - [Java](java/com/dsalgo/practice/BitManipulation1.java)
-    - [Detect signs](./Solution.md#detect-signs) - [Java](java/com/dsalgo/practice/BitManipulation1.java)
-    - [Swap two numbers without using third variable](java/com/dsalgo/practice/BitManipulation1.java)
-    - [Single Number](./Solution.md#single-number) - [Java](java/com/dsalgo/practice/BitManipulation1.java)
 - [Design Bounded Blocking Queue](./Solution.md#design-bounded-blocking-queue) - [java](java/com/dsalgo/practice/DesignBoundedBlockingQueue.java)
 - [Robot Bounded In Circle](./Solution.md#robot-bounded-in-circle) - [java](java/com/dsalgo/practice/RobotBoundedInCircle.java)
 - [Add Binary](./Solution.md#add-binary) - [java](java/com/dsalgo/practice/AddBinary.java)
