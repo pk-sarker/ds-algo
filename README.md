@@ -100,6 +100,8 @@ Data Structure &amp; Algorithms
     - Nested List Weight Sum [Code - using BFS](./java/algo/BFS/NestedListWeightSum.java), [Code - using DFS](./java/algo/DFS/NestedListWeightSum.java)
     - [Jump Game III](./java/algo/BFS/JumpGameIII.java)
     - [Jump Game VII](./java/algo/BFS/JumpGameVII.java)
+    - [Find All The Lonely Nodes](./java/algo/BFS/FindLonelyNodes.java)
+    - [Shortest Path in a Grid with Obstacles Elimination](./java/algo/BFS/ShortestPathInGridWithObstaclesElimination.java)
 
 - [DFS](./java/algo/DFS/README.md)
     - [Employee Importance](./java/algo/DFS/README.md#employee-importance) - [Java](./java/algo/DFS/EmployeeImportance.java)
