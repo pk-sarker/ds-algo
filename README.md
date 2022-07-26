@@ -102,6 +102,7 @@ Data Structure &amp; Algorithms
     - [Jump Game VII](./java/algo/BFS/JumpGameVII.java)
     - [Find All The Lonely Nodes](./java/algo/BFS/FindLonelyNodes.java)
     - [Shortest Path in a Grid with Obstacles Elimination](./java/algo/BFS/ShortestPathInGridWithObstaclesElimination.java)
+    - [Univalued Binary Tree](./java/algo/BFS/UnivaluedBinaryTree.java)
 
 - [DFS](./java/algo/DFS/README.md)
     - [Employee Importance](./java/algo/DFS/README.md#employee-importance) - [Java](./java/algo/DFS/EmployeeImportance.java)
