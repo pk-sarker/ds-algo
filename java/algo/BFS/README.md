@@ -8,6 +8,7 @@
 - [Jump Game VII](./JumpGameVII.java)
 - [Find All The Lonely Nodes](./FindLonelyNodes.java)
 - [Shortest Path in a Grid with Obstacles Elimination](./ShortestPathInGridWithObstaclesElimination.java)
+- [Minimum Obstacle Removal to Reach Corner](./MinimumObstacleRemovalToReachCorner.java)
 - [Univalued Binary Tree](./UnivaluedBinaryTree.java)
 
 #### Count Good Nodes in Binary Tree
