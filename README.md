@@ -196,6 +196,7 @@ Data Structure &amp; Algorithms
 - [Divide Two Integers](./java/math/DivideTwoIntegers.java)
 - [Reverse Integer](./java/math/ReverseInteger.java)  
 - [Plus One](./java/math/PlusOne.java)
+- [Number of Zero-Filled Subarrays](./java/math/NumberOfSubArrays.java)
 
 ## BIT Manipulation
 - [Check odd even](./java/pattern/BitManipulation/README.md#check-odd-even) - [Java](java/pattern/BitManipulation/BitManipulation1.java)
