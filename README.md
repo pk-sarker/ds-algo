@@ -49,6 +49,7 @@ Data Structure &amp; Algorithms
     - [Check nearby duplicate number in a array](./java/ds/Hash/ContainsDuplicateII.java)
     - [Check nearby duplicate number in a array 2](./java/ds/Hash/ContainsDuplicateIII.java)
     - [Design Underground System](./java/ds/Hash/UndergroundSystem.java)
+    - [Can Convert String in K Moves](./java/ds/Hash/ConvertStringInKMoves.java)
     
 - [LinkedList](./java/ds/LinkedList/README.md)
     - [Reverse a LinkedList](./java/ds/LinkedList/ReverseLinkedList.java)
