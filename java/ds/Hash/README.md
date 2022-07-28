@@ -11,3 +11,4 @@
 - [Check nearby duplicate number in a array 2](./ContainsDuplicateIII.java)
 - [Design Underground System](./UndergroundSystem.java)
 - [Can Convert String in K Moves](./ConvertStringInKMoves.java)
+- [Design a Number Container System](./NumberContainerSystem.java)

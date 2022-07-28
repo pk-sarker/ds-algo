@@ -50,6 +50,7 @@ Data Structure &amp; Algorithms
     - [Check nearby duplicate number in a array 2](./java/ds/Hash/ContainsDuplicateIII.java)
     - [Design Underground System](./java/ds/Hash/UndergroundSystem.java)
     - [Can Convert String in K Moves](./java/ds/Hash/ConvertStringInKMoves.java)
+    - [Design a Number Container System](./java/ds/Hash/NumberContainerSystem.java)
     
 - [LinkedList](./java/ds/LinkedList/README.md)
     - [Reverse a LinkedList](./java/ds/LinkedList/ReverseLinkedList.java)
