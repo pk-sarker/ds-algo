@@ -49,6 +49,8 @@ Data Structure &amp; Algorithms
     - [Check nearby duplicate number in a array](./java/ds/Hash/ContainsDuplicateII.java)
     - [Check nearby duplicate number in a array 2](./java/ds/Hash/ContainsDuplicateIII.java)
     - [Design Underground System](./java/ds/Hash/UndergroundSystem.java)
+    - [Can Convert String in K Moves](./java/ds/Hash/ConvertStringInKMoves.java)
+    - [Design a Number Container System](./java/ds/Hash/NumberContainerSystem.java)
     
 - [LinkedList](./java/ds/LinkedList/README.md)
     - [Reverse a LinkedList](./java/ds/LinkedList/ReverseLinkedList.java)
@@ -102,6 +104,8 @@ Data Structure &amp; Algorithms
     - [Jump Game VII](./java/algo/BFS/JumpGameVII.java)
     - [Find All The Lonely Nodes](./java/algo/BFS/FindLonelyNodes.java)
     - [Shortest Path in a Grid with Obstacles Elimination](./java/algo/BFS/ShortestPathInGridWithObstaclesElimination.java)
+    - [Univalued Binary Tree](./java/algo/BFS/UnivaluedBinaryTree.java)
+    - [Minimum Obstacle Removal to Reach Corner](./java/algo/BFS/MinimumObstacleRemovalToReachCorner.java)
 
 - [DFS](./java/algo/DFS/README.md)
     - [Employee Importance](./java/algo/DFS/README.md#employee-importance) - [Java](./java/algo/DFS/EmployeeImportance.java)
@@ -193,6 +197,7 @@ Data Structure &amp; Algorithms
 - [Divide Two Integers](./java/math/DivideTwoIntegers.java)
 - [Reverse Integer](./java/math/ReverseInteger.java)  
 - [Plus One](./java/math/PlusOne.java)
+- [Number of Zero-Filled Subarrays](./java/math/NumberOfSubArrays.java)
 
 ## BIT Manipulation
 - [Check odd even](./java/pattern/BitManipulation/README.md#check-odd-even) - [Java](java/pattern/BitManipulation/BitManipulation1.java)
