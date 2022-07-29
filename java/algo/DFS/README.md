@@ -10,3 +10,4 @@
 - [Nested List Weight Sum](./NestedListWeightSum.java)
 - [Nested List Weight Sum II](./NestedListWeightSumII.java)
 - [Jump Game III](./JumpGameIII.java)
+- [Longest Path With Different Adjacent Characters](./LongestPathWithDifferentAdjacentCharacters.java)

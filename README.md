@@ -118,6 +118,7 @@ Data Structure &amp; Algorithms
     - [Nested List Weight Sum](./java/algo/DFS/NestedListWeightSum.java)
     - [Nested List Weight Sum II](./java/algo/DFS/NestedListWeightSumII.java)
     - [Jump Game III](./java/algo/DFS/JumpGameIII.java)
+    - [Longest Path With Different Adjacent Characters](./java/algo/DFS/LongestPathWithDifferentAdjacentCharacters.java)
 
 
 - [Binary Search](./java/algo/Searching/BinarySearch/README.md)
