@@ -253,6 +253,8 @@ Data Structure &amp; Algorithms
     - [Employee Free Time](./java/pattern/Interval/EmployeeFreeTime.java)
     - [CPU Maximum Load](./java/pattern/Interval/MaximumCPULoad.java)
     - [Amount of New Area Painted Each Day](./java/pattern/Interval/AmountOfNewAreaPaintedEachDay.java)
+    - [Insert Interval](./java/com/dsalgo/practice/InsertInterval.java) - [Java](java/com/dsalgo/practice/InsertInterval.java)
+    - [Data Stream as Disjoint Intervals](./java/pattern/Interval/DataStreamAsDisjointInterval.java)
 
 
 ## Mixed Problems
@@ -311,7 +313,6 @@ Data Structure &amp; Algorithms
 - [Time based key-value pair](java/com/dsalgo/practice/TimeBasedKeyValueStore.java) - [Java](java/com/dsalgo/practice/TimeBasedKeyValueStore.java)
 - [Topological Sort](java/com/dsalgo/practice/TopologicalSortKahn.java) - [Java](java/com/dsalgo/practice/TopologicalSortKahn.java)
 - [Appointment conflict](java/com/dsalgo/practice/AppointmentConflict.java) - [Java](java/com/dsalgo/practice/AppointmentConflict.java)
-- [Insert Interval](java/com/dsalgo/practice/InsertInterval.java) - [Java](java/com/dsalgo/practice/InsertInterval.java)
 - [No Conflict](java/com/dsalgo/practice/BestTeamWithNoConflicts.java) - [Java](java/com/dsalgo/practice/BestTeamWithNoConflicts.java)
 - [Find Ceiling of a number](java/com/dsalgo/practice/CeilingOfANumber.java) - [Java](java/com/dsalgo/practice/CeilingOfANumber.java)
 - [Find common free time](java/com/dsalgo/practice/CommonFreeTime.java) - [Java](java/com/dsalgo/practice/CommonFreeTime.java)
