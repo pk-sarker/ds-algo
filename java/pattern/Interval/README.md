@@ -6,3 +6,4 @@
 - [Merge Sorted Array](./MergeSortedArray.java)
 - [Employee Free Time](./EmployeeFreeTime.java)
 - [CPU Maximum Load](./MaximumCPULoad.java)
+- [Amount of New Area Painted Each Day](./AmountOfNewAreaPaintedEachDay.java)

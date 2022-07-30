@@ -252,6 +252,7 @@ Data Structure &amp; Algorithms
     - [Merge Sorted Array](./java/pattern/Interval/MergeSortedArray.java)
     - [Employee Free Time](./java/pattern/Interval/EmployeeFreeTime.java)
     - [CPU Maximum Load](./java/pattern/Interval/MaximumCPULoad.java)
+    - [Amount of New Area Painted Each Day](./java/pattern/Interval/AmountOfNewAreaPaintedEachDay.java)
 
 
 ## Mixed Problems
