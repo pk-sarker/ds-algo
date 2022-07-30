@@ -118,6 +118,7 @@ Data Structure &amp; Algorithms
     - [Nested List Weight Sum](./java/algo/DFS/NestedListWeightSum.java)
     - [Nested List Weight Sum II](./java/algo/DFS/NestedListWeightSumII.java)
     - [Jump Game III](./java/algo/DFS/JumpGameIII.java)
+    - [Longest Path With Different Adjacent Characters](./java/algo/DFS/LongestPathWithDifferentAdjacentCharacters.java)
 
 
 - [Binary Search](./java/algo/Searching/BinarySearch/README.md)
@@ -251,6 +252,7 @@ Data Structure &amp; Algorithms
     - [Merge Sorted Array](./java/pattern/Interval/MergeSortedArray.java)
     - [Employee Free Time](./java/pattern/Interval/EmployeeFreeTime.java)
     - [CPU Maximum Load](./java/pattern/Interval/MaximumCPULoad.java)
+    - [Amount of New Area Painted Each Day](./java/pattern/Interval/AmountOfNewAreaPaintedEachDay.java)
 
 
 ## Mixed Problems
