@@ -1,4 +1,4 @@
-package algo.BFS;
+package algo.DFS;
 
 import java.util.Arrays;
 
@@ -51,6 +51,31 @@ public class ClosestNodeToGivenTwoNodes {
                 // reachable node will be the one with lowest node value(Math.min(i, res)).
 
                 minDist = Math.max(dist1[i], dist2[i]);
+            }
+        }
+        return res;
+    }
+
+    void dfs(int node, int dist, int[] edges, int[] memo) {
+        while(node != -1 && memo[node] == -1) {
+            memo[node] = dist++;
+            node = edges[node];
+        }
+    }
+    public int closestMeetingNode2(int[] edges, int node1, int node2) {
+        int res = -1, minDist = Integer.MAX_VALUE;
+        int[] dist1 = new int[edges.length];
+        int[] dist2 = new int[edges.length];
+        Arrays.fill(dist1, -1);
+        Arrays.fill(dist2, -1);
+
+        dfs(node1, 0, edges, dist1);
+        dfs(node2, 0, edges, dist2);
+
+        for( int i =0; i<edges.length; i++) {
+            if (Math.min(dist1[i], dist2[i]) >= 0 && Math.max(dist1[i], dist2[i]) < minDist) {
+                minDist = Math.max(dist1[i], dist2[i]);
+                res = i;
             }
         }
         return res;

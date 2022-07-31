@@ -107,8 +107,7 @@ Data Structure &amp; Algorithms
     - [Univalued Binary Tree](./java/algo/BFS/UnivaluedBinaryTree.java)
     - [Minimum Obstacle Removal to Reach Corner](./java/algo/BFS/MinimumObstacleRemovalToReachCorner.java)
     - [Univalued Binary Tree](./java/algo/BFS/UnivaluedBinaryTree.java)
-    - [Find Closest Node to Given Two Nodes](./java/algo/BFS/ClosestNodeToGivenTwoNodes.java)
-
+    
 - [DFS](./java/algo/DFS/README.md)
     - [Employee Importance](./java/algo/DFS/README.md#employee-importance) - [Java](./java/algo/DFS/EmployeeImportance.java)
     - [Reconstruct Itinerary](./java/algo/DFS/ReconstructItinerary.java)
@@ -121,6 +120,7 @@ Data Structure &amp; Algorithms
     - [Nested List Weight Sum II](./java/algo/DFS/NestedListWeightSumII.java)
     - [Jump Game III](./java/algo/DFS/JumpGameIII.java)
     - [Longest Path With Different Adjacent Characters](./java/algo/DFS/LongestPathWithDifferentAdjacentCharacters.java)
+    - [Find Closest Node to Given Two Nodes](./java/algo/DFS/ClosestNodeToGivenTwoNodes.java)
 
 
 - [Binary Search](./java/algo/Searching/BinarySearch/README.md)
