@@ -106,6 +106,8 @@ Data Structure &amp; Algorithms
     - [Shortest Path in a Grid with Obstacles Elimination](./java/algo/BFS/ShortestPathInGridWithObstaclesElimination.java)
     - [Univalued Binary Tree](./java/algo/BFS/UnivaluedBinaryTree.java)
     - [Minimum Obstacle Removal to Reach Corner](./java/algo/BFS/MinimumObstacleRemovalToReachCorner.java)
+    - [Univalued Binary Tree](./java/algo/BFS/UnivaluedBinaryTree.java)
+    - [Find Closest Node to Given Two Nodes](./java/algo/BFS/ClosestNodeToGivenTwoNodes.java)
 
 - [DFS](./java/algo/DFS/README.md)
     - [Employee Importance](./java/algo/DFS/README.md#employee-importance) - [Java](./java/algo/DFS/EmployeeImportance.java)
