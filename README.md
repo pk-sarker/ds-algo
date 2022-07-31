@@ -121,7 +121,7 @@ Data Structure &amp; Algorithms
     - [Jump Game III](./java/algo/DFS/JumpGameIII.java)
     - [Longest Path With Different Adjacent Characters](./java/algo/DFS/LongestPathWithDifferentAdjacentCharacters.java)
     - [Find Closest Node to Given Two Nodes](./java/algo/DFS/ClosestNodeToGivenTwoNodes.java)
-
+    - [Longest Cycle in a Graph](./java/algo/DFS/LongestCycleInAGraph.java)
 
 - [Binary Search](./java/algo/Searching/BinarySearch/README.md)
     - [Find number in bitonic array](./java/algo/Searching/BinarySearch/README.md#find-number-in-bitonic-array) - [Code](./java/algo/Searching/BinarySearch/SearchInBitonicArray.java)
