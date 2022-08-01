@@ -171,6 +171,8 @@ Data Structure &amp; Algorithms
     - [Edit Distance](./java/algo/DP/EditDistance.java)
     - [Longest Common Subsequence](./java/algo/DP/LongestCommonSubsequence.java)
     - [Number Of Ways To Traverse Graph](./java/algo/DP/NumberOfWaysToTraverseGraph.java)
+    - [Strange Printer](./java/algo/DP/StrangePrinter.java)
+
 - [Design](./java/algo/design/README.md)
     - [Design LRU Cache](./java/algo/design/LRUCache.java)
     - [Serialize and Deserialize Binary Tree](./java/algo/design/SerializeDeserializeTree.java)
