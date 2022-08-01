@@ -121,7 +121,7 @@ Data Structure &amp; Algorithms
     - [Jump Game III](./java/algo/DFS/JumpGameIII.java)
     - [Longest Path With Different Adjacent Characters](./java/algo/DFS/LongestPathWithDifferentAdjacentCharacters.java)
     - [Find Closest Node to Given Two Nodes](./java/algo/DFS/ClosestNodeToGivenTwoNodes.java)
-
+    - [Longest Cycle in a Graph](./java/algo/DFS/LongestCycleInAGraph.java)
 
 - [Binary Search](./java/algo/Searching/BinarySearch/README.md)
     - [Find number in bitonic array](./java/algo/Searching/BinarySearch/README.md#find-number-in-bitonic-array) - [Code](./java/algo/Searching/BinarySearch/SearchInBitonicArray.java)
@@ -171,6 +171,8 @@ Data Structure &amp; Algorithms
     - [Edit Distance](./java/algo/DP/EditDistance.java)
     - [Longest Common Subsequence](./java/algo/DP/LongestCommonSubsequence.java)
     - [Number Of Ways To Traverse Graph](./java/algo/DP/NumberOfWaysToTraverseGraph.java)
+    - [Strange Printer](./java/algo/DP/StrangePrinter.java)
+
 - [Design](./java/algo/design/README.md)
     - [Design LRU Cache](./java/algo/design/LRUCache.java)
     - [Serialize and Deserialize Binary Tree](./java/algo/design/SerializeDeserializeTree.java)

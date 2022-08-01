@@ -18,7 +18,7 @@
 - [Maximum Number of Points with Cost](./MaximumNumberOfPointsWithCost.java)
 - [Climbing Stairs](./ClimbingStairs.java)
 - [Jump Game](./JumpGame.java)
-
+- [Strange Printer](./StrangePrinter.java)
 
 #### Number of Good Ways to Split a String
 You are given a string `s`, a split is called good if you can split `s` into 2 non-empty strings 

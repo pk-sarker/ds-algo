@@ -12,3 +12,4 @@
 - [Jump Game III](./JumpGameIII.java)
 - [Longest Path With Different Adjacent Characters](./LongestPathWithDifferentAdjacentCharacters.java)
 - [Find Closest Node to Given Two Nodes](./ClosestNodeToGivenTwoNodes.java)
+- [Longest Cycle in a Graph](./LongestCycleInAGraph.java)
