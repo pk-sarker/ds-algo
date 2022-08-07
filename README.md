@@ -107,6 +107,7 @@ Data Structure &amp; Algorithms
     - [Univalued Binary Tree](./java/algo/BFS/UnivaluedBinaryTree.java)
     - [Minimum Obstacle Removal to Reach Corner](./java/algo/BFS/MinimumObstacleRemovalToReachCorner.java)
     - [Univalued Binary Tree](./java/algo/BFS/UnivaluedBinaryTree.java)
+    - [Reachable Nodes With Restrictions](./java/algo/BFS/ReachableNodesWithRestrictions.java)
     
 - [DFS](./java/algo/DFS/README.md)
     - [Employee Importance](./java/algo/DFS/README.md#employee-importance) - [Java](./java/algo/DFS/EmployeeImportance.java)

@@ -10,6 +10,7 @@
 - [Shortest Path in a Grid with Obstacles Elimination](./ShortestPathInGridWithObstaclesElimination.java)
 - [Minimum Obstacle Removal to Reach Corner](./MinimumObstacleRemovalToReachCorner.java)
 - [Univalued Binary Tree](./UnivaluedBinaryTree.java)
+- [Reachable Nodes With Restrictions](./ReachableNodesWithRestrictions.java)
 
 #### Count Good Nodes in Binary Tree
 Given a binary tree root, a node X in the tree is named good if in the path from root to X there are no nodes with a value greater than X.
