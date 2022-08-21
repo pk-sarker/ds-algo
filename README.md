@@ -27,6 +27,7 @@ Data Structure &amp; Algorithms
     - [Shortest Word Distance](./java/ds/Array/ShortestWordDistance.java)
     - [Query Kth Smallest Trimmed Number](./java/ds/Array/QueryKthSmallestTrimmedNumber.java)
     - [Find N Unique Integers Sum up to Zero](./java/ds/Array/UniqueIntegersSumUpToZero.java)
+    - [Minimum Hours of Training to Win a Competition](./java/ds/Array/TrainingToWin.java)
   
 - [Stack](./java/ds/Stack/README.md)
     - [Valid Parentheses](./java/ds/Stack/README.md#valid-parentheses) - [Java](./java/ds/Stack/ValidateParentheses.java)

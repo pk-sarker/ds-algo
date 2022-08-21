@@ -23,6 +23,7 @@
 - [Shortest Word Distance](./ShortestWordDistance.java)
 - [Query Kth Smallest Trimmed Number](./QueryKthSmallestTrimmedNumber.java)
 - [Find N Unique Integers Sum up to Zero](./UniqueIntegersSumUpToZero.java)
+- [Minimum Hours of Training to Win a Competition](./TrainingToWin.java)
 
 #### Sum of Two Numbers
 Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to target.
