@@ -226,6 +226,7 @@ Data Structure &amp; Algorithms
     - [Palindromic Substrings](./java/pattern/Palindrome/PalindromicSubstrings.java)
     - [Palindrome Permutation](./java/pattern/Palindrome/PalindromePermutation.java)
     - [Palindrome Permutation](./java/pattern/Palindrome/PalindromePartitioning.java)
+    - [Largest Palindromic Number](./java/pattern/Palindrome/LargestPalindromicNumber.java)
 - [Two Pointer](./java/pattern/TwoPointer/README.md)
     - [Container With Most Water](./java/pattern/TwoPointer/README.md#container-with-most-water) - [Java](./java/pattern/TwoPointer/ContainerWithMostWater.java)
     - [Trapping Rain Water](./java/pattern/TwoPointer/README.md#trapping-rain-water) - [Java](./java/pattern/TwoPointer/TrappingRainWater.java)
@@ -262,6 +263,7 @@ Data Structure &amp; Algorithms
     - [Insert Interval](./java/com/dsalgo/practice/InsertInterval.java) - [Java](java/com/dsalgo/practice/InsertInterval.java)
     - [Data Stream as Disjoint Intervals](./java/pattern/Interval/DataStreamAsDisjointInterval.java)
 
+-
 
 ## Mixed Problems
 - [Sum of Two Numbers](./Solution.md#sum-of-two-numbers) - [Java](java/com/dsalgo/practice/TwoSumLE.java) [Python](./python/TwoSumLE.py) [Scala](./scala/src/com/ds/scala/practice/TwoSumLE.scala) [JavaScript](./javascript/two_sum.js)
