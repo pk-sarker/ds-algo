@@ -8,3 +8,4 @@
 - [Palindromic Substrings](./PalindromicSubstrings.java)
 - [Palindrome Permutation](./PalindromePermutation.java)
 - [Palindrome Permutation](./PalindromePartitioning.java)
+- [Largest Palindromic Number](./LargestPalindromicNumber.java)
