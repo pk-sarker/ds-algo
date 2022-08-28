@@ -262,8 +262,9 @@ Data Structure &amp; Algorithms
     - [Amount of New Area Painted Each Day](./java/pattern/Interval/AmountOfNewAreaPaintedEachDay.java)
     - [Insert Interval](./java/com/dsalgo/practice/InsertInterval.java) - [Java](java/com/dsalgo/practice/InsertInterval.java)
     - [Data Stream as Disjoint Intervals](./java/pattern/Interval/DataStreamAsDisjointInterval.java)
+- [Prefix Sum](./java/pattern/PrefixSum/Readme.md)
+  - [Subarray Sum Equals K](./java/pattern/PrefixSum/SubarraySumEqualsK.java)
 
--
 
 ## Mixed Problems
 - [Sum of Two Numbers](./Solution.md#sum-of-two-numbers) - [Java](java/com/dsalgo/practice/TwoSumLE.java) [Python](./python/TwoSumLE.py) [Scala](./scala/src/com/ds/scala/practice/TwoSumLE.scala) [JavaScript](./javascript/two_sum.js)
