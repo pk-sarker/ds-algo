@@ -264,7 +264,7 @@ Data Structure &amp; Algorithms
     - [Data Stream as Disjoint Intervals](./java/pattern/Interval/DataStreamAsDisjointInterval.java)
 - [Prefix Sum](./java/pattern/PrefixSum/Readme.md)
   - [Subarray Sum Equals K](./java/pattern/PrefixSum/SubarraySumEqualsK.java)
-
+  - [Minimum Amount of Time to Collect Garbage](./java/pattern/PrefixSum/TimeToCollectGarbage.java)
 
 ## Mixed Problems
 - [Sum of Two Numbers](./Solution.md#sum-of-two-numbers) - [Java](java/com/dsalgo/practice/TwoSumLE.java) [Python](./python/TwoSumLE.py) [Scala](./scala/src/com/ds/scala/practice/TwoSumLE.scala) [JavaScript](./javascript/two_sum.js)
