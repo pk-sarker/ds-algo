@@ -262,8 +262,15 @@ Data Structure &amp; Algorithms
     - [Amount of New Area Painted Each Day](./java/pattern/Interval/AmountOfNewAreaPaintedEachDay.java)
     - [Insert Interval](./java/com/dsalgo/practice/InsertInterval.java) - [Java](java/com/dsalgo/practice/InsertInterval.java)
     - [Data Stream as Disjoint Intervals](./java/pattern/Interval/DataStreamAsDisjointInterval.java)
-
--
+- [Prefix Sum](./java/pattern/PrefixSum/Readme.md)
+  - [Subarray Sum Equals K](./java/pattern/PrefixSum/SubarraySumEqualsK.java)
+  - [Minimum Amount of Time to Collect Garbage](./java/pattern/PrefixSum/TimeToCollectGarbage.java)
+- [Topological Sort](./java/algo/Sorting/TopologicalSort/README.md)
+  - [Topological Sort implementation](./java/algo/Sorting/TopologicalSort/TopologicalSortKahn.java)
+  - [Course Schedule](./java/algo/Sorting/TopologicalSort/CourseSchedule.java)
+  - [Course Schedule II](./java/algo/Sorting/TopologicalSort/CourseSchedule2.java)
+  - [Alien Dictionary](./java/algo/Sorting/TopologicalSort/AlienDictionary.java)
+  - [Build a Matrix With Conditions](./java/algo/Sorting/TopologicalSort/MatrixWithConditions.java)
 
 ## Mixed Problems
 - [Sum of Two Numbers](./Solution.md#sum-of-two-numbers) - [Java](java/com/dsalgo/practice/TwoSumLE.java) [Python](./python/TwoSumLE.py) [Scala](./scala/src/com/ds/scala/practice/TwoSumLE.scala) [JavaScript](./javascript/two_sum.js)
