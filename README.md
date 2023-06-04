@@ -40,7 +40,7 @@ Data Structure &amp; Algorithms
     - [Asteroid Collision](./java/ds/Stack/AsteroidCollision.java)
     
 - [Hash](./java/ds/Hash/README.md)
-    - [Longest Substring Without Repeating Characters](./vLongestSubstringWithoutRepeatingCharacters.java)
+    - [Longest Substring Without Repeating Characters](./java/ds/Hash/LongestSubstringWithoutRepeatingCharacters.java)
     - [Alien Dictionary](./java/ds/Hash/AlienDictionary.java)
     - [Daily Temperature](./java/ds/Hash/DailyTemperature.java)
     - [Intersection of Three Sorted Arrays](./java/ds/Hash/IntersectionOfThreeSortedArrays.java)
@@ -52,6 +52,7 @@ Data Structure &amp; Algorithms
     - [Design Underground System](./java/ds/Hash/UndergroundSystem.java)
     - [Can Convert String in K Moves](./java/ds/Hash/ConvertStringInKMoves.java)
     - [Design a Number Container System](./java/ds/Hash/NumberContainerSystem.java)
+    - [Minimum Rounds to Complete All Tasks](./java/ds/Hash/MinimumRounds.java)
     
 - [LinkedList](./java/ds/LinkedList/README.md)
     - [Reverse a LinkedList](./java/ds/LinkedList/ReverseLinkedList.java)
