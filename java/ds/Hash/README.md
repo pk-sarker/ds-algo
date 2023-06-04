@@ -12,3 +12,4 @@
 - [Design Underground System](./UndergroundSystem.java)
 - [Can Convert String in K Moves](./ConvertStringInKMoves.java)
 - [Design a Number Container System](./NumberContainerSystem.java)
+- [Minimum Rounds to Complete All Tasks](./MinimumRounds.java)
