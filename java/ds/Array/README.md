@@ -24,6 +24,7 @@
 - [Query Kth Smallest Trimmed Number](./QueryKthSmallestTrimmedNumber.java)
 - [Find N Unique Integers Sum up to Zero](./UniqueIntegersSumUpToZero.java)
 - [Minimum Hours of Training to Win a Competition](./TrainingToWin.java)
+- [Strance Printer II](./StrangePrinterII.java)
 
 #### Sum of Two Numbers
 Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to target.
