@@ -28,6 +28,7 @@ Data Structure &amp; Algorithms
     - [Query Kth Smallest Trimmed Number](./java/ds/Array/QueryKthSmallestTrimmedNumber.java)
     - [Find N Unique Integers Sum up to Zero](./java/ds/Array/UniqueIntegersSumUpToZero.java)
     - [Minimum Hours of Training to Win a Competition](./java/ds/Array/TrainingToWin.java)
+    - [Strance Printer II](./java/ds/Array/StrangePrinterII.java)
   
 - [Stack](./java/ds/Stack/README.md)
     - [Valid Parentheses](./java/ds/Stack/README.md#valid-parentheses) - [Java](./java/ds/Stack/ValidateParentheses.java)
@@ -253,6 +254,7 @@ Data Structure &amp; Algorithms
     - [Smallest Window containing Substring](./java/pattern/SlidingWindow/MinimumWindowSubstring.java)
     - [Words Concatenation](./java/pattern/SlidingWindow/WordConcatenation.java)
     - [Find N words left and right of a word in list](./java/pattern/SlidingWindow/NWordsAfterAndBefore.java)
+    - [Longest Nice Subarray](./java/pattern/SlidingWindow/LongestNiceSubarray.java)
 - [Interval](./java/pattern/Interval/README.md)
     - [Merge Intervals](./java/pattern/Interval/MergeIntervals.java)
     - [Meeting Rooms](./java/pattern/Interval/MeetingRooms.java)
