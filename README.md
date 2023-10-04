@@ -254,6 +254,7 @@ Data Structure &amp; Algorithms
     - [Smallest Window containing Substring](./java/pattern/SlidingWindow/MinimumWindowSubstring.java)
     - [Words Concatenation](./java/pattern/SlidingWindow/WordConcatenation.java)
     - [Find N words left and right of a word in list](./java/pattern/SlidingWindow/NWordsAfterAndBefore.java)
+    - [Longest Nice Subarray](./java/pattern/SlidingWindow/LongestNiceSubarray.java)
 - [Interval](./java/pattern/Interval/README.md)
     - [Merge Intervals](./java/pattern/Interval/MergeIntervals.java)
     - [Meeting Rooms](./java/pattern/Interval/MeetingRooms.java)

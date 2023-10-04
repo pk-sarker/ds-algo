@@ -11,3 +11,4 @@
 - [Smallest Window containing Substring](./MinimumWindowSubstring.java)
 - [Words Concatenation](./WordConcatenation.java)
 - [Find N words left and right of a word in list](./NWordsAfterAndBefore.java)
+- [Longest Nice Subarray](./LongestNiceSubarray.java)
