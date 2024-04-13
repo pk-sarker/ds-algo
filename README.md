@@ -133,7 +133,7 @@ Data Structure &amp; Algorithms
     - [Find First and Last Position of Element in Sorted Array](./java/algo/Searching/BinarySearch/README.md#find-first-and-last-position-of-element-in-sorted-array) - [Code](./java/algo/Searching/BinarySearch/Find1stAnd2ndPositionInSortedArray.java)
     - [Split Array Largest Sum](./python/README.md#split-array-largest-sum) [Java](./java/algo/Searching/BinarySearch/SplitArrayLargestSum.java) [Python](./python/split_array_largest_sum.py)
     - [Search Insert Position](./java/algo/Searching/BinarySearch/SearchInsertPosition.java) [Python](./python/search_insert_position.py)
-
+    - [Minimum Cost to Make Array Equal](./java/algo/Searching/BinarySearch/MinimumCostToMakeArrayEqual.java)
 - [Backtracking](./java/algo/Backtracking/README.md)
   - [Letter Combinations of a Phone Number](./java/algo/Backtracking/PhoneNumberLetterCombinations.java)
   - [Permutations](./java/algo/Backtracking/Permutations.java)
