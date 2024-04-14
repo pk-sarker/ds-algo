@@ -255,6 +255,7 @@ Data Structure &amp; Algorithms
     - [Words Concatenation](./java/pattern/SlidingWindow/WordConcatenation.java)
     - [Find N words left and right of a word in list](./java/pattern/SlidingWindow/NWordsAfterAndBefore.java)
     - [Longest Nice Subarray](./java/pattern/SlidingWindow/LongestNiceSubarray.java)
+    - [Sequential Digits](./java/pattern/SlidingWindow/SequentialDigits.java)
 - [Interval](./java/pattern/Interval/README.md)
     - [Merge Intervals](./java/pattern/Interval/MergeIntervals.java)
     - [Meeting Rooms](./java/pattern/Interval/MeetingRooms.java)
