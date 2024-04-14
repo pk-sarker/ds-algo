@@ -241,6 +241,7 @@ Data Structure &amp; Algorithms
     - [Count contiguous subarrays](./java/pattern/SubArray/CountContiguousSubarray.java)
     - [Shortest Unsorted Continuous Subarray](./java/pattern/SubArray/ShortestUnsortedContinuousSubarray.java)
     - [Minimum Size Subarray Sum](./java/pattern/SubArray/MinimumSizeSubarraySum.java)
+    - [Moving Average from Data Stream](./java/pattern/SubArray/MovingAverageOfDataStream.java)
 - [Sliding Window](./java/pattern/SlidingWindow/README.md)
     - [Maximum Sum Subarray of Size K](./java/pattern/SlidingWindow/MaximumSumSubarrayOfSizeK.java)
     - [Smallest Subarray with a given sum](./java/pattern/SlidingWindow/SmallestSubarrayWithAGivenSum.java)
