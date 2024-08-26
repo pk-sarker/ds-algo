@@ -2,6 +2,7 @@
 
 - [Container With Most Water](#container-with-most-water) - [Java](./ContainerWithMostWater.java)
 - [Trapping Rain Water](#trapping-rain-water) - [Java](./TrappingRainWater.java)
+- Merge Strings Alternately - [Java](./MergeStringsAlternately.java)
 
 #### Container With Most Water
 Given n non-negative integers `a1, a2, ..., an` , where each represents a point at coordinate `(i, ai)`. `n` vertical lines are 

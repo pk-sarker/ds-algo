@@ -5,7 +5,7 @@
 - [Find First and Last Position of Element in Sorted Array](#find-first-and-last-position-of-element-in-sorted-array) - [Code](./Find1stAnd2ndPositionInSortedArray.java)
 - [Split Array Largest Sum](#split-array-largest-sum) [Java](./SplitArrayLargestSum.java) [Python](../../../../python/split_array_largest_sum.py)
 - [Search Insert Position](./SearchInsertPosition.java) [Python](../../../../python/search_insert_position.py)
-
+- [Minimum Cost to Make Array Equal](./MinimumCostToMakeArrayEqual.java)
 #### Find number in bitonic array
 Given a bitonic sequence of *n* distinct elements, write a program to find a given element in the bitonic sequence in *O(log n)* time.
 

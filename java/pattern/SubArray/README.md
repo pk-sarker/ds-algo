@@ -8,3 +8,4 @@
 - [Count contiguous subarrays](./CountContiguousSubarray.java)
 - [Shortest Unsorted Continuous Subarray](./ShortestUnsortedContinuousSubarray.java)
 - [Minimum Size Subarray Sum](./MinimumSizeSubarraySum.java)
+- [Moving Average from Data Stream](./MovingAverageOfDataStream.java)
