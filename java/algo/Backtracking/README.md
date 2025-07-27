@@ -1,9 +1,13 @@
 # Recursion
 - [Permutations](./Permutations.java)
+- [Combinations](./Combinations.java)
+- [Generate Subsets](./GenerateSubsets.java)
+- [Robot Room Cleaner](./RobotRoomCleaner.java)
 - [Letter Combinations of a Phone Number](./PhoneNumberLetterCombinations.java)
 - [Letter Combination](./LetterCombination.java)
 - [Sudoku Solver](./SudokuSolver.java)
 - [Jump Game](#jump-game) 
+- [CombinationSumII](./CombinationSumII.java)
 
 
 ## Jump Game
